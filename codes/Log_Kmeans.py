@@ -82,9 +82,9 @@ class TRAIN_Kmeans(My_Kmeans):
                         for index,y_tem in enumerate(y):
                             if y_tem == 1:
                                 all_count += 1
-                        if all_count >= self.train_count:
-                            flag = 1
-                            break
+                            if all_count >= self.train_count:
+                                flag = 1
+                                break
                         if flag == 1:
                             logs = content[0:index+2]
                         else:
