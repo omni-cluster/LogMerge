@@ -1,0 +1,217 @@
+2015-10-17 21:26:30,653 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-17 21:26:30,747 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-17 21:26:30,747 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-10-17 21:26:30,778 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 21:26:30,778 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445087491445_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7f0eb4b4)
+2015-10-17 21:26:30,950 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 21:26:31,513 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445087491445_0002
+2015-10-17 21:26:31,950 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-17 21:26:32,778 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 21:26:32,794 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6ad3381f
+2015-10-17 21:26:32,809 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4fad9bb2
+2015-10-17 21:26:32,841 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=130652568, maxSingleShuffleLimit=32663142, mergeThreshold=86230696, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-10-17 21:26:32,841 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-10-17 21:26:32,856 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:26:32,856 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:26:32,856 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 2 new map-outputs
+2015-10-17 21:26:33,044 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000001_0 sent hash and received reply
+2015-10-17 21:26:33,044 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000001_0: Shuffling to disk since 217000992 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:26:33,059 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000001_0 decomp: 217000992 len: 217000996 to DISK
+2015-10-17 21:26:39,622 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 217000996 bytes from map-output for attempt_1445087491445_0002_m_000001_0
+2015-10-17 21:26:42,060 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 9202ms
+2015-10-17 21:26:42,060 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:26:42,060 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:26:42,060 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000010_0 sent hash and received reply
+2015-10-17 21:26:42,060 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000010_0: Shuffling to disk since 216998520 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:26:42,075 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000010_0 decomp: 216998520 len: 216998524 to DISK
+2015-10-17 21:26:44,482 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216998524 bytes from map-output for attempt_1445087491445_0002_m_000010_0
+2015-10-17 21:27:00,061 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 17994ms
+2015-10-17 21:27:10,608 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of KILLED map-task: 'attempt_1445087491445_0002_m_000007_0'
+2015-10-17 21:27:12,702 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of KILLED map-task: 'attempt_1445087491445_0002_m_000006_0'
+2015-10-17 21:27:12,702 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of KILLED map-task: 'attempt_1445087491445_0002_m_000003_0'
+2015-10-17 21:27:33,078 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:27:33,078 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:27:33,078 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 2 new map-outputs
+2015-10-17 21:27:33,078 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000002_0 sent hash and received reply
+2015-10-17 21:27:33,078 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000002_0: Shuffling to disk since 216986711 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:27:33,093 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000002_0 decomp: 216986711 len: 216986715 to DISK
+2015-10-17 21:27:35,093 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216986715 bytes from map-output for attempt_1445087491445_0002_m_000002_0
+2015-10-17 21:27:35,093 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2021ms
+2015-10-17 21:27:35,093 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:27:35,093 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:27:35,109 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000004_0 sent hash and received reply
+2015-10-17 21:27:35,109 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000004_0: Shuffling to disk since 216992138 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:27:35,109 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000004_0 decomp: 216992138 len: 216992142 to DISK
+2015-10-17 21:27:35,171 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:27:37,328 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216992142 bytes from map-output for attempt_1445087491445_0002_m_000004_0
+2015-10-17 21:27:37,343 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2247ms
+2015-10-17 21:27:37,343 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:27:37,343 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:27:37,343 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000005_0 sent hash and received reply
+2015-10-17 21:27:37,343 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000005_0: Shuffling to disk since 216996859 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:27:37,359 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000005_0 decomp: 216996859 len: 216996863 to DISK
+2015-10-17 21:27:39,281 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216996863 bytes from map-output for attempt_1445087491445_0002_m_000005_0
+2015-10-17 21:27:39,281 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 1941ms
+2015-10-17 21:27:44,472 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:27:44,472 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:27:44,472 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:27:44,472 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000000_0 sent hash and received reply
+2015-10-17 21:27:44,472 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000000_0: Shuffling to disk since 227948846 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:27:44,487 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000000_0 decomp: 227948846 len: 227948850 to DISK
+2015-10-17 21:27:47,050 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 227948850 bytes from map-output for attempt_1445087491445_0002_m_000000_0
+2015-10-17 21:27:47,066 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2589ms
+2015-10-17 21:29:02,407 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:29:02,407 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:29:02,407 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:29:02,422 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000008_0 sent hash and received reply
+2015-10-17 21:29:02,422 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000008_0: Shuffling to disk since 216989049 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:29:02,422 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000008_0 decomp: 216989049 len: 216989053 to DISK
+2015-10-17 21:29:04,422 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216989053 bytes from map-output for attempt_1445087491445_0002_m_000008_0
+2015-10-17 21:29:04,438 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2031ms
+2015-10-17 21:29:04,454 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:29:04,454 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:29:04,454 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:29:04,454 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000009_0 sent hash and received reply
+2015-10-17 21:29:04,454 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000009_0: Shuffling to disk since 216983391 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:29:04,454 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000009_0 decomp: 216983391 len: 216983395 to DISK
+2015-10-17 21:29:06,782 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216983395 bytes from map-output for attempt_1445087491445_0002_m_000009_0
+2015-10-17 21:29:06,798 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2352ms
+2015-10-17 21:29:12,032 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:29:12,032 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:29:12,032 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:29:12,032 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000011_0 sent hash and received reply
+2015-10-17 21:29:12,032 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000011_0: Shuffling to disk since 216988481 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:29:12,048 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000011_0 decomp: 216988481 len: 216988485 to DISK
+2015-10-17 21:29:14,110 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216988485 bytes from map-output for attempt_1445087491445_0002_m_000011_0
+2015-10-17 21:29:14,110 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2082ms
+2015-10-17 21:29:55,837 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:29:55,837 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:29:55,837 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:29:55,837 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000007_1 sent hash and received reply
+2015-10-17 21:29:55,837 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000007_1: Shuffling to disk since 216987422 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:29:55,837 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000007_1 decomp: 216987422 len: 216987426 to DISK
+2015-10-17 21:29:57,431 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216987426 bytes from map-output for attempt_1445087491445_0002_m_000007_1
+2015-10-17 21:29:57,431 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 1603ms
+2015-10-17 21:30:48,986 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:30:48,986 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:30:48,986 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:30:48,986 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000003_1 sent hash and received reply
+2015-10-17 21:30:48,986 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000003_1: Shuffling to disk since 216980068 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:30:48,986 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000003_1 decomp: 216980068 len: 216980072 to DISK
+2015-10-17 21:30:51,048 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216980072 bytes from map-output for attempt_1445087491445_0002_m_000003_1
+2015-10-17 21:30:51,048 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 2070ms
+2015-10-17 21:31:07,658 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:31:07,658 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:31:07,658 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:31:07,658 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000012_1 sent hash and received reply
+2015-10-17 21:31:07,658 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000012_1: Shuffling to disk since 216991205 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:31:07,674 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000012_1 decomp: 216991205 len: 216991209 to DISK
+2015-10-17 21:31:09,315 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 216991209 bytes from map-output for attempt_1445087491445_0002_m_000012_1
+2015-10-17 21:31:09,330 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 1678ms
+2015-10-17 21:34:11,328 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445087491445_0002_r_000000_0: Got 1 new map-outputs
+2015-10-17 21:34:11,328 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MININT-FNANLI5.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-17 21:34:11,328 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MININT-FNANLI5.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-17 21:34:11,344 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445087491445_0002&reduce=0&map=attempt_1445087491445_0002_m_000006_1 sent hash and received reply
+2015-10-17 21:34:11,344 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445087491445_0002_m_000006_1: Shuffling to disk since 217023144 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 21:34:11,344 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445087491445_0002_m_000006_1 decomp: 217023144 len: 217023148 to DISK
+2015-10-17 21:35:16,373 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 217023148 bytes from map-output for attempt_1445087491445_0002_m_000006_1
+2015-10-17 21:35:16,373 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MININT-FNANLI5.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 65056ms
+2015-10-17 21:35:16,373 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2015-10-17 21:35:16,389 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 0 in-memory map-outputs and 13 on-disk map-outputs
+2015-10-17 21:35:16,405 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 13 files, 2831866878 bytes from disk
+2015-10-17 21:35:16,405 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2015-10-17 21:35:16,405 INFO [main] org.apache.hadoop.mapred.Merger: Merging 13 sorted segments
+2015-10-17 21:35:16,420 INFO [main] org.apache.hadoop.mapred.Merger: Merging 4 intermediate segments out of a total of 13
+2015-10-17 21:36:42,517 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 2831866760 bytes
+2015-10-17 21:36:42,705 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-10-17 21:41:16,778 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: "MSRA-SA-39/172.22.149.145"; destination host is: "minint-fnanli5.fareast.corp.microsoft.com":49594; 
+2015-10-17 21:41:16,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:772)
+2015-10-17 21:41:16,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-17 21:41:16,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-17 21:41:16,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-17 21:41:16,	at com.sun.proxy.$Proxy8.statusUpdate(Unknown Source)
+2015-10-17 21:41:16,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-17 21:41:16,	at java.lang.Thread.run(Thread.java:745)
+2015-10-17 21:41:16,Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+2015-10-17 21:41:16,	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+2015-10-17 21:41:16,	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+2015-10-17 21:41:16,	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+2015-10-17 21:41:16,	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+2015-10-17 21:41:16,	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+2015-10-17 21:41:16,	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:57)
+2015-10-17 21:41:16,	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+2015-10-17 21:41:16,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:161)
+2015-10-17 21:41:16,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:131)
+2015-10-17 21:41:16,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-17 21:41:16,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-17 21:41:16,	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:513)
+2015-10-17 21:41:16,	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+2015-10-17 21:41:16,	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+2015-10-17 21:41:16,	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+2015-10-17 21:41:16,	at org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1071)
+2015-10-17 21:41:16,	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:966)
+2015-10-17 21:41:16,
+2015-10-17 21:41:39,795 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 0 time(s); maxRetries=45
+2015-10-17 21:41:59,803 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 1 time(s); maxRetries=45
+2015-10-17 21:42:19,806 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 2 time(s); maxRetries=45
+2015-10-17 21:42:39,806 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 3 time(s); maxRetries=45
+2015-10-17 21:42:59,807 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 4 time(s); maxRetries=45
+2015-10-17 21:43:19,808 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 5 time(s); maxRetries=45
+2015-10-17 21:43:39,809 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 6 time(s); maxRetries=45
+2015-10-17 21:43:59,810 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 7 time(s); maxRetries=45
+2015-10-17 21:44:19,811 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 8 time(s); maxRetries=45
+2015-10-17 21:44:30,280 INFO [DataStreamer for file /out/out5/_temporary/1/_temporary/attempt_1445087491445_0002_r_000000_0/part-r-00000] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+2015-10-17 21:44:30,java.io.IOException: Bad connect ack with firstBadLink as 10.86.169.121:50010
+2015-10-17 21:44:30,	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1461)
+2015-10-17 21:44:30,	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.nextBlockOutputStream(DFSOutputStream.java:1362)
+2015-10-17 21:44:30,	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:589)
+2015-10-17 21:44:30,280 INFO [DataStreamer for file /out/out5/_temporary/1/_temporary/attempt_1445087491445_0002_r_000000_0/part-r-00000] org.apache.hadoop.hdfs.DFSClient: Abandoning BP-1347369012-10.190.173.170-1444972147527:blk_1073742903_2102
+2015-10-17 21:44:30,295 INFO [DataStreamer for file /out/out5/_temporary/1/_temporary/attempt_1445087491445_0002_r_000000_0/part-r-00000] org.apache.hadoop.hdfs.DFSClient: Excluding datanode 10.86.169.121:50010
+2015-10-17 21:44:39,811 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 9 time(s); maxRetries=45
+2015-10-17 21:44:59,812 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 10 time(s); maxRetries=45
+2015-10-17 21:45:19,817 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 11 time(s); maxRetries=45
+2015-10-17 21:45:39,821 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 12 time(s); maxRetries=45
+2015-10-17 21:45:59,822 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 13 time(s); maxRetries=45
+2015-10-17 21:46:19,401 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:46:38,917 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:46:58,449 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:47:17,967 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:47:37,499 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:47:57,018 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:48:15,774 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1445087491445_0002_r_000000_0 is done. And is in the process of committing
+2015-10-17 21:48:16,649 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:48:36,166 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:48:55,729 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:49:15,277 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:49:33,809 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.net.ConnectException: Call From MSRA-SA-39/172.22.149.145 to minint-fnanli5.fareast.corp.microsoft.com:49594 failed on connection exception: java.net.ConnectException: Connection timed out: no further information; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2015-10-17 21:49:33,	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2015-10-17 21:49:33,	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+2015-10-17 21:49:33,	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2015-10-17 21:49:33,	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+2015-10-17 21:49:33,	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+2015-10-17 21:49:33,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-17 21:49:33,	at com.sun.proxy.$Proxy8.statusUpdate(Unknown Source)
+2015-10-17 21:49:33,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-17 21:49:33,	at java.lang.Thread.run(Thread.java:745)
+2015-10-17 21:49:33,Caused by: java.net.ConnectException: Connection timed out: no further information
+2015-10-17 21:49:33,	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+2015-10-17 21:49:33,	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+2015-10-17 21:49:33,	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+2015-10-17 21:49:33,	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+2015-10-17 21:49:33,	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+2015-10-17 21:49:33,	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+2015-10-17 21:49:33,	... 5 more
+2015-10-17 21:49:33,
+2015-10-17 21:49:53,325 INFO [main] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:50:12,857 INFO [main] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:50:32,389 INFO [main] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:50:51,937 INFO [main] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:51:08,453 INFO [main] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-17 21:51:27,970 INFO [main] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:49594. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)

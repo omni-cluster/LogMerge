@@ -1,0 +1,17 @@
+2015-10-19 14:26:49,821 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-19 14:26:49,993 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-19 14:26:49,993 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-10-19 14:26:50,071 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-19 14:26:50,071 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445182159119_0004, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@5d3cb6cf)
+2015-10-19 14:26:50,461 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-19 14:26:51,039 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445182159119_0004
+2015-10-19 14:26:52,149 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-19 14:26:52,915 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-19 14:26:52,961 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@644f44e5
+2015-10-19 14:26:53,336 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://msra-sa-41:9000/wordcount2.txt:536870912+134217728
+2015-10-19 14:26:53,415 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-19 14:26:53,415 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-10-19 14:26:53,415 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-10-19 14:26:53,415 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-10-19 14:26:53,415 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-10-19 14:26:53,430 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer

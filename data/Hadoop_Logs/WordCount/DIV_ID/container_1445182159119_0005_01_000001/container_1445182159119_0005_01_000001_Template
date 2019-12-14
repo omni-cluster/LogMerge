@@ -1,0 +1,27 @@
+ hadoop org INFO mapreduce to yarn main log mortbay file jar webapps share localbox jar! eqgtow\webapp common \Users\msrabi\AppData\Local\Temp\ \Jetty SNAPSHOT Extract 
+ hadoop job to yarn default SUCCEEDED tmp staging msrabi sa msra hdfs done history intermediate jhist word+count 
+ hadoop job to yarn tmp staging msrabi sa msra hdfs done history intermediate xml conf 
+ hadoop job to yarn tmp staging msrabi sa msra hdfs done history intermediate summary 
+ the by java remote was io host forcibly existing connection closed IOException An 
+ org INFO impl to main log mortbay via jLoggerAdapter jLog Logging 
+ job default SUCCEEDED tmp msrabi done history intermediate jhist word+count 
+ hadoop org apache Server ipc at java Server$Listener$Reader doRunLoop 
+ hadoop org apache Server ipc at java Server$Listener$Reader run 
+ hadoop org apache Server ipc at java readAndProcess Server$Connection 
+ hadoop org apache Server ipc at java doRead Server$Listener 
+ job default SUCCEEDED msrabi done history intermediate jhist word+count 
+ job tmp msrabi done history intermediate xml conf 
+ hadoop org apache Server ipc at java channelRead 
+ hadoop org apache Server ipc at java access$ 
+ with Container code non zero exited exit 
+ at java sun nio ch IOUtil read 
+ at sun nio ch SocketDispatcher Native Method 
+ job msrabi done history intermediate xml conf 
+ at java sun nio ch read SocketChannelImpl 
+ on is request Container killed code Exit 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ at java sun nio ch read SocketDispatcher 
+ at java sun nio ch IOUtil readIntoNativeBuffer 
+ org INFO main log mortbay jetty 
+ job msrabi done history intermediate summary 
+ hadoop org apache INFO 

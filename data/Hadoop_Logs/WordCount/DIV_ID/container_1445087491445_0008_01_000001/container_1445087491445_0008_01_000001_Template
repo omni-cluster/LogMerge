@@ -1,0 +1,53 @@
+ org hadoop apache INFO Server from for # the port ipc client by Socket Reader java remote was readAndProcess io host forcibly existing connection closed IOException An threw exception 
+ org hadoop apache INFO mapreduce job for yarn sa msra jobhistory staging hdfs tmp msrabi JobHistoryEventHandler setup jhist eventHandlingThread Writer JobId File Event 
+ org hadoop INFO mapreduce to yarn main log mortbay file jar webapps share localbox jar! common \webapp \Users\msrabi\AppData\Local\Temp\Jetty SNAPSHOT Extract 
+ org hadoop apache INFO handler event AsyncDispatcher to yarn microsoft fareast corp com SA MSRA util default rack Resolved RackResolver 
+ org hadoop apache mapreduce attempt not # sa msra hdfs Processor CommitterEvent temporary output lib FileOutputCommitter out delete WARN Could 
+ org hadoop apache INFO to yarn main class http server filter AM webproxy context amfilter PROXY FILTER AmIpFilter static 
+ org hadoop apache INFO mapreduce to yarn main class http server filter AM webproxy context amfilter PROXY FILTER AmIpFilter 
+ org hadoop apache INFO impl # ContainerLauncher yarn microsoft fareast corp com SA MSRA client api ContainerManagementProtocolProxy proxy Opening 
+ org hadoop apache INFO mapreduce is not job to main the jobhistory server JobHistoryEventHandler timeline history enabled data Emitting 
+ org hadoop apache INFO handler event AsyncDispatcher to yarn microsoft fareast corp com util default rack Resolved RackResolver 04IQ 
+ org hadoop apache INFO handler event AsyncDispatcher to yarn microsoft fareast corp com util default rack Resolved RackResolver MININT 
+ org hadoop apache INFO mapreduce impl to yarn main the api server Adding protocol pb factories RpcServerFactoryPBImpl MRClientProtocolPB 
+ org hadoop apache INFO handler Server on IPC mapred TaskAttemptListenerImpl for task with jvm JVM ID asked 
+ org hadoop apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl task with jvm JVM ID given 
+ org hadoop apache INFO Server job for # port ipc Socket Reader successful auth SecurityLogger SIMPLE Auth 
+ org hadoop apache INFO mapreduce is not for request main http log requests defined HttpRequestLog Http 
+ org hadoop apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from request startIndex maxEvents MapCompletionEvents 
+ org hadoop apache INFO mapreduce event AsyncDispatcher for yarn main EventType class Registering jobhistory JobHistoryEventHandler 
+ org hadoop apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl TaskAttempt is of Progress 
+ org hadoop apache INFO main util ipc class java Using concurrent callQueue LinkedBlockingQueue CallQueueManager 
+ org hadoop apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from acknowledgement Done 
+ org hadoop apache INFO to yarn main client at sa msra ResourceManager RMProxy Connecting 
+ org hadoop apache INFO mapreduce main sa msra jobhistory hdfs file system JobHistoryUtils Default 
+ org hadoop apache INFO impl yarn main client api ContainerManagementProtocolProxy proxies nodemanagers max cached 
+ the by java remote was io host forcibly existing connection closed IOException An 
+ org hadoop apache INFO Server for # port ipc Socket Reader Starting 
+ org hadoop apache INFO impl main at MetricsSystemImpl snapshot second period Scheduled 
+ org hadoop apache INFO impl main MRAppMaster system started MetricsSystemImpl metrics 
+ org INFO impl to main log mortbay via jLoggerAdapter jLog Logging 
+ org hadoop apache INFO main class http filter global 'safety' $QuotingInputFilter 
+ org hadoop apache INFO yarn main webapp WebApps modules guice Registered 
+ org hadoop apache INFO from impl main properties loaded MetricsConfig 
+ org hadoop apache INFO mapreduce main http spec path adding 
+ org hadoop apache INFO Server on IPC ipc starting listener 
+ org hadoop apache INFO to main port http bound Jetty 
+ org hadoop apache INFO main http spec path adding ws 
+ org hadoop apache Server ipc at java Server$Listener$Reader run 
+ org hadoop apache Server ipc at java Server$Listener$Reader doRunLoop 
+ org hadoop apache INFO Server IPC ipc starting Responder 
+ org hadoop apache Server ipc at java doRead Server$Listener 
+ org hadoop apache Server ipc at java readAndProcess Server$Connection 
+ org hadoop apache Server ipc at java access$ 
+ org hadoop apache Server ipc at java channelRead 
+ at java sun nio ch read SocketDispatcher 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ at java sun nio ch IOUtil read 
+ at sun nio ch SocketDispatcher Native Method 
+ at java sun nio ch IOUtil readIntoNativeBuffer 
+ on is request Container killed code Exit 
+ at java sun nio ch read SocketChannelImpl 
+ with Container code non zero exited exit 
+ org INFO main log mortbay jetty 
+ org hadoop apache INFO mapreduce app 

@@ -1,0 +1,58 @@
+WARN main org apache hadoop hdfs DFSClient Failed to connect for block deadNodes and continue java net ConnectException Connection timed out no further information//1//81
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes//2//160
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//3//147
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing//4//129
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//5//8
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//6//160
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//7//83
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//8//82
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//9//22
+INFO main org apache hadoop hdfs DFSClient Successfully connected to for BP blk//10//14
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//11//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//12//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//13//147
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system shutdown complete//14//111
+INFO main org apache hadoop mapred MapTask Starting flush of map output//15//67
+WARN main org apache hadoop hdfs BlockReaderFactory error constructing remote block reader//16//14
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//17//3
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//18//25
+INFO main org apache hadoop impl MetricsSystemImpl Stopping MapTask metrics system//19//16
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//20//25
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system stopped//21//16
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//22//25
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//23//16
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//24//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//25//8
+INFO main org apache hadoop mapred MapTask soft limit at//26//75
+INFO main org apache hadoop mapred MapTask kvstart ; length//27//25
+INFO main org apache hadoop mapred Task 'attempt ' done//28//3
+INFO main org apache hadoop mapred YarnChild Executing with tokens//29//102
+INFO main org apache hadoop mapred MapTask Spilling map output//30//102
+INFO main org apache hadoop mapred Merger Merging sorted segments//31//102
+at org apache hadoop mapred YarnChild$ run YarnChild java//32//41
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//33//75
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//34//102
+INFO main org apache hadoop mapred MapTask Finished spill//35//75
+java net ConnectException Connection timed out no further information//36//52
+at org apache hadoop mapred MapTask runNewMapper java//37//41
+at org apache hadoop mapred MapTask getSplitDetails java//38//41
+at org apache hadoop hdfs DFSInputStream readWithStrategy java//39//23
+at sun nio ch SocketChannelImpl checkConnect Native Method//40//11
+at org apache hadoop security UserGroupInformation doAs java//41//128
+at org apache hadoop net SocketIOWithTimeout connect java//42//131
+at org apache hadoop hdfs DFSInputStream read java//43//19
+at org apache hadoop mapred MapTask run java//44//141
+at org apache hadoop hdfs BlockReaderFactory getRemoteBlockReaderFromTcp java//45//149
+at org apache hadoop io Text readString java//46//42
+at org apache hadoop hdfs DFSClient newConnectedPeer java//47//126
+at org apache hadoop hdfs DFSInputStream blockSeekTo java//48//23
+at org apache hadoop hdfs BlockReaderFactory build java//49//149
+at org apache hadoop io WritableUtils readVLong java//50//42
+at org apache hadoop hdfs BlockReaderFactory nextTcpPeer java//51//149
+at org apache hadoop net NetUtils connect java//52//131
+at org apache hadoop mapred YarnChild main java//53//141
+at org apache hadoop io WritableUtils readVIntInRange java//54//42
+at javax security auth Subject doAs java//55//137
+at java security AccessController doPrivileged Native Method//56//9
+at sun nio ch SocketChannelImpl finishConnect java//57//4
+at java io DataInputStream readByte//58//51

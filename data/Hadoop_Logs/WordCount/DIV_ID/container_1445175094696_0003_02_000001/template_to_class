@@ -1,0 +1,120 @@
+INFO Socket Reader # for port org apache hadoop ipc Server readAndProcess from client threw exception java io IOException An existing connection was forcibly closed by the remote host//1//20
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl TaskAttempt killed because it ran on unusable node 04IQ fareast corp microsoft com AttemptId attempt//2//27
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl The jar file on the remote FS is hdfs msra sa tmp yarn staging msrabi//3//105
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl The conf file on the remote FS is tmp yarn staging msrabi xml//4//105
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl TaskAttempt attempt using containerId container on NM MSRA SA fareast corp microsoft com//5//27
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl TaskAttempt attempt using containerId container on NM 04IQ fareast corp microsoft com//6//27
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Adding # tokens and secret keys for NM use launching container//7//110
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Event Writer setup for JobId job File hdfs msra sa tmp yarn staging msrabi jhist//8//156
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from COMMIT PENDING to SUCCESS CONTAINER CLEANUP//9//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to KILL CONTAINER CLEANUP//10//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from SUCCESS CONTAINER CLEANUP to SUCCEEDED//11//7
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Processing the event EventType CONTAINER REMOTE LAUNCH for container taskAttempt attempt//12//110
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Processing the event EventType CONTAINER REMOTE CLEANUP for container taskAttempt attempt//13//110
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt Container killed by the ApplicationMaster//14//45
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from KILL TASK CLEANUP to KILLED//15//7
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 2uugte\webapp//16//5
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to SUCCESS CONTAINER CLEANUP//17//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from KILL CONTAINER CLEANUP to TASK//18//7
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Copying hdfs msra sa tmp yarn staging msrabi job conf xml to//19//88
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt//20//89
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved MSRA SA fareast corp microsoft com to default rack//21//151
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl attempt given go for committing the task output//22//45
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Recovering task from prior attempt status was SUCCEEDED//23//45
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to COMMIT PENDING//24//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from RUNNING to SUCCEEDED//25//109
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from SUCCEEDED to KILLED//26//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from SCHEDULED to RUNNING//27//109
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from NEW to SCHEDULED//28//109
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved 04IQ fareast corp microsoft com to default rack//29//151
+INFO main org apache hadoop http filter AM PROXY FILTER class yarn server webproxy amfilter AmIpFilter to context mapreduce//30//96
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Copying hdfs msra sa tmp yarn staging msrabi job jhist to//31//88
+INFO main org apache hadoop mapreduce jobhistory JobHistoryEventHandler Emitting job history data to the timeline server is not enabled//32//60
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from NEW to SUCCEEDED//33//109
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from SUCCEEDED to SCHEDULED//34//109
+INFO IPC Server handler on org apache hadoop mapreduce app job impl TaskImpl Result of canCommit for attempt true//35//45
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to UNASSIGNED//36//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to SUCCEEDED//37//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from UNASSIGNED to ASSIGNED//38//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from ASSIGNED to RUNNING//39//7
+INFO main org apache hadoop http filter AM PROXY FILTER class yarn server webproxy amfilter AmIpFilter to context static//40//96
+INFO ContainerLauncher # org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy MSRA SA fareast corp microsoft com//41//86
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved MININT fareast corp microsoft com to default rack//42//151
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to KILLED//43//7
+INFO main org apache hadoop yarn factories impl pb RpcServerFactoryPBImpl Adding protocol mapreduce api MRClientProtocolPB to the server//44//8
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from INITED to SETUP//45//73
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from SETUP to RUNNING//46//73
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from RUNNING to COMMITTING//47//73
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from COMMITTING to SUCCEEDED//48//73
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Copied to done location hdfs msra sa tmp yarn staging//49//88
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Size of containertokens dob is//50//105
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Shuffle port returned by ContainerManager for attempt//51//37
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Putting shuffle token in serviceData//52//45
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl JVM with ID jvm given task attempt//53//132
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl JVM with ID jvm asked for task//54//132
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//55//34
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Moved tmp to done hdfs msra sa yarn staging//56//88
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Scheduling redundant attempt for task//57//45
+INFO Socket Reader # for port SecurityLogger org apache hadoop ipc Server Auth successful job auth SIMPLE//58//82
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Issuing kill to other attempt//59//45
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Stopping Size of the outstanding queue size is//60//125
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Task succeeded with attempt//61//109
+INFO main org apache hadoop http HttpRequestLog Http request log for requests mapreduce is not defined//62//147
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Commit go no request from attempt//63//55
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl MapCompletionEvents request from attempt startIndex maxEvents//64//55
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Commit pending state update from attempt//65//55
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl Calling for JobFinishedEvent//66//45
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce jobhistory EventType for JobHistoryEventHandler//67//49
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Progress of TaskAttempt attempt is//68//55
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//69//34
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl Num completed Tasks//70//45
+INFO main org apache hadoop yarn client RMProxy Connecting to ResourceManager at msra sa//71//50
+INFO main org apache hadoop ipc CallQueueManager Using callQueue class java util concurrent LinkedBlockingQueue//72//147
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app speculate DefaultSpeculator ATTEMPT START task//73//45
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Assigned container to attempt//74//38
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app speculate DefaultSpeculator JOB CREATE job//75//45
+INFO main org apache hadoop mapreduce jobhistory JobHistoryUtils Default file system hdfs msra sa//76//22
+INFO main org apache hadoop yarn client api impl ContainerManagementProtocolProxy max cached nodemanagers proxies//77//8
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Done acknowledgement from attempt//78//55
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//79//34
+java io IOException An existing connection was forcibly closed by the remote host//80//36
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler notified that forceJobCompletion is true//81//125
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Launching attempt//82//95
+INFO Socket Reader # for port org apache hadoop ipc Server Starting//83//84
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//84//147
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl KILLING attempt//85//95
+INFO main org apache hadoop impl MetricsSystemImpl MRAppMaster metrics system started//86//16
+INFO main org apache hadoop yarn webapp WebApps Registered guice modules//87//96
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Stopped super stop//88//125
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//89//8
+INFO main org apache hadoop http global filter 'safety' class $QuotingInputFilter//90//96
+INFO main org apache hadoop impl MetricsConfig loaded properties from//91//8
+INFO main org apache hadoop http adding path spec mapreduce//92//155
+INFO main org apache hadoop http adding path spec ws//93//155
+INFO IPC Server listener on org apache hadoop ipc starting//94//166
+INFO Thread org apache hadoop ipc Server Stopping server on//95//29
+INFO main org apache hadoop http Jetty bound to port//96//8
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp//97//17
+INFO IPC Server listener on org apache hadoop ipc Stopping//98//166
+at org apache hadoop ipc Server$Listener doRead Server java//99//61
+at org apache hadoop ipc Server$Connection readAndProcess Server java//100//61
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//101//61
+history done intermediate msrabi job word+count SUCCEEDED default jhist//102//17
+at org apache hadoop ipc Server$Listener$Reader run Server java//103//61
+INFO IPC Server Responder org apache hadoop ipc starting//104//166
+INFO IPC Server Responder org apache hadoop ipc Stopping//105//166
+history done intermediate msrabi job conf xml tmp//106//130
+at org apache hadoop ipc Server channelRead java//107//61
+at org apache hadoop ipc Server access$ java//108//15
+Container killed on request Exit code is//109//113
+at sun nio ch SocketDispatcher read java//110//106
+history done intermediate msrabi job conf xml//111//130
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//112//64
+at sun nio ch SocketChannelImpl read java//113//106
+at sun nio ch IOUtil read java//114//106
+at sun nio ch IOUtil readIntoNativeBuffer java//115//4
+at sun nio ch SocketDispatcher Native Method//116//164
+Container exited with non zero exit code//117//119
+INFO main org mortbay log jetty//118//64
+history done intermediate msrabi job summary//119//70
+INFO org apache hadoop mapreduce app//120//35

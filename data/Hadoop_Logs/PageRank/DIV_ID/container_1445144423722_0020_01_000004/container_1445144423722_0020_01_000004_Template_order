@@ -1,0 +1,103 @@
+WARN main org apache hadoop mapred YarnChild Exception running child java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO main org apache hadoop mapred YarnChild Exception cleaning up java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO main org apache hadoop hdfs DFSClient Could not obtain BP blk from any node java io IOException No live nodes contain block after checking ignoredNodes null current Block locations Will get new namenode and retry
+java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost
+WARN main org apache hadoop hdfs DFSClient Failed to connect for block deadNodes and continue java net NoRouteToHostException No route host no further information
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics
+WARN main org apache hadoop hdfs DFSClient DFS chooseDataNode got # IOException will wait for msec
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@
+WARN main org apache hadoop ipc Client Address change detected Old msra sa New
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux
+Caused by java net NoRouteToHostException No route to host no further information
+INFO main org apache hadoop mapred MapTask Starting flush of map output
+INFO main org apache hadoop mapred Task Runnning cleanup for the task
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb
+WARN main org apache hadoop hdfs BlockReaderFactory error constructing remote block reader
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system shutdown complete
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@
+INFO main org apache hadoop impl MetricsSystemImpl Stopping MapTask metrics system
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system stopped
+at org apache hadoop mapreduce lib map WrappedMapper$Context nextKeyValue WrappedMapper java
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi
+INFO main org apache hadoop impl MetricsConfig loaded properties from
+at org apache hadoop mapreduce lib output FileOutputCommitter abortTask java
+at org apache hadoop mapreduce lib input LineRecordReader nextKeyValue java
+java net NoRouteToHostException No route to host no further information
+INFO main org apache hadoop mapred MapTask Spilling map output
+INFO main org apache hadoop mapred YarnChild Executing with tokens
+INFO main org apache hadoop mapred MapTask kvstart ; length
+INFO main org apache hadoop mapred Merger Merging sorted segments
+INFO main org apache hadoop mapred MapTask soft limit at
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid
+INFO SpillThread org apache hadoop mapred MapTask Finished spill
+INFO main org apache hadoop mapred MapTask EQUATOR kvi
+at org apache hadoop hdfs DistributedFileSystem$ doCall DistributedFileSystem java
+at org apache hadoop ipc Client$Connection setupIOstreams Client java
+at org apache hadoop hdfs protocolPB ClientNamenodeProtocolTranslatorPB delete java
+at org apache hadoop io retry RetryInvocationHandler invokeMethod java
+at org apache hadoop io retry RetryInvocationHandler invoke java
+at org apache hadoop hdfs protocolPB ClientNamenodeProtocolTranslatorPB getBlockLocations java
+at org apache hadoop mapred YarnChild$ run YarnChild java
+at org apache hadoop ipc Client$Connection access$ Client java
+WARN main org apache hadoop hdfs DFSClient DFS Read
+at org apache hadoop ipc ProtobufRpcEngine$Invoker invoke ProtobufRpcEngine java
+at org apache hadoop mapred MapTask$NewTrackingRecordReader nextKeyValue MapTask java
+at org apache hadoop mapreduce task MapContextImpl nextKeyValue java
+at org apache hadoop ipc Client$Connection setupConnection Client java
+INFO main org apache hadoop mapred MapTask Finished spill
+at org apache hadoop hdfs DFSInputStream chooseDataNode java
+at com sun proxy $ getBlockLocations Unknown Source
+at org apache hadoop net NetUtils wrapException java
+at org apache hadoop ipc Client getConnection java
+at org apache hadoop net NetUtils wrapWithMessage java
+at org apache hadoop util LineReader readDefaultLine java
+at org apache hadoop fs FileSystemLinkResolver resolve java
+at org apache hadoop net SocketIOWithTimeout connect java
+at org apache hadoop util LineReader readLine java
+at org apache hadoop hdfs DFSInputStream openInfo java
+at org apache hadoop net NetUtils connect java
+at sun nio ch SocketChannelImpl checkConnect Native Method
+at org apache hadoop util LineReader fillBuffer java
+at org apache hadoop hdfs DFSInputStream read java
+at com sun proxy $ delete Unknown Source
+at org apache hadoop hdfs DFSClient newConnectedPeer java
+at org apache hadoop hdfs DFSInputStream fetchLocatedBlocksAndGetLastBlockLength java
+at org apache hadoop mapred Task taskCleanup java
+at org apache hadoop ipc Client call java
+at org apache hadoop mapred MapTask runNewMapper java
+at org apache hadoop hdfs BlockReaderFactory build java
+at org apache hadoop hdfs DFSClient getLocatedBlocks java
+at org apache hadoop hdfs DFSClient callGetBlockLocations java
+at org apache hadoop hdfs DFSInputStream blockSeekTo java
+at org apache hadoop hdfs DFSClient delete java
+at org apache hadoop hdfs BlockReaderFactory nextTcpPeer java
+at org apache hadoop hdfs BlockReaderFactory getRemoteBlockReaderFromTcp java
+at org apache hadoop mapred MapTask run java
+at org apache hadoop hdfs DFSInputStream readBuffer java
+at org apache hadoop hdfs DFSInputStream readWithStrategy java
+at org apache hadoop security UserGroupInformation doAs java
+at org apache hadoop hdfs DistributedFileSystem delete java
+at org apache hadoop mapred YarnChild main java
+at org apache hadoop hdfs DFSInputStream seekToBlockSource java
+at org apache hadoop mapreduce Mapper run java
+at sun nio ch SocketChannelImpl finishConnect java
+at java security AccessController doPrivileged Native Method
+at javax security auth Subject doAs java
+at java lang reflect Method invoke
+at sun reflect DelegatingConstructorAccessorImpl newInstance java
+at java lang reflect Constructor newInstance
+at sun reflect NativeMethodAccessorImpl invoke java
+at sun reflect NativeMethodAccessorImpl Native Method
+at sun reflect DelegatingMethodAccessorImpl invoke java
+at sun reflect NativeConstructorAccessorImpl Native Method
+at sun reflect NativeConstructorAccessorImpl newInstance java
+at java io DataInputStream read

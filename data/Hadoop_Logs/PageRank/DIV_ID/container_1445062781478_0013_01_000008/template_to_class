@@ -1,0 +1,55 @@
+WARN main org apache hadoop mapred Task Failure sending status update java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "04iq fareast corp microsoft com" ;//1//20
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "04iq fareast corp microsoft com" ;//2//20
+INFO main org apache hadoop ipc Client Retrying connect to server 04iq fareast corp microsoft com Already tried time ; maxRetries//3//33
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//4//147
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//5//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//6//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//7//83
+Caused by java io IOException An existing connection was forcibly closed the remote host//8//36
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//9//22
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//10//82
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//11//67
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//12//154
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//13//147
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//14//3
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//15//16
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//16//25
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//17//25
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//18//25
+INFO main org apache hadoop mapred YarnChild Executing with tokens//19//102
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//20//25
+INFO main org apache hadoop mapred MapTask kvstart ; length//21//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//22//8
+INFO main org apache hadoop mapred MapTask soft limit at//23//75
+INFO main org apache hadoop mapred MapTask Spilling map output//24//102
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//25//102
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//26//75
+at org apache hadoop ipc Client$Connection run Client java//27//15
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//28//152
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//29//144
+at org apache hadoop mapred Task$TaskReporter run Task java//30//91
+at org apache hadoop mapred YarnChild$ run YarnChild java//31//41
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//32//152
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//33//44
+at org apache hadoop net NetUtils wrapException java//34//53
+at org apache hadoop mapred MapTask runNewMapper java//35//41
+at org apache hadoop mapred MapTask run java//36//141
+at org apache hadoop net SocketIOWithTimeout doIO java//37//53
+at org apache hadoop mapred YarnChild main java//38//141
+at org apache hadoop security UserGroupInformation doAs java//39//128
+at org apache hadoop mapred Task statusUpdate java//40//91
+at org apache hadoop ipc Client call java//41//15
+at org apache hadoop net SocketInputStream read java//42//53
+at com sun proxy $ statusUpdate Unknown Source//43//12
+at java security AccessController doPrivileged Native Method//44//9
+at sun nio ch SocketDispatcher read java//45//106
+at javax security auth Subject doAs java//46//137
+at sun nio ch SocketChannelImpl read java//47//106
+at sun nio ch SocketDispatcher Native Method//48//164
+at sun nio ch IOUtil read java//49//106
+at sun nio ch IOUtil readIntoNativeBuffer java//50//4
+at java io FilterInputStream read//51//51
+at java lang Thread run//52//31
+at java io BufferedInputStream read//53//136
+at java io BufferedInputStream fill//54//51
+at java io DataInputStream readInt//55//51

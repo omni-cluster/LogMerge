@@ -1,0 +1,39 @@
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//1//60
+INFO main org apache hadoop mapreduce lib output FileOutputCommitter Saved of task 'attempt ' to hdfs msra sa pageout temporary//2//167
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes//3//160
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//4//167
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 17048ms//5//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 21770ms//6//1
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl finalMerge called with in memory map outputs and on disk//7//0
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 14293ms//8//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 73102ms//9//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 38545ms//10//1
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//11//147
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//12//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//13//78
+INFO main org apache hadoop conf Configuration deprecation mapred skip on is deprecated Instead use mapreduce job skiprecords//14//60
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//15//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//16//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//17//58
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//18//8
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce is interrupted Returning//19//58
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing//20//129
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//21//167
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//22//160
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//23//0
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging segments bytes from memory into//24//120
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//25//83
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging files bytes from disk//26//120
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//27//82
+INFO main org apache hadoop mapred Task attempt is allowed to commit now//28//129
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//29//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//30//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//31//147
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system shutdown complete//32//111
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system stopped//33//16
+INFO main org apache hadoop impl MetricsSystemImpl Stopping ReduceTask metrics system//34//16
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//35//16
+INFO main org apache hadoop mapred Merger Merging sorted segments//36//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//37//8
+INFO main org apache hadoop mapred YarnChild Executing with tokens//38//102
+INFO main org apache hadoop mapred Task 'attempt ' done//39//3

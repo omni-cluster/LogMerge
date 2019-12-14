@@ -1,0 +1,33 @@
+ hadoop org apache for ; hdfs SUCCESS read threshold WARN block blk BP ResponseProcessor DFSClient status ERROR took targets seqno fields downstreamAckTimeNanos ack Slow ReadProcessor 48905ms 30000ms 
+ hadoop org apache job for yarn tmp hdfs staging msrabi WARN jhist file block blk BP in DFSClient datanode pipeline Recovery Error DataStreamer 
+ hadoop org INFO mapreduce to yarn main log file mortbay jar webapps share pj\webapp localbox jar! common \Users\msrabi\AppData\Local\Temp\ \Jetty SNAPSHOT Extract 
+ hadoop org apache attempt mapreduce # hdfs sa msra not Processor CommitterEvent temporary WARN output lib FileOutputCommitter pageout delete Could 
+ hadoop to job yarn default tmp hdfs SUCCEEDED staging sa msra msrabi done history intermediate jhist pagerank 
+ hadoop to job yarn tmp hdfs staging sa msra msrabi done history intermediate xml conf 
+ hadoop to job yarn tmp hdfs staging sa msra msrabi done history intermediate summary 
+ the java by remote io IOException was host forcibly existing connection closed An 
+ hadoop org apache for hdfs WARN exception block blk BP ResponseProcessor DFSClient DFSOutputStream 
+ from for java io IOException block blk BP datanode ERROR response 
+ org INFO to impl main log mortbay via jLoggerAdapter jLog Logging 
+ job default tmp SUCCEEDED msrabi done history intermediate jhist pagerank 
+ hadoop org apache Server ipc java at Server$Listener$Reader run 
+ job default SUCCEEDED msrabi done history intermediate jhist pagerank 
+ hadoop org apache java at hdfs run DFSOutputStream DFSOutputStream$DataStreamer$ResponseProcessor 
+ hadoop org apache Server ipc java at Server$Listener$Reader doRunLoop 
+ hadoop org apache Server ipc java at doRead Server$Listener 
+ hadoop org apache Server ipc java at readAndProcess Server$Connection 
+ hadoop org apache Server ipc java at access$ 
+ hadoop org apache Server ipc java at channelRead 
+ job tmp msrabi done history intermediate xml conf 
+ java at sun nio ch read SocketDispatcher 
+ java at sun nio ch read SocketChannelImpl 
+ with Container code non zero exited exit 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ job msrabi done history intermediate xml conf 
+ java at sun nio ch IOUtil read 
+ at sun nio ch SocketDispatcher Native Method 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ on is request Container killed code Exit 
+ job msrabi done history intermediate summary 
+ org INFO main log mortbay jetty 
+ hadoop org apache INFO 

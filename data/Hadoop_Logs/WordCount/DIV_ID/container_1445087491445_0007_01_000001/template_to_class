@@ -1,0 +1,113 @@
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl The jar file on the remote FS is hdfs msra sa tmp yarn staging msrabi//1//105
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl TaskAttempt attempt using containerId container on NM MSRA SA fareast corp microsoft com//2//27
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl The conf file on the remote FS is tmp yarn staging msrabi xml//3//105
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Event Writer setup for JobId job File hdfs msra sa tmp yarn staging msrabi jhist//4//156
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Adding # tokens and secret keys for NM use launching container//5//110
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt Container killed by the ApplicationMaster//6//45
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Processing the event EventType CONTAINER REMOTE CLEANUP for container taskAttempt attempt//7//110
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to SUCCESS CONTAINER CLEANUP//8//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from SUCCESS CONTAINER CLEANUP to SUCCEEDED//9//7
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Processing the event EventType CONTAINER REMOTE LAUNCH for container taskAttempt attempt//10//110
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Error communicating with RM Resource Manager doesn' recognize AttemptId application//11//37
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved MSRA SA fareast corp microsoft com to default rack//12//151
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty rmd\webapp//13//5
+INFO main org apache hadoop mapreduce jobhistory JobHistoryEventHandler Emitting job history data to the timeline server is not enabled//14//60
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from RUNNING to SUCCEEDED//15//109
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved 04IQ fareast corp microsoft com to default rack//16//151
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved MININT fareast corp microsoft com to default rack//17//151
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from ASSIGNED to RUNNING//18//7
+INFO main org apache hadoop http filter AM PROXY FILTER class yarn server webproxy amfilter AmIpFilter to context mapreduce//19//96
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from SCHEDULED to RUNNING//20//109
+INFO ContainerLauncher # org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy MSRA SA fareast corp microsoft com//21//86
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from UNASSIGNED to ASSIGNED//22//7
+INFO main org apache hadoop http filter AM PROXY FILTER class yarn server webproxy amfilter AmIpFilter to context static//23//96
+INFO RMCommunicator Allocator org apache hadoop yarn util RackResolver Resolved MSRA SA fareast corp microsoft com to default rack//24//151
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to UNASSIGNED//25//7
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from NEW to SCHEDULED//26//109
+Caused by org apache hadoop ipc RemoteException yarn exceptions ApplicationAttemptNotFoundException Application attempt appattempt doesn' exist in ApplicationMasterService cache//27//26
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0007Job Transitioned from RUNNING to REBOOT//28//73
+INFO Thread org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy MSRA SA fareast corp microsoft com//29//86
+INFO main org apache hadoop yarn factories impl pb RpcServerFactoryPBImpl Adding protocol mapreduce api MRClientProtocolPB to the server//30//8
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0007Job Transitioned from SETUP to RUNNING//31//73
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0007Job Transitioned from INITED to SETUP//32//73
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Putting shuffle token in serviceData//33//45
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl JVM with ID jvm asked for task//34//132
+INFO main org apache hadoop mapreduce app launcher ContainerLauncherImpl Upper limit on the thread pool size is//35//37
+INFO Socket Reader # for port SecurityLogger org apache hadoop ipc Server Auth successful job auth SIMPLE//36//82
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Size of containertokens dob is//37//105
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Shuffle port returned by ContainerManager for attempt//38//37
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl JVM with ID jvm given task attempt//39//132
+Caused by org apache hadoop yarn exceptions ApplicationAttemptNotFoundException Application attempt appattempt doesn' exist in ApplicationMasterService cache//40//26
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Stopping Size of the outstanding queue size is//41//125
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl MapCompletionEvents request from attempt startIndex maxEvents//42//55
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Task succeeded with attempt//43//109
+INFO main org apache hadoop http HttpRequestLog Http request log for requests mapreduce is not defined//44//147
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl Num completed Tasks//45//45
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Progress of TaskAttempt attempt is//46//55
+INFO Thread org apache hadoop mapreduce app rm RMContainerAllocator RMCommunicator notified that shouldUnregistered is false//47//37
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce jobhistory EventType for JobHistoryEventHandler//48//49
+INFO main org apache hadoop yarn client api impl ContainerManagementProtocolProxy max cached nodemanagers proxies//49//8
+INFO main org apache hadoop mapreduce jobhistory JobHistoryUtils Default file system hdfs msra sa//50//22
+INFO main org apache hadoop ipc CallQueueManager Using callQueue class java util concurrent LinkedBlockingQueue//51//147
+INFO main org apache hadoop yarn client RMProxy Connecting to ResourceManager at msra sa//52//50
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app speculate DefaultSpeculator JOB CREATE job//53//45
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Assigned container to attempt//54//38
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Done acknowledgement from attempt//55//55
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app speculate DefaultSpeculator ATTEMPT START task//56//45
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler notified that forceJobCompletion is false//57//125
+INFO main org apache hadoop mapreduce app MRAppMaster OutputCommitter is lib output FileOutputCommitter//58//118
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//59//147
+at org apache hadoop yarn api impl pb client ApplicationMasterProtocolPBClientImpl allocate java//60//2
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl KILLING attempt//61//95
+at org apache hadoop yarn api impl pb service ApplicationMasterProtocolPBServiceImpl allocate java//62//2
+org apache hadoop yarn exceptions YarnRuntimeException Resource Manager doesn' recognize AttemptId application//63//26
+INFO Socket Reader # for port org apache hadoop ipc Server Starting//64//84
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Launching attempt//65//95
+at org apache hadoop mapreduce app rm RMCommunicator$ run RMCommunicator java//66//98
+INFO main org apache hadoop mapreduce app rm RMContainerRequestor maxTaskFailuresPerNode is//67//118
+INFO main org apache hadoop mapreduce app MRAppMaster Using mapred newApiCommitter//68//3
+INFO main org apache hadoop impl MetricsSystemImpl MRAppMaster metrics system started//69//16
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Stopped super stop//70//125
+INFO main org apache hadoop mapreduce app rm RMContainerRequestor blacklistDisablePercent is//71//118
+INFO main org apache hadoop yarn webapp WebApps Registered guice modules//72//96
+INFO main org apache hadoop http global filter 'safety' class $QuotingInputFilter//73//96
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//74//8
+INFO Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl KILLING attempt//75//95
+at org apache hadoop yarn proto ApplicationMasterProtocol$ApplicationMasterProtocolService$ callBlockingMethod ApplicationMasterProtocol java//76//26
+at org apache hadoop mapreduce app rm RMContainerAllocator heartbeat java//77//38
+at org apache hadoop yarn server resourcemanager ApplicationMasterService allocate java//78//44
+INFO main org apache hadoop http Jetty bound to port//79//8
+INFO IPC Server listener on org apache hadoop ipc starting//80//166
+INFO main org apache hadoop http adding path spec mapreduce//81//155
+at org apache hadoop mapreduce app rm RMContainerRequestor makeRemoteRequest java//82//98
+at org apache hadoop mapreduce app rm RMContainerAllocator getResources java//83//38
+INFO main org apache hadoop impl MetricsConfig loaded properties from//84//8
+INFO main org apache hadoop http adding path spec ws//85//155
+at org apache hadoop yarn ipc RPCUtil instantiateException java//86//44
+INFO IPC Server Responder org apache hadoop ipc starting//87//166
+at org apache hadoop io retry RetryInvocationHandler invoke java//88//42
+at org apache hadoop ipc Server$Handler$ run Server java//89//61
+at org apache hadoop ipc RPC$Server call RPC java//90//44
+at org apache hadoop ipc Server$Handler run Server java//91//61
+at org apache hadoop yarn ipc RPCUtil unwrapAndThrowException java//92//44
+at org apache hadoop ipc ProtobufRpcEngine$Invoker invoke ProtobufRpcEngine java//93//44
+at org apache hadoop io retry RetryInvocationHandler invokeMethod java//94//42
+at org apache hadoop ipc ProtobufRpcEngine$Server$ProtoBufRpcInvoker call ProtobufRpcEngine java//95//44
+at com sun proxy $ allocate Unknown Source//96//12
+at org apache hadoop ipc Client call java//97//15
+at org apache hadoop security UserGroupInformation doAs java//98//128
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//99//64
+Container exited with non zero exit code//100//119
+at javax security auth Subject doAs java//101//137
+Container killed on request Exit code is//102//113
+at java security AccessController doPrivileged Native Method//103//9
+at sun reflect DelegatingConstructorAccessorImpl newInstance java//104//62
+at java lang reflect Method invoke//105//127
+INFO org apache hadoop mapreduce app//106//35
+at java lang reflect Constructor newInstance//107//62
+at sun reflect DelegatingMethodAccessorImpl invoke java//108//62
+INFO main org mortbay log jetty//109//64
+at sun reflect invoke Unknown Source//110//99
+at sun reflect NativeConstructorAccessorImpl Native Method//111//71
+at sun reflect NativeConstructorAccessorImpl newInstance java//112//148
+at java lang Thread run//113//31

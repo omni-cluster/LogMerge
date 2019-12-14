@@ -1,0 +1,55 @@
+ hadoop org apache fetcher# mapreduce INFO task reduce attempt for Fetcher job url sent reply received mapOutput?job hash and &reduce &map 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 12937ms 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 25522ms 
+ hadoop org apache mapreduce INFO for main mapred YarnChild local msrabi dir child usercache tmp nm cluster application appcache 
+ hadoop org apache fetcher# mapreduce INFO task reduce to attempt Fetcher map of output shuffle len decomp about DISK 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 69ms 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 23360ms 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 20147ms 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 39595ms 
+ hadoop org apache fetcher# mapreduce INFO task reduce ShuffleSchedulerImpl microsoft fareast corp com SA MSRA in by freed 60ms 
+ hadoop org apache mapreduce INFO task reduce attempt for EventFetcher map fetching Map Events Completion Got outputs new 
+ hadoop org apache fetcher# mapreduce INFO task reduce to ShuffleSchedulerImpl microsoft fareast corp com SA MSRA of assigned 
+ hadoop org apache fetcher# mapreduce INFO task reduce to ShuffleSchedulerImpl microsoft fareast corp com SA MSRA with Assigning 
+ hadoop org apache mapreduce attempt main output not temporary WARN sa pageout msra lib hdfs delete FileOutputCommitter Could 
+ hadoop org apache fetcher# mapreduce task reduce main mapred in YarnChild shuffle error child WARN running Shuffle$ShuffleError Exception 
+ hadoop org apache fetcher# mapreduce INFO task reduce to attempt is disk maxSingleShuffleLimit MergeManagerImpl than since greater Shuffling 
+ hadoop org apache java is fs disk by io on the not space enough There IOException Caused FSError 
+ hadoop org apache fetcher# mapreduce task reduce ShuffleSchedulerImpl on local Shuffle error this node failed ERROR 04IQ 
+ hadoop org apache INFO for main mapred Got YarnChild retrying null now before again Sleeping 0ms 
+ hadoop org apache INFO main is session metrics id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache fetcher# mapreduce INFO task reduce attempt for map output OnDiskMapOutput from bytes Read 
+ hadoop org apache mapreduce INFO task reduce attempt for EventFetcher fetching Map Events Completion started Thread 
+ hadoop org apache mapreduce INFO task reduce main maxSingleShuffleLimit MergeManagerImpl mergeThreshold memoryLimit memToMemMergeOutputsThreshold ioSortFactor MergerManager 
+ hadoop org apache mapreduce INFO main mapred job YarnChild security token Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO main is on yarn util ProcfsBasedProcessTree supported only currently Linux 
+ java is disk by io on the not space enough There IOException Caused 
+ hadoop org apache mapreduce INFO task reduce main mapred ReduceTask Using ShuffleConsumerPlugin Shuffle@ 
+ hadoop org apache INFO at main impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO main mapred yarn util Using Task WindowsBasedProcessTree@ ResourceCalculatorProcessTree 
+ hadoop org apache INFO task for main mapred the Task cleanup Runnning 
+ hadoop org apache INFO main ReduceTask impl started metrics MetricsSystemImpl system 
+ hadoop org apache mapreduce task reduce java at Fetcher run 
+ hadoop org apache mapreduce task reduce java at run Shuffle 
+ hadoop org apache mapreduce task reduce java at shuffle OnDiskMapOutput 
+ hadoop org apache INFO main mapred with YarnChild tokens Executing 
+ hadoop org apache mapreduce task reduce java at Fetcher copyMapOutput 
+ hadoop org apache INFO main from impl properties loaded MetricsConfig 
+ hadoop org apache mapreduce task reduce java at Fetcher copyFromHost 
+ hadoop org apache java at mapred YarnChild run YarnChild$ 
+ hadoop org apache java at write fs RawLocalFileSystem$LocalFSFileOutputStream RawLocalFileSystem 
+ hadoop org apache java at write fs FSDataOutputStream$PositionCache FSDataOutputStream 
+ hadoop org apache java at fs writeChunk ChecksumFileSystem$ChecksumFSOutputSummer ChecksumFileSystem 
+ hadoop org apache java at fs FSOutputSummer writeChecksumChunks 
+ hadoop org apache java at main mapred YarnChild 
+ hadoop org apache java at security doAs UserGroupInformation 
+ hadoop org apache java at write fs FSOutputSummer 
+ hadoop org apache java at mapred run ReduceTask 
+ java at security doAs Subject javax auth 
+ java at io FileOutputStream Native Method writeBytes 
+ hadoop org apache java at fs FSOutputSummer 
+ java at security Native Method doPrivileged AccessController 
+ java at write io FileOutputStream 
+ java at io BufferedOutputStream flushBuffer 
+ java at write io BufferedOutputStream 
+ java at write io DataOutputStream 

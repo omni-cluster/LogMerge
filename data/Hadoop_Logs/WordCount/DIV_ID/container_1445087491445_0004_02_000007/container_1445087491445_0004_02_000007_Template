@@ -1,0 +1,8 @@
+ hadoop org apache main INFO mapred YarnChild mapreduce msrabi local for dir usercache tmp nm cluster child application appcache 
+ hadoop org apache main INFO session metrics id use is dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache main INFO mapred YarnChild for retrying null now before again Sleeping Got 0ms 
+ hadoop org apache main INFO mapred YarnChild mapreduce job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache main INFO impl MetricsSystemImpl snapshot second period at Scheduled 
+ hadoop org apache main INFO impl metrics MetricsSystemImpl system started MapTask 
+ hadoop org apache main INFO impl properties loaded from MetricsConfig 
+ hadoop org apache main INFO mapred YarnChild with tokens Executing 

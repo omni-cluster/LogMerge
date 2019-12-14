@@ -1,0 +1,47 @@
+ microsoft fareast corp ; java io is local by host IOException was the remote on forcibly existing connection closed An host; exception destination com" SA Host Failed Details "minint "MSRA "; 
+ hadoop org apache INFO Client to ipc microsoft fareast corp com ; tried time thread server minint maxRetries connect communication Retrying Already is sleepTime retry policy RetryUpToMaximumCountWithFixedSleep MILLISECONDS 
+ hadoop org apache INFO Client to ipc microsoft fareast corp com ; tried time thread server minint maxRetries connect communication Retrying Already 
+ hadoop org apache INFO mapreduce task reduce fetcher# for attempt job Fetcher url sent reply received mapOutput?job hash and &reduce &map 
+ hadoop org apache INFO to mapreduce task reduce fetcher# attempt map output of Fetcher shuffle len decomp about DISK 
+ hadoop org apache INFO mapreduce main for mapred local YarnChild msrabi dir usercache tmp nm cluster child application appcache 
+ hadoop org apache INFO mapreduce task reduce EventFetcher for attempt fetching Map Events Completion map Got outputs new 
+ hadoop org apache INFO to mapreduce task reduce fetcher# is attempt maxSingleShuffleLimit MergeManagerImpl than since greater disk Shuffling 
+ hadoop org apache INFO microsoft fareast corp com mapreduce task reduce fetcher# by ShuffleSchedulerImpl 04IQ in freed 15708ms 
+ hadoop org apache INFO to microsoft fareast corp com mapreduce task reduce fetcher# ShuffleSchedulerImpl 04IQ of assigned 
+ hadoop org apache INFO to microsoft fareast corp com mapreduce task reduce fetcher# ShuffleSchedulerImpl 04IQ with Assigning 
+ hadoop org apache INFO mapreduce task reduce EventFetcher for fetching Map Events Completion in getting events Exception 
+ hadoop org apache INFO mapreduce task reduce EventFetcher for attempt fetching Map Events Completion started Thread 
+ hadoop org apache INFO main for mapred YarnChild Got retrying null now before again Sleeping 0ms 
+ hadoop org apache INFO main is session metrics id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapreduce task reduce fetcher# for attempt map output from bytes Read OnDiskMapOutput 
+ hadoop org apache INFO mapreduce task reduce main maxSingleShuffleLimit MergeManagerImpl mergeThreshold memoryLimit memToMemMergeOutputsThreshold ioSortFactor MergerManager 
+ hadoop org apache INFO mapreduce main mapred YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO main is yarn util on ProcfsBasedProcessTree supported only currently Linux 
+ java io by host IOException was the remote forcibly existing connection closed An Caused 
+ hadoop org apache INFO mapreduce task reduce main mapred Using ReduceTask ShuffleConsumerPlugin Shuffle@ 
+ hadoop org apache INFO main mapred yarn util Using WindowsBasedProcessTree@ Task ResourceCalculatorProcessTree 
+ hadoop org apache INFO at main impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO main impl started metrics ReduceTask MetricsSystemImpl system 
+ hadoop org apache java at mapreduce task reduce EventFetcher run 
+ hadoop org apache java at mapreduce task reduce EventFetcher getMapCompletionEvents 
+ hadoop org apache INFO main impl properties from loaded MetricsConfig 
+ hadoop org apache INFO main mapred YarnChild with tokens Executing 
+ hadoop org apache Client ipc java at read Client$Connection$PingInputStream 
+ hadoop org apache java at net SocketInputStream performIO SocketInputStream$Reader 
+ hadoop org apache ipc java at invoke WritableRpcEngine$Invoker WritableRpcEngine 
+ hadoop org apache Client ipc java at Client$Connection receiveRpcResponse 
+ hadoop org apache Client ipc java at run Client$Connection 
+ hadoop org apache java at net NetUtils wrapException 
+ com at sun getMapCompletionEvents proxy Unknown Source $ 
+ hadoop org apache java at net SocketIOWithTimeout doIO 
+ hadoop org apache Client ipc java at call 
+ hadoop org apache java at read net SocketInputStream 
+ at sun nio ch SocketDispatcher Native Method 
+ java at read sun nio ch SocketDispatcher 
+ java at read sun nio ch SocketChannelImpl 
+ java at read sun nio ch IOUtil 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ java at io DataInputStream readInt 
+ java at io BufferedInputStream fill 
+ java at read io FilterInputStream 
+ java at read io BufferedInputStream 

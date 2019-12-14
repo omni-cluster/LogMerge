@@ -1,0 +1,46 @@
+ hadoop org apache INFO ; mapred thread microsoft fareast corp communication java io local is host by Task IOException was the remote on forcibly existing exception connection closed An host; destination com" SA Host Failed Details Communication "minint "MSRA "; 
+ hadoop org apache INFO ; Client ipc thread microsoft fareast corp communication com tried to time server minint maxRetries connect Retrying Already 
+ hadoop org apache INFO mapred main mapreduce local YarnChild msrabi for dir usercache tmp nm cluster child application appcache 
+ hadoop org apache INFO main is session metrics id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapred main YarnChild for retrying null now before again Sleeping Got 0ms 
+ hadoop org apache INFO mapred main mapreduce YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ java io host by IOException was the remote forcibly existing connection closed An Caused 
+ hadoop org apache INFO mapred main MapTask txt split sa msra hdfs Processing + 
+ hadoop org apache INFO main is yarn util on ProcfsBasedProcessTree supported only currently Linux 
+ hadoop org apache INFO mapred main Task yarn util WindowsBasedProcessTree@ Using ResourceCalculatorProcessTree 
+ hadoop org apache INFO mapred main MapTask output collector class MapTask$MapOutputBuffer Map 
+ hadoop org apache INFO main at impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO mapred main MapTask io mapreduce task sort mb 
+ hadoop org apache INFO ; mapred main MapTask bufvoid bufstart bufend 
+ hadoop org apache INFO main MapTask impl metrics MetricsSystemImpl system started 
+ hadoop org apache INFO mapred main MapTask kvi kv equator RESET 
+ hadoop org apache INFO ; mapred main MapTask length kvstart kvend 
+ hadoop org apache INFO ; mapred main MapTask length kvstart 
+ hadoop org apache INFO ; mapred main MapTask bufvoid bufstart 
+ hadoop org apache INFO mapred main MapTask at soft limit 
+ hadoop org apache INFO mapred main YarnChild with tokens Executing 
+ hadoop org apache INFO mapred main MapTask output map Spilling 
+ hadoop org apache INFO main impl properties loaded from MetricsConfig 
+ hadoop org apache INFO mapred main MapTask kvi EQUATOR 
+ hadoop org apache java at net SocketInputStream performIO SocketInputStream$Reader 
+ hadoop org apache ipc java at invoke WritableRpcEngine$Invoker WritableRpcEngine 
+ hadoop org apache INFO mapred MapTask spill SpillThread Finished 
+ hadoop org apache Client ipc java at read Client$Connection$PingInputStream 
+ hadoop org apache mapred java at run Task Task$TaskReporter 
+ hadoop org apache Client ipc java at run Client$Connection 
+ hadoop org apache Client ipc java at Client$Connection receiveRpcResponse 
+ hadoop org apache Client ipc java at call 
+ hadoop org apache java at net NetUtils wrapException 
+ com at sun statusUpdate proxy Unknown Source $ 
+ hadoop org apache java at read net SocketInputStream 
+ hadoop org apache java at net SocketIOWithTimeout doIO 
+ java at read sun nio ch SocketDispatcher 
+ java at read sun nio ch SocketChannelImpl 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ java at read sun nio ch IOUtil 
+ at sun nio ch SocketDispatcher Native Method 
+ java at run Thread lang 
+ java at io DataInputStream readInt 
+ java at read io FilterInputStream 
+ java at read io BufferedInputStream 
+ java at io BufferedInputStream fill 

@@ -1,0 +1,22 @@
+ hadoop org apache INFO mapred main mapreduce YarnChild msrabi local for dir usercache tmp nm cluster child application appcache 
+ hadoop org apache INFO mapred main YarnChild for retrying null now before again Sleeping Got 0ms 
+ hadoop org apache INFO main session metrics is id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapred main mapreduce YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO main yarn util is ProcfsBasedProcessTree supported only on currently Linux 
+ hadoop org apache INFO mapred main MapTask txt split sa msra hdfs Processing + 
+ hadoop org apache INFO mapred main MapTask output collector class MapTask$MapOutputBuffer Map 
+ hadoop org apache INFO main impl at MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO mapred main MapTask mapreduce task sort mb io 
+ hadoop org apache INFO mapred main yarn util WindowsBasedProcessTree@ Using Task ResourceCalculatorProcessTree 
+ hadoop org apache INFO mapred main MapTask ; length kvstart kvend 
+ hadoop org apache INFO mapred main MapTask kvi kv equator RESET 
+ hadoop org apache INFO main MapTask impl metrics MetricsSystemImpl system started 
+ hadoop org apache INFO mapred main MapTask ; bufvoid bufstart bufend 
+ hadoop org apache INFO mapred main MapTask at soft limit 
+ hadoop org apache INFO mapred main YarnChild with tokens Executing 
+ hadoop org apache INFO main impl properties loaded from MetricsConfig 
+ hadoop org apache INFO mapred main MapTask output map Spilling 
+ hadoop org apache INFO mapred main MapTask ; length kvstart 
+ hadoop org apache INFO mapred main MapTask ; bufvoid bufstart 
+ hadoop org apache INFO mapred MapTask spill SpillThread Finished 
+ hadoop org apache INFO mapred main MapTask kvi EQUATOR 

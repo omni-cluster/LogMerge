@@ -1,0 +1,54 @@
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt failed due to FSError java io IOException There is not enough space the disk//1//133
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 7j\webapp//2//5
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited mapreduce task reduce Shuffle$ShuffleError error in shuffle fetcher#//3//138
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt//4//89
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk//5//115
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//6//34
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//7//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//8//34
+java io IOException An existing connection was forcibly closed by the remote host//9//36
+Caused by java io IOException There is not enough space on the disk//10//103
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//11//8
+at org apache hadoop mapreduce task reduce OnDiskMapOutput shuffle java//12//77
+at org apache hadoop mapreduce task reduce Fetcher copyFromHost java//13//122
+at org apache hadoop mapreduce task reduce Fetcher copyMapOutput java//14//122
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp//15//17
+at org apache hadoop mapreduce task reduce Shuffle run java//16//77
+at org apache hadoop mapreduce task reduce Fetcher run java//17//122
+at org apache hadoop ipc Server$Listener doRead Server java//18//61
+at org apache hadoop fs ChecksumFileSystem$ChecksumFSOutputSummer writeChunk ChecksumFileSystem java//19//26
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java//20//114
+at org apache hadoop ipc Server$Connection readAndProcess Server java//21//61
+at org apache hadoop ipc Server$Listener$Reader run Server java//22//61
+at org apache hadoop mapred YarnChild$ run YarnChild java//23//41
+history done intermediate msrabi job word+count SUCCEEDED default jhist//24//17
+at org apache hadoop fs FSDataOutputStream$PositionCache write FSDataOutputStream java//25//43
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//26//61
+at org apache hadoop mapred ReduceTask run java//27//141
+at org apache hadoop fs FSOutputSummer writeChecksumChunks java//28//128
+at org apache hadoop ipc Server channelRead java//29//61
+at org apache hadoop mapred YarnChild main java//30//141
+at org apache hadoop fs FSOutputSummer write java//31//43
+history done intermediate msrabi job conf xml tmp//32//130
+at org apache hadoop security UserGroupInformation doAs java//33//128
+at org apache hadoop ipc Server access$ java//34//15
+at sun nio ch SocketDispatcher read java//35//106
+at sun nio ch SocketDispatcher Native Method//36//164
+at sun nio ch IOUtil read java//37//106
+at java security AccessController doPrivileged Native Method//38//9
+at java io FileOutputStream writeBytes Native Method//39//9
+at javax security auth Subject doAs java//40//137
+at sun nio ch IOUtil readIntoNativeBuffer java//41//4
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//42//64
+Container killed on request Exit code is//43//113
+at sun nio ch SocketChannelImpl read java//44//106
+at org apache hadoop fs FSOutputSummer java//45//43
+Container exited with non zero exit code//46//119
+history done intermediate msrabi job conf xml//47//130
+INFO main org mortbay log jetty//48//64
+history done intermediate msrabi job summary//49//70
+at java io BufferedOutputStream flushBuffer//50//13
+at java io DataOutputStream write//51//136
+at java io BufferedOutputStream write//52//136
+at java io FileOutputStream write//53//136
+INFO org apache hadoop//54//35

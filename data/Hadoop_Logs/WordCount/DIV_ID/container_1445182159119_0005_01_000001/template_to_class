@@ -1,0 +1,27 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty eqgtow\webapp//1//5
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//2//34
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//3//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//4//34
+java io IOException An existing connection was forcibly closed by the remote host//5//36
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//6//8
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp//7//17
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//8//61
+at org apache hadoop ipc Server$Listener$Reader run Server java//9//61
+at org apache hadoop ipc Server$Connection readAndProcess Server java//10//61
+at org apache hadoop ipc Server$Listener doRead Server java//11//61
+history done intermediate msrabi job word+count SUCCEEDED default jhist//12//17
+history done intermediate msrabi job conf xml tmp//13//130
+at org apache hadoop ipc Server channelRead java//14//61
+at org apache hadoop ipc Server access$ java//15//15
+Container exited with non zero exit code//16//119
+at sun nio ch IOUtil read java//17//106
+at sun nio ch SocketDispatcher Native Method//18//164
+history done intermediate msrabi job conf xml//19//130
+at sun nio ch SocketChannelImpl read java//20//106
+Container killed on request Exit code is//21//113
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//22//64
+at sun nio ch SocketDispatcher read java//23//106
+at sun nio ch IOUtil readIntoNativeBuffer java//24//4
+INFO main org mortbay log jetty//25//64
+history done intermediate msrabi job summary//26//70
+INFO org apache hadoop//27//35

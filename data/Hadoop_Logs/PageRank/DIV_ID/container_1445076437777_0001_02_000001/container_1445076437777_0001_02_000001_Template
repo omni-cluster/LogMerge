@@ -1,0 +1,63 @@
+ hadoop org apache INFO handler mapreduce app on event is AsyncDispatcher job impl yarn TaskAttemptImpl the staging sa msra file hdfs tmp msrabi jar remote The FS 
+ hadoop org apache INFO handler mapreduce app on event is AsyncDispatcher job impl yarn TaskAttemptImpl the staging file tmp msrabi remote The FS xml conf 
+ hadoop org apache INFO handler attempt mapreduce app on TaskAttempt event AsyncDispatcher job impl microsoft fareast corp com container TaskAttemptImpl SA MSRA NM using containerId 
+ hadoop org apache INFO handler attempt mapreduce app on TaskAttempt event AsyncDispatcher job impl microsoft fareast corp com container TaskAttemptImpl NM 04IQ using containerId 
+ hadoop org apache INFO mapreduce job for yarn staging sa msra jobhistory hdfs tmp msrabi JobHistoryEventHandler jhist setup eventHandlingThread Writer JobId File Event 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job impl for # container TaskAttemptImpl NM Adding tokens launching use secret keys and 
+ hadoop org apache INFO attempt mapreduce app event for # container ContainerLauncher launcher ContainerLauncherImpl the EventType Processing taskAttempt REMOTE LAUNCH CONTAINER 
+ hadoop org INFO mapreduce to yarn main file log mortbay jar xeyjpj\webapp webapps share localbox jar! common \Users\msrabi\AppData\Local\Temp\Jetty SNAPSHOT Extract 
+ hadoop org apache INFO handler attempt mapreduce app event AsyncDispatcher job impl from task TaskImpl SUCCEEDED was status prior Recovering 
+ hadoop org apache INFO handler event AsyncDispatcher to yarn microsoft fareast corp com SA MSRA util default rack Resolved RackResolver 
+ hadoop org apache INFO impl yarn # microsoft fareast corp com SA MSRA ContainerLauncher client api ContainerManagementProtocolProxy proxy Opening 
+ hadoop org apache INFO mapreduce is job to main the jobhistory server history not JobHistoryEventHandler enabled timeline data Emitting 
+ hadoop org apache INFO handler attempt mapreduce app TaskAttempt event AsyncDispatcher job to impl from Transitioned TaskAttemptImpl ASSIGNED RUNNING 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job to impl from task Transitioned TaskImpl RUNNING Task SCHEDULED 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job to impl from task Transitioned TaskImpl NEW Task SCHEDULED 
+ hadoop org apache INFO handler attempt mapreduce app TaskAttempt event AsyncDispatcher job to impl from Transitioned TaskAttemptImpl NEW SUCCEEDED 
+ hadoop org apache INFO handler attempt mapreduce app TaskAttempt event AsyncDispatcher job to impl from Transitioned TaskAttemptImpl UNASSIGNED ASSIGNED 
+ hadoop org apache INFO mapreduce to yarn main class http server filter AM webproxy context amfilter PROXY FILTER AmIpFilter 
+ hadoop org apache INFO handler event AsyncDispatcher to yarn microsoft fareast corp com util default rack Resolved RackResolver 04IQ 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job to impl from task Transitioned TaskImpl NEW Task SUCCEEDED 
+ hadoop org apache INFO handler attempt mapreduce app TaskAttempt event AsyncDispatcher job to impl from Transitioned TaskAttemptImpl UNASSIGNED NEW 
+ hadoop org apache INFO to yarn main class http server filter AM webproxy context amfilter PROXY FILTER AmIpFilter static 
+ hadoop org apache INFO to yarn microsoft fareast corp com RMCommunicator Allocator util default rack Resolved RackResolver 04IQ 
+ hadoop org apache INFO impl yarn # microsoft fareast corp com ContainerLauncher client api 04IQ ContainerManagementProtocolProxy proxy Opening 
+ hadoop org apache INFO mapreduce to impl yarn main the api server Adding protocol pb factories RpcServerFactoryPBImpl MRClientProtocolPB 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job to impl from Transitioned RUNNING JobImpl SETUP 0001Job 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job to impl from Transitioned JobImpl SETUP 0001Job INITED 
+ hadoop org apache INFO handler mapreduce app event is AsyncDispatcher of job impl TaskAttemptImpl dob containertokens Size 
+ hadoop org apache INFO handler Server on IPC mapred TaskAttemptListenerImpl for task with jvm JVM ID asked 
+ hadoop org apache INFO handler attempt mapreduce app event AsyncDispatcher job impl for task TaskImpl Scheduling redundant 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job impl TaskAttemptImpl token in shuffle serviceData Putting 
+ hadoop org apache INFO Server job for # port ipc Socket Reader successful auth SecurityLogger SIMPLE Auth 
+ hadoop org apache INFO attempt mapreduce app for # ContainerLauncher launcher ContainerLauncherImpl port returned by Shuffle ContainerManager 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl task with jvm JVM ID given 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from request startIndex maxEvents MapCompletionEvents 
+ hadoop org apache INFO handler attempt mapreduce app event AsyncDispatcher job impl with TaskImpl Task succeeded 
+ hadoop org apache INFO mapreduce is for main request http log not requests defined HttpRequestLog Http 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job impl JobImpl completed Tasks Num 
+ hadoop org apache INFO mapreduce event AsyncDispatcher for yarn main class EventType Registering jobhistory JobHistoryEventHandler 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl TaskAttempt is of Progress 
+ hadoop org apache INFO mapreduce main sa msra jobhistory file hdfs system JobHistoryUtils Default 
+ hadoop org apache INFO to yarn main client sa msra at ResourceManager RMProxy Connecting 
+ hadoop org apache INFO impl yarn main client api ContainerManagementProtocolProxy proxies nodemanagers max cached 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher job DefaultSpeculator speculate JOB CREATE 
+ hadoop org apache INFO main util class ipc Using java concurrent callQueue LinkedBlockingQueue CallQueueManager 
+ hadoop org apache INFO attempt mapreduce app to container rm RMCommunicator Allocator RMContainerAllocator Assigned 
+ hadoop org apache INFO handler mapreduce app event AsyncDispatcher task DefaultSpeculator speculate START ATTEMPT 
+ hadoop org apache INFO Server for # port ipc Socket Reader Starting 
+ hadoop org apache INFO attempt mapreduce app # ContainerLauncher launcher ContainerLauncherImpl Launching 
+ hadoop org apache INFO impl main at MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO yarn main webapp WebApps modules guice Registered 
+ org INFO to impl main log mortbay via jLoggerAdapter jLog Logging 
+ hadoop org apache INFO main class http filter global 'safety' $QuotingInputFilter 
+ hadoop org apache INFO impl main MRAppMaster system started MetricsSystemImpl metrics 
+ hadoop org apache INFO Server on IPC ipc starting listener 
+ hadoop org apache INFO main http spec path adding ws 
+ hadoop org apache INFO to main port http bound Jetty 
+ hadoop org apache INFO impl from main properties loaded MetricsConfig 
+ hadoop org apache INFO mapreduce main http spec path adding 
+ hadoop org apache INFO Server IPC ipc starting Responder 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ org INFO main log mortbay jetty 
+ hadoop org apache INFO mapreduce app 

@@ -1,0 +1,79 @@
+java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost//1//39
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "msra sa " ;//2//145
+java io IOException Failed on local exception Couldn' set up IO streams; Host Details host is "MININT "; destination "msra sa " ;//3//101
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty iv\webapp//4//5
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt//5//89
+WARN LeaseRenewer sa org apache hadoop hdfs Failed to renew lease for DFSClient NONMAPREDUCE seconds Will retry shortly//6//160
+WARN RMCommunicator Allocator org apache hadoop ipc Client Address change detected Old msra sa New//7//80
+WARN LeaseRenewer sa org apache hadoop ipc Client Address change detected Old msra New//8//80
+Caused by java io IOException An existing connection was forcibly closed the remote host//9//36
+java io IOException An existing connection was forcibly closed by the remote host//10//36
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator IN CONTACTING RM//11//38
+Caused by java net NoRouteToHostException No route to host no further information//12//18
+at org apache hadoop yarn api impl pb client ApplicationMasterProtocolPBClientImpl allocate java//13//2
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//14//8
+at org apache hadoop mapreduce app rm RMCommunicator$ run RMCommunicator java//15//98
+at org apache hadoop mapreduce app rm RMContainerRequestor makeRemoteRequest java//16//98
+at org apache hadoop mapreduce app rm RMContainerAllocator getResources java//17//38
+at org apache hadoop mapreduce app rm RMContainerAllocator heartbeat java//18//38
+Caused by java io IOException Couldn' set up IO streams//19//79
+at org apache hadoop ipc Server$Listener doRead Server java//20//61
+at org apache hadoop ipc Client$Connection setupIOstreams Client java//21//152
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//22//144
+at org apache hadoop ipc ProtobufRpcEngine$Invoker invoke ProtobufRpcEngine java//23//44
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//24//61
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//25//152
+at org apache hadoop ipc Server$Connection readAndProcess Server java//26//61
+at org apache hadoop ipc Client$Connection setupConnection Client java//27//152
+at org apache hadoop ipc Client$Connection access$ Client java//28//15
+at org apache hadoop io retry RetryInvocationHandler invokeMethod java//29//42
+at org apache hadoop hdfs LeaseRenewer$ run LeaseRenewer java//30//142
+at org apache hadoop io retry RetryInvocationHandler invoke java//31//42
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//32//152
+at org apache hadoop ipc Server$Listener$Reader run Server java//33//61
+at org apache hadoop hdfs protocolPB ClientNamenodeProtocolTranslatorPB renewLease java//34//126
+at org apache hadoop ipc Client$Connection run Client java//35//15
+at sun nio ch SocketChannelImpl checkConnect Native Method//36//11
+at org apache hadoop hdfs LeaseRenewer renew java//37//126
+at org apache hadoop net NetUtils wrapException java//38//53
+at org apache hadoop net NetUtils connect java//39//131
+at org apache hadoop ipc Server channelRead java//40//61
+at org apache hadoop net SocketIOWithTimeout doIO java//41//53
+at org apache hadoop hdfs LeaseRenewer run java//42//19
+at org apache hadoop ipc Server access$ java//43//15
+at org apache hadoop net NetUtils wrapWithMessage java//44//53
+at org apache hadoop ipc Client call java//45//15
+at org apache hadoop ipc Client getConnection java//46//152
+at org apache hadoop net SocketIOWithTimeout connect java//47//131
+at com sun proxy $ renewLease Unknown Source//48//12
+at org apache hadoop hdfs DFSClient renewLease java//49//19
+at com sun proxy $ allocate Unknown Source//50//12
+at org apache hadoop net SocketInputStream read java//51//53
+at org apache hadoop hdfs LeaseRenewer access$ java//52//19
+at sun nio ch IOUtil readIntoNativeBuffer java//53//4
+at sun nio ch SocketChannelImpl connect java//54//4
+Container exited with non zero exit code//55//119
+at sun nio ch SocketChannelImpl read java//56//106
+at sun nio ch SocketDispatcher Native Method//57//164
+at sun nio ch Net checkAddress java//58//4
+at sun nio ch SocketDispatcher read java//59//106
+at sun nio ch IOUtil read java//60//106
+at sun nio ch SocketChannelImpl finishConnect java//61//4
+Container killed on request Exit code is//62//113
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//63//64
+at sun reflect newInstance Unknown Source//64//99
+at java lang reflect Constructor newInstance//65//62
+at sun reflect DelegatingMethodAccessorImpl invoke java//66//62
+at sun reflect NativeConstructorAccessorImpl newInstance java//67//148
+at sun reflect NativeConstructorAccessorImpl Native Method//68//71
+INFO main org mortbay log jetty//69//64
+at sun reflect invoke Unknown Source//70//99
+at java lang reflect Method invoke//71//127
+Caused by java nio channels UnresolvedAddressException//72//94
+at sun reflect DelegatingConstructorAccessorImpl newInstance java//73//62
+at java io DataInputStream readInt//74//51
+at java lang Thread run//75//31
+at java io BufferedInputStream fill//76//51
+at java io BufferedInputStream read//77//136
+at java io FilterInputStream read//78//51
+INFO org apache hadoop//79//35

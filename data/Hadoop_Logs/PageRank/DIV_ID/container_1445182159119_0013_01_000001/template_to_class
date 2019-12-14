@@ -1,0 +1,29 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty oop\webapp//1//5
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//2//89
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Container complete event for unknown container id//3//110
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//4//34
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//5//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//6//34
+java io IOException An existing connection was forcibly closed by the remote host//7//36
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//8//8
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp//9//17
+at org apache hadoop ipc Server$Listener$Reader run Server java//10//61
+at org apache hadoop ipc Server$Connection readAndProcess Server java//11//61
+at org apache hadoop ipc Server$Listener doRead Server java//12//61
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//13//61
+history done intermediate msrabi job pagerank SUCCEEDED default jhist//14//17
+at org apache hadoop ipc Server access$ java//15//15
+history done intermediate msrabi job conf xml tmp//16//130
+at org apache hadoop ipc Server channelRead java//17//61
+at sun nio ch IOUtil readIntoNativeBuffer java//18//4
+at sun nio ch SocketDispatcher read java//19//106
+at sun nio ch SocketDispatcher Native Method//20//164
+Container exited with non zero exit code//21//119
+history done intermediate msrabi job conf xml//22//130
+Container killed on request Exit code is//23//113
+at sun nio ch SocketChannelImpl read java//24//106
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//25//64
+at sun nio ch IOUtil read java//26//106
+history done intermediate msrabi job summary//27//70
+INFO main org mortbay log jetty//28//64
+INFO org apache hadoop//29//35

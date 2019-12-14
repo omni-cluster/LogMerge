@@ -1,0 +1,55 @@
+WARN main org apache hadoop mapred Task Failure sending status update java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//1//20
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//2//20
+INFO main org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries//3//33
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//4//147
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//5//8
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//6//160
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//7//83
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//8//22
+Caused by java io IOException An existing connection was forcibly closed the remote host//9//36
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//10//82
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//11//147
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//12//67
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//13//154
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//14//3
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//15//25
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//16//25
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//17//25
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//18//16
+INFO main org apache hadoop mapred MapTask kvstart ; length//19//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//20//8
+INFO main org apache hadoop mapred MapTask Spilling map output//21//102
+INFO main org apache hadoop mapred YarnChild Executing with tokens//22//102
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//23//25
+INFO main org apache hadoop mapred MapTask soft limit at//24//75
+at org apache hadoop ipc Client$Connection run Client java//25//15
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//26//44
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//27//152
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//28//102
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//29//75
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//30//144
+at org apache hadoop mapred Task$TaskReporter run Task java//31//91
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//32//152
+at org apache hadoop mapred YarnChild$ run YarnChild java//33//41
+at org apache hadoop net NetUtils wrapException java//34//53
+at com sun proxy $ statusUpdate Unknown Source//35//12
+at org apache hadoop ipc Client call java//36//15
+at org apache hadoop mapred YarnChild main java//37//141
+at org apache hadoop net SocketInputStream read java//38//53
+at org apache hadoop mapred Task statusUpdate java//39//91
+at org apache hadoop mapred MapTask run java//40//141
+at org apache hadoop security UserGroupInformation doAs java//41//128
+at org apache hadoop mapred MapTask runNewMapper java//42//41
+at org apache hadoop net SocketIOWithTimeout doIO java//43//53
+at sun nio ch SocketDispatcher Native Method//44//164
+at sun nio ch SocketChannelImpl read java//45//106
+at java security AccessController doPrivileged Native Method//46//9
+at javax security auth Subject doAs java//47//137
+at sun nio ch IOUtil read java//48//106
+at sun nio ch IOUtil readIntoNativeBuffer java//49//4
+at sun nio ch SocketDispatcher read java//50//106
+at java io BufferedInputStream fill//51//51
+at java io BufferedInputStream read//52//136
+at java lang Thread run//53//31
+at java io DataInputStream readInt//54//51
+at java io FilterInputStream read//55//51

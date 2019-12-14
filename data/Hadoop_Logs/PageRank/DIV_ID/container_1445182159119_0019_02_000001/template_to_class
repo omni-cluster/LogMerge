@@ -1,0 +1,48 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty \webapp//1//5
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//2//89
+WARN main org apache hadoop mapreduce app MRAppMaster Could not parse the old history file Will have AMinfos//3//82
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//4//34
+WARN main org apache hadoop mapreduce app MRAppMaster Unable to parse prior job history aborting recovery//5//8
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//6//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//7//34
+java io IOException An existing connection was forcibly closed by the remote host//8//36
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//9//8
+at org apache hadoop mapreduce app MRAppMaster$ run MRAppMaster java//10//98
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp//11//17
+at org apache hadoop mapreduce jobhistory EventReader init java//12//72
+at org apache hadoop mapreduce app MRAppMaster main java//13//98
+at org apache hadoop mapreduce app MRAppMaster readJustAMInfos java//14//98
+at org apache hadoop mapreduce app MRAppMaster parsePreviousJobHistory java//15//98
+at org apache hadoop mapreduce app MRAppMaster initAndStartAppMaster java//16//98
+at org apache hadoop mapreduce app MRAppMaster serviceStart java//17//98
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//18//61
+at org apache hadoop hdfs DFSOutputStream$DataStreamer run DFSOutputStream java//19//149
+history done intermediate msrabi job pagerank SUCCEEDED default jhist//20//17
+at org apache hadoop ipc Server$Listener doRead Server java//21//61
+at org apache hadoop hdfs DFSOutputStream$DataStreamer nextBlockOutputStream DFSOutputStream java//22//117
+at org apache hadoop mapreduce jobhistory JobHistoryParser parse java//23//153
+at org apache hadoop ipc Server$Connection readAndProcess Server java//24//61
+at org apache hadoop mapreduce app MRAppMaster processRecovery java//25//98
+at org apache hadoop ipc Server$Listener$Reader run Server java//26//61
+at org apache hadoop hdfs DFSOutputStream$DataStreamer createBlockOutputStream DFSOutputStream java//27//117
+at org apache hadoop security UserGroupInformation doAs java//28//128
+java io IOException Incompatible event log version null//29//101
+history done intermediate msrabi job conf xml tmp//30//130
+java io IOException connect ack with firstBadLink as//31//158
+at org apache hadoop ipc Server access$ java//32//15
+at org apache hadoop ipc Server channelRead java//33//61
+at org apache hadoop service AbstractService start java//34//126
+history done intermediate msrabi job conf xml//35//130
+at sun nio ch IOUtil readIntoNativeBuffer java//36//4
+Container killed on request Exit code is//37//113
+at sun nio ch SocketChannelImpl read java//38//106
+at sun nio ch SocketDispatcher Native Method//39//164
+at sun nio ch SocketDispatcher read java//40//106
+at sun nio ch IOUtil read java//41//106
+at javax security auth Subject doAs java//42//137
+at java security AccessController doPrivileged Native Method//43//9
+Container exited with non zero exit code//44//119
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//45//64
+INFO main org mortbay log jetty//46//64
+history done intermediate msrabi job summary//47//70
+INFO org apache hadoop//48//35

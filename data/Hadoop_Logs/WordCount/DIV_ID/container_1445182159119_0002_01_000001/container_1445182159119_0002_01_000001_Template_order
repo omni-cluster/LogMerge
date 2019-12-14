@@ -1,0 +1,34 @@
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited util DiskChecker$DiskErrorException Could not find any valid local directory for output file out
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty ja\webapp
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt
+java io IOException An existing connection was forcibly closed by the remote host
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+at org apache hadoop ipc Server$Listener$Reader run Server java
+at org apache hadoop mapred MapTask$MapOutputBuffer flush MapTask java
+at org apache hadoop ipc Server$Connection readAndProcess Server java
+at org apache hadoop mapred MapTask$NewOutputCollector close MapTask java
+at org apache hadoop mapred MapTask$MapOutputBuffer mergeParts MapTask java
+at org apache hadoop mapred YarnChild$ run YarnChild java
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java
+at org apache hadoop fs LocalDirAllocator$AllocatorPerContext getLocalPathForWrite LocalDirAllocator java
+at org apache hadoop ipc Server$Listener doRead Server java
+at org apache hadoop security UserGroupInformation doAs java
+at org apache hadoop mapred YarnChild main java
+at org apache hadoop mapred MapTask run java
+at org apache hadoop fs LocalDirAllocator getLocalPathForWrite java
+at org apache hadoop ipc Server access$ java
+at org apache hadoop mapred MapTask runNewMapper java
+at org apache hadoop mapred YarnOutputFiles getOutputFileForWrite java
+at org apache hadoop ipc Server channelRead java
+at java security AccessController doPrivileged Native Method
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+Container exited with non zero exit code
+at sun nio ch IOUtil readIntoNativeBuffer java
+at sun nio ch IOUtil read java
+at sun nio ch SocketDispatcher Native Method
+Container killed on request Exit code is
+at javax security auth Subject doAs java
+at sun nio ch SocketChannelImpl read java
+at sun nio ch SocketDispatcher read java
+INFO main org mortbay log jetty
+INFO org apache hadoop

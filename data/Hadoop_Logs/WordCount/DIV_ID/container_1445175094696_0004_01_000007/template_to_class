@@ -1,0 +1,127 @@
+INFO communication thread org apache hadoop mapred Task Communication exception java net NoRouteToHostException No Route to Host from MININT failed on socket timeout route host no further information; For more details see http wiki NoRouteToHost//1//39
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "" ;//2//20
+INFO communication thread org apache hadoop ipc Client Retrying connect to server Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS//3//82
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//4//147
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//5//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//6//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//7//83
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//8//22
+Caused by java io IOException An existing connection was forcibly closed the remote host//9//36
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//10//82
+INFO communication thread org apache hadoop mapred Task Process Thread Dump Communication exception//11//134
+WARN communication thread org apache hadoop mapred Task Last retry killing attempt//12//3
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//13//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//14//67
+Caused by java net NoRouteToHostException No route to host no further information//15//18
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//16//3
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//17//147
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//18//25
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//19//25
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//20//16
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//21//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//22//8
+INFO main org apache hadoop mapred YarnChild Executing with tokens//23//102
+INFO main org apache hadoop mapred MapTask soft limit at//24//75
+INFO main org apache hadoop mapred MapTask kvstart ; length//25//25
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//26//25
+INFO main org apache hadoop mapred MapTask Spilling map output//27//102
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//28//152
+org apache hadoop hdfs protocol datatransfer PacketReceiver readChannelFully java//29//30
+at org apache hadoop ipc Client$Connection setupIOstreams Client java//30//152
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//31//144
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//32//75
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//33//102
+org apache hadoop hdfs protocol datatransfer PacketReceiver doReadFully java//34//30
+at org apache hadoop ipc Client$Connection run Client java//35//15
+org apache hadoop hdfs protocol datatransfer PacketReceiver doRead java//36//30
+at org apache hadoop ipc Client$Connection setupConnection Client java//37//152
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//38//152
+at org apache hadoop mapred Task$TaskReporter run Task java//39//91
+org apache hadoop hdfs protocol datatransfer PacketReceiver receiveNextPacket java//40//30
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//41//44
+at org apache hadoop ipc Client$Connection access$ Client java//42//15
+at org apache hadoop net NetUtils wrapWithMessage java//43//53
+org apache hadoop mapred Task$TaskReporter run Task java//44//91
+org apache hadoop hdfs DFSInputStream$ByteArrayStrategy doRead DFSInputStream java//45//126
+org apache hadoop mapred MapTask$MapOutputBuffer$SpillThread run MapTask java//46//91
+at org apache hadoop net SocketIOWithTimeout connect java//47//131
+at sun nio ch SocketChannelImpl checkConnect Native Method//48//11
+at com sun proxy $ statusUpdate Unknown Source//49//12
+org apache hadoop net SocketIOWithTimeout$SelectorPool select SocketIOWithTimeout java//50//144
+at org apache hadoop net SocketInputStream read java//51//53
+at org apache hadoop net NetUtils wrapException java//52//53
+at org apache hadoop ipc Client getConnection java//53//152
+at org apache hadoop ipc Client call java//54//15
+at org apache hadoop net NetUtils connect java//55//131
+org apache hadoop hdfs PeerCache$ run PeerCache java//56//142
+at org apache hadoop net SocketIOWithTimeout doIO java//57//53
+org apache hadoop util ReflectionUtils logThreadInfo java//58//2
+sun net dns ResolverConfigurationImpl$AddressChangeListener run ResolverConfigurationImpl java//59//157
+at sun nio ch SocketDispatcher Native Method//60//164
+at sun nio ch SocketChannelImpl finishConnect java//61//4
+org apache hadoop net SocketIOWithTimeout doIO java//62//53
+sun nio ch WindowsSelectorImpl$SubSelector access$ WindowsSelectorImpl java//63//32
+at sun nio ch IOUtil read java//64//106
+Waiting on java util concurrent locks AbstractQueuedSynchronizer$ConditionObject@//65//161
+org apache hadoop hdfs DFSInputStream readBuffer java//66//23
+at sun nio ch SocketDispatcher read java//67//106
+org apache hadoop hdfs PeerCache run java//68//142
+org apache hadoop hdfs DFSInputStream readWithStrategy java//69//23
+org apache hadoop hdfs PeerCache access$ java//70//19
+org apache hadoop hdfs DFSInputStream read java//71//19
+at sun nio ch IOUtil readIntoNativeBuffer java//72//4
+sun nio ch WindowsSelectorImpl$SubSelector poll WindowsSelectorImpl java//73//100
+java util concurrent locks AbstractQueuedSynchronizer$ConditionObject await AbstractQueuedSynchronizer//74//163
+org apache hadoop util ReflectionUtils printThreadInfo java//75//2
+at sun nio ch SocketChannelImpl read java//76//106
+java util concurrent locks AbstractQueuedSynchronizer$ConditionObject awaitNanos AbstractQueuedSynchronizer//77//163
+org apache hadoop net SocketInputStream read java//78//53
+Waiting on java lang ref Reference$Lock@//79//28
+Thread Timer for 'MapTask' metrics system//80//140
+java lang ref Finalizer$FinalizerThread run Finalizer//81//57
+java util concurrent SynchronousQueue$TransferStack transfer SynchronousQueue//82//92
+sun misc Unsafe park Native Method//83//87
+Thread org apache hadoop hdfs PeerCache@//84//126
+sun nio ch SelectorImpl lockAndDoSelect java//85//100
+java lang ref Reference$ReferenceHandler run Reference//86//57
+sun nio ch WindowsSelectorImpl$SubSelector Native Method//87//164
+sun net dns ResolverConfigurationImpl Native Method//88//159
+java util concurrent ThreadPoolExecutor$Worker run ThreadPoolExecutor//89//47
+java lang Object wait Native Method//90//107
+org apache hadoop hdfs readNextPacket java//91//126
+java util concurrent SynchronousQueue$TransferStack awaitFulfill SynchronousQueue//92//92
+at sun reflect DelegatingConstructorAccessorImpl newInstance java//93//62
+sun nio ch SelectorImpl select java//94//100
+at sun reflect NativeConstructorAccessorImpl newInstance java//95//148
+java lang Thread sleep Native Method//96//68
+at sun reflect NativeConstructorAccessorImpl Native Method//97//71
+at java lang reflect Constructor newInstance//98//62
+java util concurrent locks LockSupport parkNanos//99//10
+Waiting on java lang ref ReferenceQueue$Lock@//100//28
+java util concurrent ScheduledThreadPoolExecutor$DelayedWorkQueue take ScheduledThreadPoolExecutor//101//163
+java util concurrent locks LockSupport park//102//10
+org apache hadoop hdfs read java//103//19
+sun nio ch WindowsSelectorImpl doSelect java//104//32
+java util TimerThread run Timer//105//112
+java util TimerThread mainLoop Timer//106//135
+at java io BufferedInputStream fill//107//51
+java lang ref ReferenceQueue remove//108//57
+java util concurrent ThreadPoolExecutor getTask//109//74
+sun management ThreadImpl Native Method//110//146
+at java io FilterInputStream read//111//51
+java util concurrent ThreadPoolExecutor runWorker//112//74
+at java lang Thread run//113//31
+Thread IPC Parameter Sending #//114//63
+java util concurrent SynchronousQueue poll//115//74
+sun management ThreadImpl getThreadInfo java//116//0
+at java io BufferedInputStream read//117//136
+at java io DataInputStream readInt//118//51
+java io DataInputStream read//119//124
+java lang Thread run//120//31
+java lang Object wait//121//69
+State TIMED WAITING//122//40
+Thread Reference Handler//123//56
+Thread Attach Listener//124//24
+Thread for syncLogs//125//54
+Thread communication thread//126//46
+Thread Signal Dispatcher//127//108

@@ -1,0 +1,45 @@
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//1//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 72679ms//2//1
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//3//167
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//4//147
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk//5//115
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//6//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//7//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//8//58
+WARN main org apache hadoop mapred YarnChild Exception running child mapreduce task reduce Shuffle$ShuffleError error in shuffle fetcher#//9//154
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//10//60
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//11//58
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//12//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//13//8
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//14//0
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token//15//83
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//16//82
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//17//154
+Caused by java io IOException There is not enough space on the disk//18//103
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//19//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//20//147
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//21//16
+at org apache hadoop mapreduce task reduce OnDiskMapOutput shuffle java//22//77
+INFO main org apache hadoop mapred YarnChild Executing with tokens//23//102
+at org apache hadoop mapreduce task reduce Shuffle run java//24//77
+at org apache hadoop mapreduce task reduce Fetcher run java//25//122
+at org apache hadoop mapreduce task reduce Fetcher copyMapOutput java//26//122
+INFO main org apache hadoop impl MetricsConfig loaded properties from//27//8
+at org apache hadoop mapreduce task reduce Fetcher copyFromHost java//28//122
+at org apache hadoop fs ChecksumFileSystem$ChecksumFSOutputSummer writeChunk ChecksumFileSystem java//29//26
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java//30//114
+at org apache hadoop fs FSDataOutputStream$PositionCache write FSDataOutputStream java//31//43
+at org apache hadoop mapred YarnChild$ run YarnChild java//32//41
+at org apache hadoop mapred ReduceTask run java//33//141
+at org apache hadoop security UserGroupInformation doAs java//34//128
+at org apache hadoop fs FSOutputSummer write java//35//43
+at org apache hadoop mapred YarnChild main java//36//141
+at org apache hadoop fs FSOutputSummer writeChecksumChunks java//37//128
+at java io FileOutputStream writeBytes Native Method//38//9
+at org apache hadoop fs FSOutputSummer java//39//43
+at javax security auth Subject doAs java//40//137
+at java security AccessController doPrivileged Native Method//41//9
+at java io BufferedOutputStream flushBuffer//42//13
+at java io BufferedOutputStream write//43//136
+at java io FileOutputStream write//44//136
+at java io DataOutputStream write//45//136

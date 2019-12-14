@@ -1,0 +1,53 @@
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//1//60
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes//2//160
+INFO main org apache hadoop mapreduce lib output FileOutputCommitter Saved of task 'attempt ' to hdfs msra sa pageout temporary//3//167
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2012ms//4//1
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl finalMerge called with in memory map outputs and on disk//5//0
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1318ms//6//1
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//7//147
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 855ms//8//1
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//9//167
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1420ms//10//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3361ms//11//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//12//78
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//13//60
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//14//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 108850ms//15//66
+INFO main org apache hadoop conf Configuration deprecation mapred skip on is deprecated Instead use mapreduce job skiprecords//16//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 11180ms//17//66
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//18//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 16337ms//19//66
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to 04IQ fareast corp microsoft com//20//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MININT fareast corp microsoft com with to//21//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MININT fareast corp microsoft com//22//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning 04IQ fareast corp microsoft com with to//23//78
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//24//8
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//25//58
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing//26//129
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//27//167
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//28//160
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce is interrupted Returning//29//58
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//30//83
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//31//0
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging segments bytes from memory into//32//120
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//33//82
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging files bytes from disk//34//120
+INFO main org apache hadoop mapred Task attempt is allowed to commit now//35//129
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//36//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//37//67
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system shutdown complete//38//111
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//39//147
+INFO main org apache hadoop impl MetricsSystemImpl Stopping ReduceTask metrics system//40//16
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system stopped//41//16
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//42//16
+INFO main org apache hadoop mapred Task 'attempt ' done//43//3
+INFO Thread org apache hadoop hdfs DFSClient Abandoning BP blk//44//97
+INFO main org apache hadoop mapred YarnChild Executing with tokens//45//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//46//8
+INFO main org apache hadoop mapred Merger Merging sorted segments//47//102
+INFO Thread org apache hadoop hdfs DFSClient Exception in createBlockOutputStream//48//90
+at org apache hadoop hdfs DFSOutputStream$DataStreamer run DFSOutputStream java//49//149
+at org apache hadoop hdfs DFSOutputStream$DataStreamer createBlockOutputStream DFSOutputStream java//50//117
+INFO Thread org apache hadoop hdfs DFSClient Excluding datanode//51//97
+at org apache hadoop hdfs DFSOutputStream$DataStreamer nextBlockOutputStream DFSOutputStream java//52//117
+java io IOException connect ack with firstBadLink as//53//158

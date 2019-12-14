@@ -1,0 +1,47 @@
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//1//145
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS//2//169
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries//3//33
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//4//60
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//5//167
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//6//147
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//7//58
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//8//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 15708ms//9//66
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to 04IQ fareast corp microsoft com//10//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning 04IQ fareast corp microsoft com with to//11//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce Exception in getting events//12//58
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//13//58
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//14//8
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//15//160
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//16//167
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//17//0
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//18//83
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//19//82
+Caused by java io IOException An existing connection was forcibly closed the remote host//20//36
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//21//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//22//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//23//147
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//24//16
+at org apache hadoop mapreduce task reduce EventFetcher run java//25//122
+at org apache hadoop mapreduce task reduce EventFetcher getMapCompletionEvents java//26//122
+INFO main org apache hadoop impl MetricsConfig loaded properties from//27//8
+INFO main org apache hadoop mapred YarnChild Executing with tokens//28//102
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//29//152
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//30//144
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//31//44
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//32//152
+at org apache hadoop ipc Client$Connection run Client java//33//15
+at org apache hadoop net NetUtils wrapException java//34//53
+at com sun proxy $ getMapCompletionEvents Unknown Source//35//12
+at org apache hadoop net SocketIOWithTimeout doIO java//36//53
+at org apache hadoop ipc Client call java//37//15
+at org apache hadoop net SocketInputStream read java//38//53
+at sun nio ch SocketDispatcher Native Method//39//164
+at sun nio ch SocketDispatcher read java//40//106
+at sun nio ch SocketChannelImpl read java//41//106
+at sun nio ch IOUtil read java//42//106
+at sun nio ch IOUtil readIntoNativeBuffer java//43//4
+at java io DataInputStream readInt//44//51
+at java io BufferedInputStream fill//45//51
+at java io FilterInputStream read//46//51
+at java io BufferedInputStream read//47//136

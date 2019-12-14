@@ -1,0 +1,69 @@
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries
+WARN DataStreamer for file out temporary attempt part block BP blk org apache hadoop hdfs DFSClient Error Recovery in pipeline datanode
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 19842ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1735ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 25305ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 33221ms
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl finalMerge called with in memory map outputs and on disk
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2012ms
+INFO main org apache hadoop conf Configuration deprecation mapred skip on is deprecated Instead use mapreduce job skiprecords
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Abandoning BP blk
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Exception in createBlockOutputStream
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce is interrupted Returning
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging segments bytes from memory into
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Excluding datanode
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold
+Caused by java io IOException An existing connection was forcibly closed the remote host
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging files bytes from disk
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient DFSOutputStream exception
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second
+java io IOException response ERROR for block BP blk from datanode
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started
+INFO main org apache hadoop mapred YarnChild Executing with tokens
+INFO main org apache hadoop impl MetricsConfig loaded properties from
+INFO main org apache hadoop mapred Merger Merging sorted segments
+at org apache hadoop hdfs DFSOutputStream$DataStreamer nextBlockOutputStream DFSOutputStream java
+at org apache hadoop hdfs DFSOutputStream$DataStreamer$ResponseProcessor run DFSOutputStream java
+at org apache hadoop mapred Task$TaskReporter run Task java
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java
+at org apache hadoop hdfs DFSOutputStream$DataStreamer run DFSOutputStream java
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java
+at org apache hadoop hdfs DFSOutputStream$DataStreamer createBlockOutputStream DFSOutputStream java
+at org apache hadoop ipc Client$Connection run Client java
+at org apache hadoop net SocketIOWithTimeout doIO java
+at org apache hadoop net SocketInputStream read java
+at org apache hadoop net NetUtils wrapException java
+java io IOException connect ack with firstBadLink as
+at org apache hadoop ipc Client call java
+at com sun proxy $ statusUpdate Unknown Source
+at sun nio ch SocketDispatcher read java
+at sun nio ch SocketDispatcher Native Method
+at sun nio ch IOUtil read java
+at sun nio ch SocketChannelImpl read java
+at sun nio ch IOUtil readIntoNativeBuffer java
+at java lang Thread run
+at java io DataInputStream readInt
+at java io FilterInputStream read
+at java io BufferedInputStream read
+at java io BufferedInputStream fill

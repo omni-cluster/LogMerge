@@ -1,0 +1,127 @@
+ java hadoop org apache INFO mapred to thread net communication Task on host exception NoRouteToHostException No route no further Communication from Host wiki timeout socket see more information; http failed details Route NoRouteToHost MININT For 
+ java hadoop org apache INFO mapred ; thread communication is io Task on host exception by local Communication IOException Host was the remote forcibly existing connection closed An host; destination Failed Details "MININT "; "" 
+ hadoop org apache INFO Client ipc ; to thread connect communication is retry tried time sleepTime server policy maxRetries Retrying RetryUpToMaximumCountWithFixedSleep MILLISECONDS Already 
+ hadoop org apache INFO mapred main mapreduce local for YarnChild msrabi dir usercache tmp nm cluster child application appcache 
+ hadoop org apache INFO mapred main for YarnChild retrying null now before again Sleeping Got 0ms 
+ hadoop org apache INFO main is metrics session id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapred main mapreduce YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO mapred main MapTask hdfs txt split sa msra Processing + 
+ java io host by IOException Caused was the remote forcibly existing connection closed An 
+ hadoop org apache INFO main is util on yarn ProcfsBasedProcessTree supported only currently Linux 
+ hadoop org apache INFO mapred thread communication Thread Task exception Communication Process Dump 
+ hadoop org apache INFO mapred main MapTask output collector class MapTask$MapOutputBuffer Map 
+ hadoop org apache INFO mapred main MapTask io mapreduce task sort mb 
+ java to net host NoRouteToHostException No by route no further Caused information 
+ hadoop org apache mapred thread communication retry Task killing attempt WARN Last 
+ hadoop org apache at INFO main impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO mapred main util Task yarn WindowsBasedProcessTree@ Using ResourceCalculatorProcessTree 
+ hadoop org apache INFO mapred main MapTask kvi kv equator RESET 
+ hadoop org apache INFO main MapTask metrics impl system MetricsSystemImpl started 
+ hadoop org apache INFO mapred ; main MapTask bufvoid bufstart bufend 
+ hadoop org apache INFO mapred ; main MapTask length kvstart kvend 
+ hadoop org apache INFO mapred ; main MapTask bufvoid bufstart 
+ hadoop org apache INFO mapred main MapTask output map Spilling 
+ hadoop org apache INFO mapred ; main MapTask length kvstart 
+ hadoop org apache INFO mapred main YarnChild with tokens Executing 
+ hadoop org apache INFO main impl from properties loaded MetricsConfig 
+ hadoop org apache at INFO mapred main MapTask soft limit 
+ java hadoop org apache at Client ipc Client$Connection setupIOstreams 
+ java hadoop org apache at Client ipc run Client$Connection 
+ java hadoop org apache at Client ipc read Client$Connection$PingInputStream 
+ java hadoop org apache at Client ipc Client$Connection setupConnection 
+ java hadoop org apache at Client ipc Client$Connection receiveRpcResponse 
+ java hadoop org apache hdfs PacketReceiver protocol datatransfer receiveNextPacket 
+ java hadoop org apache hdfs PacketReceiver protocol datatransfer doRead 
+ java hadoop org apache at ipc invoke WritableRpcEngine$Invoker WritableRpcEngine 
+ java hadoop org apache at Client ipc Client$Connection access$ 
+ hadoop org apache INFO mapred MapTask spill SpillThread Finished 
+ java hadoop org apache at net SocketInputStream performIO SocketInputStream$Reader 
+ java hadoop org apache hdfs PacketReceiver protocol datatransfer doReadFully 
+ java hadoop org apache hdfs PacketReceiver protocol datatransfer readChannelFully 
+ hadoop org apache INFO mapred main MapTask kvi EQUATOR 
+ java hadoop org apache at mapred run Task Task$TaskReporter 
+ java hadoop org apache at Client ipc getConnection 
+ java hadoop org apache at net connect NetUtils 
+ java hadoop org apache mapred MapTask run MapTask$MapOutputBuffer$SpillThread 
+ at sun nio ch Native Method SocketChannelImpl checkConnect 
+ java hadoop org apache run hdfs PeerCache PeerCache$ 
+ java hadoop org apache hdfs DFSInputStream doRead DFSInputStream$ByteArrayStrategy 
+ java hadoop org apache at net connect SocketIOWithTimeout 
+ at sun statusUpdate proxy com Unknown Source $ 
+ java hadoop org apache at net NetUtils wrapException 
+ java hadoop org apache at Client ipc call 
+ java hadoop org apache at net read SocketInputStream 
+ java hadoop org apache at net SocketIOWithTimeout doIO 
+ java hadoop org apache net SocketIOWithTimeout select SocketIOWithTimeout$SelectorPool 
+ java hadoop org apache mapred run Task Task$TaskReporter 
+ java hadoop org apache at net NetUtils wrapWithMessage 
+ java hadoop org apache run hdfs PeerCache 
+ java at sun nio ch read SocketChannelImpl 
+ java at sun nio ch read IOUtil 
+ java sun nio ch WindowsSelectorImpl WindowsSelectorImpl$SubSelector poll 
+ java hadoop org apache hdfs DFSInputStream readBuffer 
+ java hadoop org apache util ReflectionUtils printThreadInfo 
+ java sun nio ch access$ WindowsSelectorImpl WindowsSelectorImpl$SubSelector 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ java hadoop org apache hdfs DFSInputStream readWithStrategy 
+ java util concurrent locks AbstractQueuedSynchronizer$ConditionObject AbstractQueuedSynchronizer awaitNanos 
+ java hadoop org apache net read SocketInputStream 
+ java sun net run dns ResolverConfigurationImpl ResolverConfigurationImpl$AddressChangeListener 
+ java hadoop org apache hdfs read DFSInputStream 
+ java hadoop org apache hdfs PeerCache access$ 
+ java at sun nio ch read SocketDispatcher 
+ java hadoop org apache util ReflectionUtils logThreadInfo 
+ java util concurrent on locks Waiting AbstractQueuedSynchronizer$ConditionObject@ 
+ java at sun nio ch SocketChannelImpl finishConnect 
+ java hadoop org apache net SocketIOWithTimeout doIO 
+ java util concurrent locks AbstractQueuedSynchronizer$ConditionObject AbstractQueuedSynchronizer await 
+ at sun nio ch Native Method SocketDispatcher 
+ java Thread lang Native Method sleep 
+ sun nio ch Native Method WindowsSelectorImpl$SubSelector 
+ sun Native Method park misc Unsafe 
+ java util concurrent locks LockSupport park 
+ java run lang ref Finalizer$FinalizerThread Finalizer 
+ java sun nio ch SelectorImpl lockAndDoSelect 
+ java hadoop org apache hdfs read 
+ java util concurrent SynchronousQueue SynchronousQueue$TransferStack transfer 
+ java at sun reflect newInstance DelegatingConstructorAccessorImpl 
+ java util concurrent SynchronousQueue SynchronousQueue$TransferStack awaitFulfill 
+ java sun nio ch WindowsSelectorImpl doSelect 
+ java util concurrent locks LockSupport parkNanos 
+ java at lang reflect newInstance Constructor 
+ java hadoop org apache hdfs readNextPacket 
+ java util run concurrent ThreadPoolExecutor ThreadPoolExecutor$Worker 
+ hadoop org apache Thread hdfs PeerCache@ 
+ java lang Native Method Object wait 
+ java lang on ref Waiting Reference$Lock@ 
+ Thread for metrics Timer system 'MapTask' 
+ at sun Native Method reflect NativeConstructorAccessorImpl 
+ java lang on ref Waiting ReferenceQueue$Lock@ 
+ java sun nio ch SelectorImpl select 
+ sun net Native Method dns ResolverConfigurationImpl 
+ java run lang ref Reference Reference$ReferenceHandler 
+ java at sun reflect newInstance NativeConstructorAccessorImpl 
+ java util concurrent take ScheduledThreadPoolExecutor$DelayedWorkQueue ScheduledThreadPoolExecutor 
+ java at Thread run lang 
+ Thread Sending Parameter IPC # 
+ java sun ThreadImpl management getThreadInfo 
+ java at io DataInputStream readInt 
+ java lang ref ReferenceQueue remove 
+ java at io BufferedInputStream fill 
+ java at read io FilterInputStream 
+ java util Timer TimerThread mainLoop 
+ java at read io BufferedInputStream 
+ java util run Timer TimerThread 
+ java util concurrent ThreadPoolExecutor runWorker 
+ java util concurrent SynchronousQueue poll 
+ java util concurrent ThreadPoolExecutor getTask 
+ sun Native Method ThreadImpl management 
+ java lang Object wait 
+ java read io DataInputStream 
+ java Thread run lang 
+ Thread for syncLogs 
+ Thread Listener Attach 
+ Thread Signal Dispatcher 
+ WAITING TIMED State 
+ thread communication Thread 
+ Thread Reference Handler 

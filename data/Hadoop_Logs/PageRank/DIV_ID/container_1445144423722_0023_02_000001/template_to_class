@@ -1,0 +1,44 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty \webapp//1//5
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//2//89
+WARN main org apache hadoop mapreduce app MRAppMaster Could not parse the old history file Will have AMinfos//3//82
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//4//34
+WARN main org apache hadoop mapreduce app MRAppMaster Unable to parse prior job history aborting recovery//5//8
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//6//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//7//34
+java io IOException An existing connection was forcibly closed by the remote host//8//36
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//9//8
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp//10//17
+at org apache hadoop mapreduce app MRAppMaster$ run MRAppMaster java//11//98
+at org apache hadoop mapreduce app MRAppMaster main java//12//98
+at org apache hadoop ipc Server$Listener doRead Server java//13//61
+at org apache hadoop mapreduce jobhistory EventReader init java//14//72
+at org apache hadoop mapreduce app MRAppMaster parsePreviousJobHistory java//15//98
+history done intermediate msrabi job pagerank SUCCEEDED default jhist//16//17
+at org apache hadoop ipc Server$Listener$Reader run Server java//17//61
+at org apache hadoop mapreduce app MRAppMaster serviceStart java//18//98
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//19//61
+at org apache hadoop mapreduce app MRAppMaster processRecovery java//20//98
+at org apache hadoop mapreduce app MRAppMaster readJustAMInfos java//21//98
+at org apache hadoop ipc Server$Connection readAndProcess Server java//22//61
+at org apache hadoop mapreduce app MRAppMaster initAndStartAppMaster java//23//98
+at org apache hadoop mapreduce jobhistory JobHistoryParser parse java//24//153
+history done intermediate msrabi job conf xml tmp//25//130
+at org apache hadoop security UserGroupInformation doAs java//26//128
+at org apache hadoop service AbstractService start java//27//126
+at org apache hadoop ipc Server access$ java//28//15
+java io IOException Incompatible event log version null//29//101
+at org apache hadoop ipc Server channelRead java//30//61
+Container exited with non zero exit code//31//119
+Container killed on request Exit code is//32//113
+at sun nio ch IOUtil read java//33//106
+at sun nio ch SocketDispatcher Native Method//34//164
+at java security AccessController doPrivileged Native Method//35//9
+at javax security auth Subject doAs java//36//137
+at sun nio ch SocketChannelImpl read java//37//106
+history done intermediate msrabi job conf xml//38//130
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//39//64
+at sun nio ch IOUtil readIntoNativeBuffer java//40//4
+at sun nio ch SocketDispatcher read java//41//106
+INFO main org mortbay log jetty//42//64
+history done intermediate msrabi job summary//43//70
+INFO org apache hadoop//44//35

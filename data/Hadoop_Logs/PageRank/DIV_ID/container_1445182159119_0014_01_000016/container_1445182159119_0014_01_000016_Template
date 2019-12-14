@@ -1,0 +1,49 @@
+ java microsoft fareast corp SA is io by local host IOException was the remote on forcibly existing connection closed An host; exception destination com" Host Failed Details ; "MSRA "; "04iq 
+ hadoop org apache fetcher# INFO mapreduce task reduce attempt for Fetcher job url sent reply received mapOutput?job hash and &reduce &map 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com SA ShuffleSchedulerImpl MSRA by in freed 919ms 
+ hadoop org apache fetcher# INFO mapreduce task reduce to attempt map output of Fetcher shuffle len decomp about DISK 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com SA ShuffleSchedulerImpl MSRA by in freed 2034ms 
+ hadoop org apache INFO mapreduce for main mapred local YarnChild msrabi dir usercache tmp nm cluster child application appcache 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com SA ShuffleSchedulerImpl MSRA by in freed 668ms 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com SA ShuffleSchedulerImpl MSRA by in freed 2193ms 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com SA ShuffleSchedulerImpl MSRA by in freed 958ms 
+ hadoop org apache fetcher# INFO mapreduce task reduce to microsoft fareast corp com SA ShuffleSchedulerImpl MSRA of assigned 
+ hadoop org apache fetcher# INFO mapreduce task reduce to microsoft fareast corp com SA ShuffleSchedulerImpl MSRA with Assigning 
+ hadoop org apache INFO mapreduce task reduce attempt for map EventFetcher fetching Map Events Completion Got outputs new 
+ hadoop org apache fetcher# INFO mapreduce task reduce to attempt is maxSingleShuffleLimit MergeManagerImpl than since greater disk Shuffling 
+ hadoop org apache INFO mapreduce task reduce for EventFetcher in fetching Map Events Completion getting events Exception 
+ hadoop org apache fetcher# INFO mapreduce task reduce attempt for map output from bytes Read OnDiskMapOutput 
+ hadoop org apache INFO is main session metrics id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapreduce task reduce attempt for EventFetcher fetching Map Events Completion started Thread 
+ hadoop org apache INFO for main mapred YarnChild Got retrying null now before again Sleeping 0ms 
+ hadoop org apache INFO mapreduce main job mapred YarnChild token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO mapreduce task reduce main maxSingleShuffleLimit MergeManagerImpl mergeThreshold memoryLimit memToMemMergeOutputsThreshold ioSortFactor MergerManager 
+ hadoop org apache INFO is main yarn util on ProcfsBasedProcessTree supported only currently Linux 
+ java io by host IOException was the remote forcibly existing connection closed An Caused 
+ hadoop org apache INFO mapreduce task reduce main mapred Using ReduceTask ShuffleConsumerPlugin Shuffle@ 
+ hadoop org apache INFO at main impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO main mapred yarn util Using WindowsBasedProcessTree@ Task ResourceCalculatorProcessTree 
+ hadoop org apache INFO main impl started metrics ReduceTask MetricsSystemImpl system 
+ hadoop org apache INFO main from impl properties loaded MetricsConfig 
+ hadoop org apache mapreduce task reduce java at EventFetcher getMapCompletionEvents 
+ hadoop org apache INFO main with mapred YarnChild tokens Executing 
+ hadoop org apache mapreduce task reduce java at EventFetcher run 
+ hadoop org apache java at ipc invoke WritableRpcEngine$Invoker WritableRpcEngine 
+ hadoop org apache java at Client ipc Client$Connection receiveRpcResponse 
+ hadoop org apache java at net SocketInputStream performIO SocketInputStream$Reader 
+ hadoop org apache java at read Client ipc Client$Connection$PingInputStream 
+ hadoop org apache java at Client ipc run Client$Connection 
+ hadoop org apache java at net NetUtils wrapException 
+ hadoop org apache java at net SocketIOWithTimeout doIO 
+ hadoop org apache java at Client ipc call 
+ hadoop org apache java at read net SocketInputStream 
+ at com sun getMapCompletionEvents proxy Unknown Source $ 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ java at read sun nio ch IOUtil 
+ java at read sun nio ch SocketDispatcher 
+ at sun nio ch SocketDispatcher Native Method 
+ java at read sun nio ch SocketChannelImpl 
+ java at io DataInputStream readInt 
+ java at io BufferedInputStream fill 
+ java at read io FilterInputStream 
+ java at read io BufferedInputStream 

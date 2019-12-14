@@ -1,0 +1,107 @@
+2015-10-19 15:57:37,023 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-19 15:57:37,164 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-19 15:57:37,164 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-10-19 15:57:37,195 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-19 15:57:37,195 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445182159119_0015, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-19 15:57:37,367 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-19 15:57:38,055 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445182159119_0015
+2015-10-19 15:57:38,492 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-19 15:57:39,227 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-19 15:57:39,242 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@db57326
+2015-10-19 15:57:39,274 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7862f56
+2015-10-19 15:57:39,305 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=130652568, maxSingleShuffleLimit=32663142, mergeThreshold=86230696, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-10-19 15:57:39,305 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-10-19 15:57:39,336 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of FAILED map-task: 'attempt_1445182159119_0015_m_000006_0'
+2015-10-19 15:57:39,336 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of FAILED map-task: 'attempt_1445182159119_0015_m_000005_0'
+2015-10-19 15:57:39,336 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:57:39,336 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:57:39,336 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:57:39,524 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000009_0 sent hash and received reply
+2015-10-19 15:57:39,524 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000009_0: Shuffling to disk since 56695786 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:57:39,539 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000009_0 decomp: 56695786 len: 56695790 to DISK
+2015-10-19 15:57:40,133 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 56695790 bytes from map-output for attempt_1445182159119_0015_m_000009_0
+2015-10-19 15:57:40,149 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 822ms
+2015-10-19 15:58:30,237 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:58:30,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:58:30,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:58:30,252 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000002_0 sent hash and received reply
+2015-10-19 15:58:30,252 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000002_0: Shuffling to disk since 60514392 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:58:30,252 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000002_0 decomp: 60514392 len: 60514396 to DISK
+2015-10-19 15:58:30,581 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60514396 bytes from map-output for attempt_1445182159119_0015_m_000002_0
+2015-10-19 15:58:30,612 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 372ms
+2015-10-19 15:58:32,628 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:58:32,628 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:58:32,628 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:58:32,643 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000001_0 sent hash and received reply
+2015-10-19 15:58:32,643 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000001_0: Shuffling to disk since 60515836 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:58:32,643 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000001_0 decomp: 60515836 len: 60515840 to DISK
+2015-10-19 15:58:32,971 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60515840 bytes from map-output for attempt_1445182159119_0015_m_000001_0
+2015-10-19 15:58:32,987 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 355ms
+2015-10-19 15:58:40,237 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:58:40,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:58:40,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:58:40,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000000_0 sent hash and received reply
+2015-10-19 15:58:40,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000000_0: Shuffling to disk since 60515385 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:58:40,237 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000000_0 decomp: 60515385 len: 60515389 to DISK
+2015-10-19 15:58:40,597 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60515389 bytes from map-output for attempt_1445182159119_0015_m_000000_0
+2015-10-19 15:58:40,597 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 371ms
+2015-10-19 15:58:41,378 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:58:41,378 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:58:41,378 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:58:41,378 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000007_0 sent hash and received reply
+2015-10-19 15:58:41,378 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000007_0: Shuffling to disk since 60517368 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:58:41,393 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000007_0 decomp: 60517368 len: 60517372 to DISK
+2015-10-19 15:58:41,909 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60517372 bytes from map-output for attempt_1445182159119_0015_m_000007_0
+2015-10-19 15:58:41,909 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 543ms
+2015-10-19 15:59:02,680 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of KILLED map-task: 'attempt_1445182159119_0015_m_000003_1'
+2015-10-19 15:59:30,931 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:59:30,931 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:59:30,931 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:59:30,931 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000006_1 sent hash and received reply
+2015-10-19 15:59:30,946 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000006_1: Shuffling to disk since 60515100 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:59:30,946 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000006_1 decomp: 60515100 len: 60515104 to DISK
+2015-10-19 15:59:31,728 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60515104 bytes from map-output for attempt_1445182159119_0015_m_000006_1
+2015-10-19 15:59:31,743 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 820ms
+2015-10-19 15:59:49,448 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:59:49,448 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:59:49,448 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:59:49,464 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000004_1 sent hash and received reply
+2015-10-19 15:59:49,464 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000004_1: Shuffling to disk since 60513765 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:59:49,464 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000004_1 decomp: 60513765 len: 60513769 to DISK
+2015-10-19 15:59:50,073 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60513769 bytes from map-output for attempt_1445182159119_0015_m_000004_1
+2015-10-19 15:59:50,151 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 704ms
+2015-10-19 15:59:52,651 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 15:59:52,651 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 15:59:52,651 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 15:59:52,651 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000005_1 sent hash and received reply
+2015-10-19 15:59:52,651 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000005_1: Shuffling to disk since 60514806 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 15:59:52,667 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000005_1 decomp: 60514806 len: 60514810 to DISK
+2015-10-19 15:59:53,276 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60514810 bytes from map-output for attempt_1445182159119_0015_m_000005_1
+2015-10-19 15:59:53,292 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 647ms
+2015-10-19 16:00:14,330 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 16:00:14,330 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 16:00:14,330 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 16:00:14,330 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000008_1 sent hash and received reply
+2015-10-19 16:00:14,330 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000008_1: Shuffling to disk since 60516677 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 16:00:14,330 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000008_1 decomp: 60516677 len: 60516681 to DISK
+2015-10-19 16:00:15,080 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60516681 bytes from map-output for attempt_1445182159119_0015_m_000008_1
+2015-10-19 16:00:15,096 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 771ms
+2015-10-19 16:01:14,451 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445182159119_0015_r_000000_0: Got 1 new map-outputs
+2015-10-19 16:01:14,451 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MININT-FNANLI5.fareast.corp.microsoft.com:13562 with 1 to fetcher#5
+2015-10-19 16:01:14,451 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to MININT-FNANLI5.fareast.corp.microsoft.com:13562 to fetcher#5
+2015-10-19 16:01:14,467 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445182159119_0015&reduce=0&map=attempt_1445182159119_0015_m_000003_0 sent hash and received reply
+2015-10-19 16:01:14,467 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445182159119_0015_m_000003_0: Shuffling to disk since 60515787 is greater than maxSingleShuffleLimit (32663142)
+2015-10-19 16:01:14,482 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1445182159119_0015_m_000003_0 decomp: 60515787 len: 60515791 to DISK
+2015-10-19 16:01:30,733 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.OnDiskMapOutput: Read 60515791 bytes from map-output for attempt_1445182159119_0015_m_000003_0
+2015-10-19 16:01:30,749 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: MININT-FNANLI5.fareast.corp.microsoft.com:13562 freed by fetcher#5 in 16299ms
+2015-10-19 16:01:30,749 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2015-10-19 16:01:30,749 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 0 in-memory map-outputs and 10 on-disk map-outputs
+2015-10-19 16:01:30,764 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 10 files, 601334942 bytes from disk
+2015-10-19 16:01:30,764 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2015-10-19 16:01:30,780 INFO [main] org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2015-10-19 16:01:30,796 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 601334842 bytes
+2015-10-19 16:01:30,983 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-10-19 16:02:34,148 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1445182159119_0015_r_000000_0 is done. And is in the process of committing
+2015-10-19 16:02:34,210 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1445182159119_0015_r_000000_0 is allowed to commit now
+2015-10-19 16:02:34,226 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1445182159119_0015_r_000000_0' to hdfs://msra-sa-41:9000/pageout/out5/_temporary/1/task_1445182159119_0015_r_000000
+2015-10-19 16:02:34,273 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1445182159119_0015_r_000000_0' done.

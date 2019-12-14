@@ -1,0 +1,51 @@
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "04iq fareast corp microsoft com" ;//1//20
+INFO communication thread org apache hadoop ipc Client Retrying connect to server 04iq fareast corp microsoft com Already tried time ; maxRetries//2//33
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes//3//160
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//4//147
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//5//160
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing//6//129
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//7//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//8//83
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//9//22
+Caused by java io IOException An existing connection was forcibly closed the remote host//10//36
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//11//82
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//12//147
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//13//67
+INFO main org apache hadoop mapred MapTask Starting flush of map output//14//67
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//15//3
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//16//154
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//17//16
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//18//25
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//19//25
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//20//25
+INFO main org apache hadoop mapred Merger Merging sorted segments//21//102
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//22//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//23//8
+INFO main org apache hadoop mapred MapTask Spilling map output//24//102
+INFO main org apache hadoop mapred MapTask soft limit at//25//75
+INFO main org apache hadoop mapred YarnChild Executing with tokens//26//102
+INFO main org apache hadoop mapred MapTask kvstart ; length//27//25
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//28//44
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//29//152
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//30//152
+at org apache hadoop ipc Client$Connection run Client java//31//15
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//32//144
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//33//102
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//34//75
+INFO main org apache hadoop mapred MapTask Finished spill//35//75
+at org apache hadoop mapred Task$TaskReporter run Task java//36//91
+at org apache hadoop ipc Client call java//37//15
+at org apache hadoop net NetUtils wrapException java//38//53
+at com sun proxy $ statusUpdate Unknown Source//39//12
+at org apache hadoop net SocketIOWithTimeout doIO java//40//53
+at org apache hadoop net SocketInputStream read java//41//53
+at sun nio ch SocketChannelImpl read java//42//106
+at sun nio ch SocketDispatcher read java//43//106
+at sun nio ch SocketDispatcher Native Method//44//164
+at sun nio ch IOUtil readIntoNativeBuffer java//45//4
+at sun nio ch IOUtil read java//46//106
+at java io BufferedInputStream fill//47//51
+at java io FilterInputStream read//48//51
+at java io BufferedInputStream read//49//136
+at java lang Thread run//50//31
+at java io DataInputStream readInt//51//51

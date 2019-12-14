@@ -1,0 +1,46 @@
+WARN main org apache hadoop mapred YarnChild Exception running child util DiskChecker$DiskErrorException Could not find any valid local directory for output attempt file out//1//82
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//2//147
+WARN main org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt//3//89
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//4//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//5//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//6//83
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//7//82
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//8//22
+INFO main org apache hadoop mapred MapTask Ignoring exception during close for MapTask$NewOutputCollector@//9//147
+INFO main org apache hadoop mapred Task Runnning cleanup for the task//10//154
+INFO main org apache hadoop mapred MapTask Starting flush of map output//11//67
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//12//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//13//147
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//14//154
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system shutdown complete//15//111
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//16//3
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//17//25
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//18//25
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//19//25
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system stopped//20//16
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//21//16
+INFO main org apache hadoop impl MetricsSystemImpl Stopping MapTask metrics system//22//16
+INFO main org apache hadoop mapred YarnChild Executing with tokens//23//102
+INFO main org apache hadoop mapred MapTask Spilling map output//24//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//25//8
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//26//25
+INFO main org apache hadoop mapred MapTask kvstart ; length//27//25
+INFO main org apache hadoop mapred MapTask soft limit at//28//75
+at org apache hadoop mapred YarnChild$ run YarnChild java//29//41
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//30//102
+at org apache hadoop mapred MapTask$MapOutputBuffer flush MapTask java//31//41
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//32//75
+at org apache hadoop fs LocalDirAllocator$AllocatorPerContext getLocalPathForWrite LocalDirAllocator java//33//128
+at org apache hadoop mapred MapTask$MapOutputBuffer mergeParts MapTask java//34//41
+at org apache hadoop mapred MapTask$NewOutputCollector close MapTask java//35//41
+INFO main org apache hadoop mapred MapTask Finished spill//36//75
+at org apache hadoop mapred MapTask run java//37//141
+at org apache hadoop security UserGroupInformation doAs java//38//128
+at org apache hadoop mapred MapTask closeQuietly java//39//41
+at org apache hadoop mapred YarnOutputFiles getOutputFileForWrite java//40//21
+at org apache hadoop fs LocalDirAllocator getLocalPathForWrite java//41//128
+at org apache hadoop mapred MapTask runNewMapper java//42//41
+at org apache hadoop mapred YarnChild main java//43//141
+at java security AccessController doPrivileged Native Method//44//9
+at javax security auth Subject doAs java//45//137
+java lang NullPointerException//46//28

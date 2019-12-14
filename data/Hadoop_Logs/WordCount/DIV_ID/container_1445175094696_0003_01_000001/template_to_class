@@ -1,0 +1,61 @@
+INFO Thread org apache hadoop service AbstractService Service mapreduce app MRAppMaster failed in state STOPPED; cause yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost//1//39
+INFO Thread org apache hadoop service AbstractService Service JobHistoryEventHandler failed in state STOPPED; cause yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost//2//39
+WARN Thread org apache hadoop service CompositeService When stopping the JobHistoryEventHandler yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost//3//39
+org apache hadoop yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost//4//39
+Caused by java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost//5//39
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt cleanup failed for container java lang IllegalArgumentException net UnknownHostException MSRA SA fareast corp microsoft com//6//27
+java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost//7//39
+INFO Socket Reader # for port org apache hadoop ipc Server readAndProcess from client threw exception java io IOException An existing connection was forcibly closed by the remote host//8//20
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "msra sa " ;//9//145
+java io IOException Failed on local exception net SocketException Permission denied no further information; Host Details host is "MININT "; destination "msra sa " ;//10//101
+WARN Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl cleanup failed for container java lang IllegalArgumentException net UnknownHostException MSRA SA fareast corp microsoft com//11//22
+java io IOException Failed on local exception Couldn' set up IO streams; Host Details host is "MININT "; destination "msra sa " ;//12//101
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty \webapp//13//5
+INFO main org apache hadoop mapreduce app client MRClientService Instantiated at MININT fareast corp microsoft com//14//151
+Caused by java io IOException An existing connection was forcibly closed the remote host//15//36
+INFO main org apache hadoop yarn client RMProxy Connecting to ResourceManager at msra sa//16//50
+INFO main org apache hadoop ipc CallQueueManager Using callQueue class java util concurrent LinkedBlockingQueue//17//147
+INFO main org apache hadoop yarn webapp WebApps Web app mapreduce started at//18//49
+java io IOException An existing connection was forcibly closed by the remote host//19//36
+Caused by java net NoRouteToHostException No route to host no further information//20//18
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//21//147
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//22//8
+Caused by java net UnknownHostException MSRA SA fareast corp microsoft com//23//93
+java io IOException response ERROR for block BP blk from datanode//24//162
+Caused by java io IOException Couldn' set up IO streams//25//79
+Caused by java net SocketException Permission denied no further information//26//52
+at com sun proxy $ updateBlockForPipeline Unknown Source//27//12
+at com sun proxy $ renewLease Unknown Source//28//12
+at com sun proxy $ allocate Unknown Source//29//12
+at com sun proxy $ finishApplicationMaster Unknown Source//30//12
+at sun nio ch SocketChannelImpl checkConnect Native Method//31//11
+at sun nio ch SocketDispatcher Native Method//32//164
+at sun nio ch IOUtil read java//33//106
+at sun nio ch Net checkAddress java//34//4
+at sun nio ch SocketChannelImpl read java//35//106
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//36//64
+Container killed on request Exit code is//37//113
+Container exited with non zero exit code//38//119
+at sun nio ch IOUtil readIntoNativeBuffer java//39//4
+at sun nio ch SocketChannelImpl finishConnect java//40//4
+at sun nio ch SocketChannelImpl connect java//41//4
+at sun nio ch SocketDispatcher read java//42//106
+at sun reflect invoke Unknown Source//43//99
+at sun reflect DelegatingConstructorAccessorImpl newInstance java//44//62
+at java lang reflect Method invoke//45//127
+at sun reflect NativeMethodAccessorImpl invoke java//46//148
+at sun reflect NativeConstructorAccessorImpl Native Method//47//71
+Caused by java nio channels UnresolvedAddressException//48//94
+at sun reflect NativeMethodAccessorImpl Native Method//49//71
+at sun reflect newInstance Unknown Source//50//99
+at sun reflect DelegatingMethodAccessorImpl invoke java//51//62
+at sun reflect NativeConstructorAccessorImpl newInstance java//52//148
+INFO main org mortbay log jetty//53//64
+at java lang reflect Constructor newInstance//54//62
+at java io DataInputStream readInt//55//51
+at java io BufferedInputStream fill//56//51
+at org apache hadoop java//57//85
+at java io FilterInputStream read//58//51
+at java lang Thread run//59//31
+at java io BufferedInputStream read//60//136
+org apache hadoop//61//35

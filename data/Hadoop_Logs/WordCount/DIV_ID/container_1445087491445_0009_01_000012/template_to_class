@@ -1,0 +1,26 @@
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of KILLED map 'attempt '//1//76
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//2//60
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//3//147
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//4//167
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//5//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 5379ms//6//66
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//7//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//8//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//9//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to 04IQ fareast corp microsoft com//10//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning 04IQ fareast corp microsoft com with to//11//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MININT fareast corp microsoft com with to//12//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MININT fareast corp microsoft com//13//78
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//14//8
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//15//167
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//16//160
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//17//58
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//18//83
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//19//0
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//20//82
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//21//154
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//22//147
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//23//67
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//24//16
+INFO main org apache hadoop mapred YarnChild Executing with tokens//25//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//26//8

@@ -1,0 +1,20 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty \webapp
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt
+java io IOException An existing connection was forcibly closed by the remote host
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+at org apache hadoop ipc Server$Listener$Reader run Server java
+at org apache hadoop ipc Server$Listener doRead Server java
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java
+at org apache hadoop ipc Server$Connection readAndProcess Server java
+at org apache hadoop ipc Server channelRead java
+at org apache hadoop ipc Server access$ java
+at sun nio ch SocketChannelImpl read java
+at sun nio ch IOUtil read java
+Container killed on request Exit code is
+at sun nio ch SocketDispatcher read java
+at sun nio ch SocketDispatcher Native Method
+Container exited with non zero exit code
+at sun nio ch IOUtil readIntoNativeBuffer java
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+INFO main org mortbay log jetty
+INFO org apache hadoop

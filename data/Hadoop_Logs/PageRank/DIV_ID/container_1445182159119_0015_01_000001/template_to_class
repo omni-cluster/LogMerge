@@ -1,0 +1,61 @@
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java io IOException There is not enough space the disk//1//133
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//2//89
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty dhf\webapp//3//5
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk//4//115
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java io IOException Spill failed//5//55
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//6//34
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//7//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//8//34
+java io IOException An existing connection was forcibly closed by the remote host//9//36
+Caused by java io IOException There is not enough space on the disk//10//103
+at org apache hadoop mapreduce lib map WrappedMapper$Context write WrappedMapper java//11//72
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//12//8
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp//13//17
+at org apache hadoop io serializer WritableSerialization$WritableSerializer serialize WritableSerialization java//14//26
+at org apache hadoop fs FSDataOutputStream$PositionCache close FSDataOutputStream java//15//43
+at org apache hadoop mapred MapTask$MapOutputBuffer checkSpillException MapTask java//16//41
+at org apache hadoop ipc Server$Connection readAndProcess Server java//17//61
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//18//61
+at org apache hadoop mapred MapTask$NewOutputCollector write MapTask java//19//41
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java//20//114
+at org apache hadoop mapred MapTask$MapOutputBuffer sortAndSpill MapTask java//21//41
+at org apache hadoop mapred MapTask$MapOutputBuffer access$ MapTask java//22//41
+at org apache hadoop mapred MapTask$MapOutputBuffer$Buffer write MapTask java//23//41
+at org apache hadoop ipc Server$Listener doRead Server java//24//61
+at org apache hadoop ipc Server$Listener$Reader run Server java//25//61
+history done intermediate msrabi job pagerank SUCCEEDED default jhist//26//17
+at org apache hadoop mapred MapTask$MapOutputBuffer collect MapTask java//27//41
+at org apache hadoop mapred MapTask$MapOutputBuffer$SpillThread run MapTask java//28//91
+at org apache hadoop mapred YarnChild$ run YarnChild java//29//41
+at org apache hadoop mapreduce task TaskInputOutputContextImpl write java//30//6
+at org apache hadoop mapred MapTask run java//31//141
+at org apache hadoop ipc Server channelRead java//32//61
+at org apache hadoop ipc Server access$ java//33//15
+at org apache hadoop fs FSDataOutputStream close java//34//43
+at org apache hadoop mapreduce Mapper run java//35//6
+at org apache hadoop mapred YarnChild main java//36//141
+at org apache hadoop mapred MapTask runNewMapper java//37//41
+at org apache hadoop io Text write java//38//42
+at org apache hadoop security UserGroupInformation doAs java//39//128
+history done intermediate msrabi job conf xml tmp//40//130
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//41//64
+history done intermediate msrabi job conf xml//42//130
+at javax security auth Subject doAs java//43//137
+at sun nio ch IOUtil read java//44//106
+at sun nio ch SocketDispatcher read java//45//106
+at java io FileOutputStream writeBytes Native Method//46//9
+at sun nio ch IOUtil readIntoNativeBuffer java//47//4
+at sun nio ch SocketDispatcher Native Method//48//164
+at java security AccessController doPrivileged Native Method//49//9
+Container exited with non zero exit code//50//119
+at sun nio ch SocketChannelImpl read java//51//106
+Container killed on request Exit code is//52//113
+INFO main org mortbay log jetty//53//64
+history done intermediate msrabi job summary//54//70
+at java io DataOutputStream write//55//136
+at java io BufferedOutputStream flushBuffer//56//13
+at java io BufferedOutputStream flush//57//13
+at java io FileOutputStream write//58//136
+at PageRank$MyMapper map PageRank java//59//11
+at java io FilterOutputStream close//60//139
+INFO org apache hadoop//61//35

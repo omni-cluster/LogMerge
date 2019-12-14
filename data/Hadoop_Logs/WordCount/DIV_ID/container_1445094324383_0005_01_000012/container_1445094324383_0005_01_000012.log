@@ -1,0 +1,21 @@
+2015-10-17 23:10:44,187 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-17 23:10:44,375 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-17 23:10:44,375 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-10-17 23:10:44,453 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 23:10:44,453 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445094324383_0005, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@3d05ffdb)
+2015-10-17 23:10:44,765 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 23:10:45,718 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445094324383_0005
+2015-10-17 23:10:47,125 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-17 23:10:49,422 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 23:10:49,531 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@17a80e30
+2015-10-17 23:10:49,797 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@64bfc93b
+2015-10-17 23:10:50,000 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=130652568, maxSingleShuffleLimit=32663142, mergeThreshold=86230696, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-10-17 23:10:50,312 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445094324383_0005_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-10-17 23:10:50,359 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1445094324383_0005_r_000000_0: Got 6 new map-outputs
+2015-10-17 23:10:50,468 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with 6 to fetcher#4
+2015-10-17 23:10:50,468 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 6 of 6 to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#4
+2015-10-17 23:10:50,875 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1445094324383_0005&reduce=0&map=attempt_1445094324383_0005_m_000000_0,attempt_1445094324383_0005_m_000005_0,attempt_1445094324383_0005_m_000003_0,attempt_1445094324383_0005_m_000001_0,attempt_1445094324383_0005_m_000004_0,attempt_1445094324383_0005_m_000002_0 sent hash and received reply
+2015-10-17 23:10:50,906 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: attempt_1445094324383_0005_m_000000_0: Shuffling to disk since 216988123 is greater than maxSingleShuffleLimit (32663142)
+2015-10-17 23:10:50,922 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#4 about to shuffle output of map attempt_1445094324383_0005_m_000000_0 decomp: 216988123 len: 216988127 to DISK
+2015-10-17 23:12:18,784 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of KILLED map-task: 'attempt_1445094324383_0005_m_000006_1'
+2015-10-17 23:12:19,831 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Ignoring obsolete output of KILLED map-task: 'attempt_1445094324383_0005_m_000008_1'

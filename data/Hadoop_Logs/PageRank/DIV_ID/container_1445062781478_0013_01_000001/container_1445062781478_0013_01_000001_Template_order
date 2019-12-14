@@ -1,0 +1,6 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty \webapp
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Container complete event for unknown container id
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+INFO main org mortbay log jetty
+INFO org apache hadoop

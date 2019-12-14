@@ -1,0 +1,21 @@
+ org hadoop apache attempt mapreduce # not sa msra Processor CommitterEvent temporary hdfs output lib FileOutputCommitter pageout delete WARN Could 
+ org hadoop INFO mapreduce to yarn main log mortbay file jar webapps vxgjfm\webapp share localbox jar! common \Users\msrabi\AppData\Local\Temp\Jetty SNAPSHOT Extract 
+ org hadoop apache mapreduce app event for RMCommunicator Allocator rm container RMContainerAllocator Container id unknown complete ERROR 
+ the java by remote was io host forcibly existing connection closed IOException An 
+ org INFO impl to main log mortbay via jLoggerAdapter jLog Logging 
+ org hadoop apache Server ipc java at Server$Listener$Reader doRunLoop 
+ org hadoop apache Server ipc java at readAndProcess Server$Connection 
+ org hadoop apache Server ipc java at Server$Listener$Reader run 
+ org hadoop apache Server ipc java at doRead Server$Listener 
+ org hadoop apache Server ipc java at channelRead 
+ org hadoop apache Server ipc java at access$ 
+ with Container code non zero exited exit 
+ java at sun nio ch IOUtil read 
+ java at sun nio ch read SocketChannelImpl 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ at sun nio ch SocketDispatcher Native Method 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ java at sun nio ch read SocketDispatcher 
+ on is request Container killed code Exit 
+ org INFO main log mortbay jetty 
+ org hadoop apache INFO 

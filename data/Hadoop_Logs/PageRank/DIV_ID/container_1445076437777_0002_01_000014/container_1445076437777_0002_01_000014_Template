@@ -1,0 +1,6 @@
+ hadoop org apache main INFO mapred YarnChild retrying null now for before again Sleeping Got 0ms 
+ hadoop org apache main INFO mapred YarnChild mapreduce job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache main INFO impl MetricsSystemImpl snapshot second period at Scheduled 
+ hadoop org apache main INFO impl MetricsSystemImpl system started metrics MapTask 
+ hadoop org apache main INFO mapred YarnChild with tokens Executing 
+ hadoop org apache main INFO impl properties loaded from MetricsConfig 

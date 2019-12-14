@@ -1,0 +1,6 @@
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//1//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//2//83
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//3//147
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//4//16
+INFO main org apache hadoop mapred YarnChild Executing with tokens//5//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//6//8

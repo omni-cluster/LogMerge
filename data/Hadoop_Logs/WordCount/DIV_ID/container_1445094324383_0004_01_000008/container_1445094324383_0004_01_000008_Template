@@ -1,0 +1,19 @@
+ hadoop org apache INFO mapreduce task reduce fetcher# for attempt job Fetcher url sent reply received mapOutput?job hash and &reduce &map 
+ hadoop org apache INFO mapreduce task reduce fetcher# to attempt map of Fetcher shuffle output len decomp about DISK 
+ hadoop org apache INFO mapreduce main for mapred YarnChild msrabi local dir usercache tmp nm cluster child application appcache 
+ hadoop org apache INFO mapreduce task reduce for EventFetcher attempt fetching Map Events Completion map Got outputs new 
+ hadoop org apache INFO mapreduce task reduce fetcher# to with microsoft fareast corp com ShuffleSchedulerImpl SA MSRA Assigning 
+ hadoop org apache INFO mapreduce task reduce fetcher# to of microsoft fareast corp com ShuffleSchedulerImpl SA MSRA assigned 
+ hadoop org apache INFO mapreduce task reduce fetcher# to attempt is maxSingleShuffleLimit MergeManagerImpl than since greater disk Shuffling 
+ hadoop org apache INFO mapreduce task reduce for EventFetcher attempt fetching Map Events Completion started Thread 
+ hadoop org apache INFO main for mapred YarnChild Got retrying null now before again Sleeping 0ms 
+ hadoop org apache INFO main is session metrics id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapreduce main task reduce maxSingleShuffleLimit MergeManagerImpl mergeThreshold memoryLimit memToMemMergeOutputsThreshold ioSortFactor MergerManager 
+ hadoop org apache INFO mapreduce main mapred YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO main is yarn util ProcfsBasedProcessTree supported only on currently Linux 
+ hadoop org apache INFO mapreduce main task reduce mapred Using ReduceTask ShuffleConsumerPlugin Shuffle@ 
+ hadoop org apache INFO main mapred yarn util Using WindowsBasedProcessTree@ Task ResourceCalculatorProcessTree 
+ hadoop org apache INFO main impl MetricsSystemImpl snapshot second period at Scheduled 
+ hadoop org apache INFO main impl started metrics ReduceTask MetricsSystemImpl system 
+ hadoop org apache INFO main impl properties loaded from MetricsConfig 
+ hadoop org apache INFO main mapred YarnChild with tokens Executing 

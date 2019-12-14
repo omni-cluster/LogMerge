@@ -1,0 +1,39 @@
+2015-10-19 14:26:03,929 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-19 14:26:04,132 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-19 14:26:04,132 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-10-19 14:26:04,226 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-19 14:26:04,226 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445182159119_0004, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@c5f5deb)
+2015-10-19 14:26:04,632 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-19 14:26:05,757 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445182159119_0004
+2015-10-19 14:26:07,664 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-19 14:26:09,398 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-19 14:26:09,664 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@c16af82
+2015-10-19 14:26:12,929 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://msra-sa-41:9000/wordcount2.txt:536870912+134217728
+2015-10-19 14:26:13,179 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-19 14:26:13,179 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-10-19 14:26:13,179 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-10-19 14:26:13,179 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-10-19 14:26:13,179 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-10-19 14:26:13,242 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-19 14:26:24,336 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-19 14:26:24,336 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 34177712; bufvoid = 104857600
+2015-10-19 14:26:24,336 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 13787308(55149232); length = 12427089/6553600
+2015-10-19 14:26:24,336 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 44663464 kvi 11165860(44663440)
+2015-10-19 14:26:43,649 FATAL [main] org.apache.hadoop.mapred.Task: Task attempt_1445182159119_0004_m_000004_0 failed : org.apache.hadoop.fs.FSError: java.io.IOException: There is not enough space on the disk
+2015-10-19 14:26:43,	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.write(RawLocalFileSystem.java:248)
+2015-10-19 14:26:43,	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+2015-10-19 14:26:43,	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+2015-10-19 14:26:43,	at java.io.FilterOutputStream.close(FilterOutputStream.java:157)
+2015-10-19 14:26:43,	at org.apache.hadoop.fs.FSDataOutputStream$PositionCache.close(FSDataOutputStream.java:72)
+2015-10-19 14:26:43,	at org.apache.hadoop.fs.FSDataOutputStream.close(FSDataOutputStream.java:106)
+2015-10-19 14:26:43,	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1663)
+2015-10-19 14:26:43,	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.access$900(MapTask.java:873)
+2015-10-19 14:26:43,	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:1525)
+2015-10-19 14:26:43,Caused by: java.io.IOException: There is not enough space on the disk
+2015-10-19 14:26:43,	at java.io.FileOutputStream.writeBytes(Native Method)
+2015-10-19 14:26:43,	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+2015-10-19 14:26:43,	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.write(RawLocalFileSystem.java:246)
+2015-10-19 14:26:43,	... 8 more
+2015-10-19 14:26:43,
+2015-10-19 14:26:43,
+2015-10-19 14:26:43,	... 8 more

@@ -1,0 +1,22 @@
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//1//147
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//2//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//3//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//4//83
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//5//82
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//6//22
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//7//3
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//8//154
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//9//147
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//10//67
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//11//16
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//12//25
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//13//25
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//14//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//15//8
+INFO main org apache hadoop mapred MapTask kvstart ; length//16//25
+INFO main org apache hadoop mapred MapTask soft limit at//17//75
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//18//25
+INFO main org apache hadoop mapred YarnChild Executing with tokens//19//102
+INFO main org apache hadoop mapred MapTask Spilling map output//20//102
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//21//102
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//22//75

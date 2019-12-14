@@ -1,0 +1,82 @@
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//1//20
+INFO communication thread org apache hadoop mapred Task Communication exception java net ConnectException Call From MSRA SA to minint fareast corp microsoft com failed on connection Connection timed out no further information; For more details see http wiki ConnectionRefused//2//169
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS//3//169
+INFO main org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS//4//169
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of KILLED map 'attempt '//5//76
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries//6//33
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//7//60
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes//8//160
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//9//147
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//10//167
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl finalMerge called with in memory map outputs and on disk//11//0
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//12//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//13//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in//14//1
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//15//60
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//16//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 65056ms//17//66
+INFO main org apache hadoop conf Configuration deprecation mapred skip on is deprecated Instead use mapreduce job skiprecords//18//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MININT fareast corp microsoft com//19//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MININT fareast corp microsoft com with to//20//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce is interrupted Returning//21//58
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//22//160
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing//23//129
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//24//58
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Exception in createBlockOutputStream//25//168
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Abandoning BP blk//26//168
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//27//8
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//28//167
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//29//0
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//30//83
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Excluding datanode//31//168
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging segments bytes from memory into//32//120
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//33//82
+Caused by java io IOException An existing connection was forcibly closed the remote host//34//36
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging files bytes from disk//35//120
+INFO main org apache hadoop mapred Merger Merging intermediate segments out of total//36//147
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//37//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//38//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//39//147
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//40//16
+Caused by java net ConnectException Connection timed out no further information//41//52
+INFO main org apache hadoop mapred Merger Merging sorted segments//42//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//43//8
+INFO main org apache hadoop mapred YarnChild Executing with tokens//44//102
+at org apache hadoop ipc Client$Connection setupConnection Client java//45//152
+at org apache hadoop hdfs DFSOutputStream$DataStreamer createBlockOutputStream DFSOutputStream java//46//117
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//47//144
+at org apache hadoop ipc Client$Connection setupIOstreams Client java//48//152
+at org apache hadoop mapred Task$TaskReporter run Task java//49//91
+at org apache hadoop ipc Client$Connection run Client java//50//15
+at org apache hadoop ipc Client$Connection access$ Client java//51//15
+at org apache hadoop hdfs DFSOutputStream$DataStreamer run DFSOutputStream java//52//149
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//53//152
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//54//152
+at org apache hadoop hdfs DFSOutputStream$DataStreamer nextBlockOutputStream DFSOutputStream java//55//117
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//56//44
+java io IOException connect ack with firstBadLink as//57//158
+at com sun proxy $ statusUpdate Unknown Source//58//12
+at sun nio ch SocketChannelImpl checkConnect Native Method//59//11
+at org apache hadoop net NetUtils connect java//60//131
+at org apache hadoop ipc Client call java//61//15
+at org apache hadoop net NetUtils wrapWithMessage java//62//53
+at org apache hadoop ipc Client getConnection java//63//152
+at org apache hadoop net NetUtils wrapException java//64//53
+at org apache hadoop net SocketIOWithTimeout connect java//65//131
+at org apache hadoop net SocketIOWithTimeout doIO java//66//53
+at org apache hadoop net SocketInputStream read java//67//53
+at sun nio ch IOUtil read java//68//106
+at sun nio ch SocketChannelImpl finishConnect java//69//4
+at sun nio ch SocketChannelImpl read java//70//106
+at sun nio ch SocketDispatcher read java//71//106
+at sun nio ch IOUtil readIntoNativeBuffer java//72//4
+at sun nio ch SocketDispatcher Native Method//73//164
+at sun reflect NativeConstructorAccessorImpl Native Method//74//71
+at sun reflect DelegatingConstructorAccessorImpl newInstance java//75//62
+at sun reflect NativeConstructorAccessorImpl newInstance java//76//148
+at java lang reflect Constructor newInstance//77//62
+at java io BufferedInputStream fill//78//51
+at java io DataInputStream readInt//79//51
+at java io BufferedInputStream read//80//136
+at java lang Thread run//81//31
+at java io FilterInputStream read//82//51

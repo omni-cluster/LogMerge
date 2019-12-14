@@ -1,0 +1,65 @@
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt failed due to FSError java io IOException There is not enough space the disk
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java io IOException There is not enough space the disk
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty kg\webapp
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java io IOException Spill failed
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Container complete event for unknown container id
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging
+java io IOException An existing connection was forcibly closed by the remote host
+Caused by java io IOException There is not enough space on the disk
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+at org apache hadoop mapreduce lib map WrappedMapper$Context write WrappedMapper java
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp
+at org apache hadoop io serializer WritableSerialization$WritableSerializer serialize WritableSerialization java
+at org apache hadoop mapred MapTask$MapOutputBuffer checkSpillException MapTask java
+at org apache hadoop mapred MapTask$MapOutputBuffer sortAndSpill MapTask java
+at org apache hadoop ipc Server$Listener doRead Server java
+at org apache hadoop mapred YarnChild$ run YarnChild java
+at org apache hadoop examples WordCount$TokenizerMapper map WordCount java
+at org apache hadoop mapreduce task TaskInputOutputContextImpl write java
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java
+at org apache hadoop mapred MapTask$MapOutputBuffer access$ MapTask java
+history done intermediate msrabi job word+count SUCCEEDED default jhist
+at org apache hadoop fs FSDataOutputStream$PositionCache close FSDataOutputStream java
+at org apache hadoop ipc Server$Listener$Reader run Server java
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java
+at org apache hadoop mapred MapTask$MapOutputBuffer$Buffer write MapTask java
+at org apache hadoop mapred MapTask$NewOutputCollector write MapTask java
+at org apache hadoop ipc Server$Connection readAndProcess Server java
+at org apache hadoop mapred MapTask$MapOutputBuffer$SpillThread run MapTask java
+at org apache hadoop mapred MapTask$MapOutputBuffer collect MapTask java
+at org apache hadoop mapred MapTask run java
+at org apache hadoop mapreduce Mapper run java
+at org apache hadoop io Text write java
+at org apache hadoop ipc Server channelRead java
+at org apache hadoop io WritableUtils writeVInt java
+at org apache hadoop mapred MapTask runNewMapper java
+at org apache hadoop mapred YarnChild main java
+at org apache hadoop fs FSDataOutputStream close java
+at org apache hadoop ipc Server access$ java
+at org apache hadoop io WritableUtils writeVLong java
+history done intermediate msrabi job conf xml tmp
+at org apache hadoop security UserGroupInformation doAs java
+at sun nio ch IOUtil readIntoNativeBuffer java
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+at javax security auth Subject doAs java
+at sun nio ch SocketChannelImpl read java
+Container exited with non zero exit code
+Container killed on request Exit code is
+at java io FileOutputStream writeBytes Native Method
+at sun nio ch SocketDispatcher read java
+history done intermediate msrabi job conf xml
+at java security AccessController doPrivileged Native Method
+at sun nio ch IOUtil read java
+at sun nio ch SocketDispatcher Native Method
+INFO main org mortbay log jetty
+history done intermediate msrabi job summary
+at java io FileOutputStream write
+at java io BufferedOutputStream flushBuffer
+at java io DataOutputStream writeByte
+at java io BufferedOutputStream flush
+at java io FilterOutputStream close
+INFO org apache hadoop

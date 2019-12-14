@@ -1,0 +1,28 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty \webapp//1//5
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//2//89
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//3//34
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//4//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//5//34
+java io IOException An existing connection was forcibly closed by the remote host//6//36
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//7//8
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp//8//17
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//9//61
+at org apache hadoop ipc Server$Listener$Reader run Server java//10//61
+at org apache hadoop ipc Server$Connection readAndProcess Server java//11//61
+history done intermediate msrabi job pagerank SUCCEEDED default jhist//12//17
+at org apache hadoop ipc Server$Listener doRead Server java//13//61
+at org apache hadoop ipc Server access$ java//14//15
+at org apache hadoop ipc Server channelRead java//15//61
+history done intermediate msrabi job conf xml tmp//16//130
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//17//64
+at sun nio ch IOUtil readIntoNativeBuffer java//18//4
+history done intermediate msrabi job conf xml//19//130
+at sun nio ch SocketDispatcher Native Method//20//164
+at sun nio ch IOUtil read java//21//106
+Container killed on request Exit code is//22//113
+at sun nio ch SocketChannelImpl read java//23//106
+Container exited with non zero exit code//24//119
+at sun nio ch SocketDispatcher read java//25//106
+INFO main org mortbay log jetty//26//64
+history done intermediate msrabi job summary//27//70
+INFO org apache hadoop//28//35

@@ -1,0 +1,45 @@
+ org hadoop apache handler attempt mapreduce Server on mapred IPC TaskAttemptListenerImpl task Task reduce exited in shuffle fetcher# error Shuffle$ShuffleError FATAL 
+ org hadoop apache attempt mapreduce not # sa msra hdfs Processor CommitterEvent temporary output lib FileOutputCommitter pageout delete WARN Could 
+ org hadoop INFO mapreduce to yarn main log mortbay file jar webapps share localbox kb\webapp jar! common \Users\msrabi\AppData\Local\Temp\Jetty SNAPSHOT Extract 
+ org hadoop apache on is not java the by io fs IOException space enough disk There Caused FSError 
+ java the by io IOException remote was host forcibly existing connection closed An 
+ on is not java the by io IOException space enough disk There Caused 
+ org INFO impl to main log mortbay via jLoggerAdapter jLog Logging 
+ org hadoop apache mapreduce java task at Shuffle reduce run 
+ org hadoop apache mapreduce java task at reduce Fetcher copyFromHost 
+ org hadoop apache mapreduce java task at reduce Fetcher copyMapOutput 
+ org hadoop apache mapreduce java task at reduce Fetcher run 
+ org hadoop apache mapreduce java task at reduce shuffle OnDiskMapOutput 
+ org hadoop apache java at write fs RawLocalFileSystem$LocalFSFileOutputStream RawLocalFileSystem 
+ org hadoop apache Server java at ipc readAndProcess Server$Connection 
+ org hadoop apache Server java at ipc doRead Server$Listener 
+ org hadoop apache Server java at ipc Server$Listener$Reader doRunLoop 
+ org hadoop apache java at fs writeChunk ChecksumFileSystem$ChecksumFSOutputSummer ChecksumFileSystem 
+ org hadoop apache mapred java at run YarnChild YarnChild$ 
+ org hadoop apache java at write fs FSDataOutputStream$PositionCache FSDataOutputStream 
+ org hadoop apache Server java at ipc run Server$Listener$Reader 
+ org hadoop apache mapred java at main YarnChild 
+ org hadoop apache Server java at ipc access$ 
+ org hadoop apache java at security doAs UserGroupInformation 
+ org hadoop apache mapred java at run ReduceTask 
+ org hadoop apache java at write fs FSOutputSummer 
+ org hadoop apache java at fs FSOutputSummer writeChecksumChunks 
+ org hadoop apache Server java at ipc channelRead 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ at sun nio ch Native Method SocketDispatcher 
+ org hadoop apache java at fs FSOutputSummer 
+ java at sun nio ch read SocketDispatcher 
+ java at io FileOutputStream Native Method writeBytes 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ with Container code non exited zero exit 
+ java at sun nio ch IOUtil read 
+ java at auth security doAs Subject javax 
+ java at sun nio ch read SocketChannelImpl 
+ on is request Container killed code Exit 
+ java at security Native Method doPrivileged AccessController 
+ org INFO main log mortbay jetty 
+ java at io write BufferedOutputStream 
+ java at io write DataOutputStream 
+ java at io BufferedOutputStream flushBuffer 
+ java at io write FileOutputStream 
+ org hadoop apache INFO 

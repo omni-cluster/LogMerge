@@ -1,0 +1,31 @@
+ hadoop org apache INFO main mapred of with the segments Merger total to size pass merge left last bytes Down 
+ hadoop org apache INFO main mapred mapreduce YarnChild msrabi local for dir usercache tmp nm cluster child application appcache 
+ hadoop org apache INFO main mapred Task is of the done process in committing attempt And 
+ hadoop org apache INFO main mapred YarnChild for retrying null now before again Sleeping Got 0ms 
+ hadoop org apache INFO main metrics is session id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO main mapred mapreduce YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO main is yarn util ProcfsBasedProcessTree supported only on currently Linux 
+ hadoop org apache INFO main mapred MapTask txt split sa msra hdfs Processing + 
+ hadoop org apache INFO main mapred MapTask output map of flush Starting 
+ hadoop org apache INFO main MapTask impl metrics MetricsSystemImpl system shutdown complete 
+ hadoop org apache INFO main impl MetricsSystemImpl at snapshot second period Scheduled 
+ hadoop org apache INFO main mapred Task yarn util WindowsBasedProcessTree@ Using ResourceCalculatorProcessTree 
+ hadoop org apache INFO main mapred MapTask output collector class MapTask$MapOutputBuffer Map 
+ hadoop org apache INFO main mapred MapTask mapreduce task sort mb io 
+ hadoop org apache INFO main MapTask impl metrics MetricsSystemImpl system started 
+ hadoop org apache INFO main MapTask impl metrics MetricsSystemImpl system Stopping 
+ hadoop org apache INFO main MapTask impl metrics MetricsSystemImpl system stopped 
+ hadoop org apache INFO main mapred MapTask ; length kvstart kvend 
+ hadoop org apache INFO main mapred MapTask ; bufvoid bufstart bufend 
+ hadoop org apache INFO main mapred MapTask kvi kv equator RESET 
+ hadoop org apache INFO main mapred MapTask at soft limit 
+ hadoop org apache INFO main impl properties loaded from MetricsConfig 
+ hadoop org apache INFO main mapred Task done 'attempt ' 
+ hadoop org apache INFO main mapred MapTask ; bufvoid bufstart 
+ hadoop org apache INFO main mapred segments Merger sorted Merging 
+ hadoop org apache INFO main mapred MapTask output map Spilling 
+ hadoop org apache INFO main mapred MapTask ; length kvstart 
+ hadoop org apache INFO main mapred YarnChild with tokens Executing 
+ hadoop org apache INFO main mapred MapTask spill Finished 
+ hadoop org apache INFO mapred MapTask spill Finished SpillThread 
+ hadoop org apache INFO main mapred MapTask kvi EQUATOR 

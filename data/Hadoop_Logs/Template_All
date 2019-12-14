@@ -1,0 +1,1141 @@
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 16138ms
+at org apache hadoop mapreduce app MRAppMaster serviceStart java
+Caused by java io IOException An existing connection was forcibly closed the remote host
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 822ms
+at org codehaus jackson impl Generator flush java
+WARN Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl cleanup failed for container java lang IllegalArgumentException net UnknownHostException 04IQ fareast corp microsoft com
+java io IOException Failed on local exception Couldn' set up IO streams; Host Details host is "MININT "; destination "msra sa " ;
+INFO main org apache hadoop mapreduce app rm RMContainerAllocator maxContainerCapability memory vCores
+at org apache hadoop mapreduce task reduce OnDiskMapOutput shuffle java
+Caused by java net ConnectException Connection timed out no further information
+history done intermediate msrabi job pagerank SUCCEEDED default jhist
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Container complete event for unknown container id
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1902ms
+at org apache hadoop mapred MapTask$MapOutputBuffer access$ MapTask java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 37975ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 547ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1104ms
+at java io FilterInputStream read
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 721ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 11180ms
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Shuffle port returned by ContainerManager for attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 542ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0007Job Transitioned from SETUP to RUNNING
+history done intermediate msrabi job word+count SUCCEEDED default jhist
+at org apache hadoop ipc RPC$Server call RPC java
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "" ;
+INFO main org apache hadoop mapreduce lib output FileOutputCommitter Saved of task 'attempt ' to hdfs msra sa out temporary
+at org apache hadoop mapreduce app rm RMContainerAllocator getResources java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 18068ms
+WARN Thread org apache hadoop service CompositeService When stopping the JobHistoryEventHandler yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Scheduling redundant attempt for task
+INFO main org apache hadoop mapreduce app job impl JobImpl 0019Job Transitioned from NEW to INITED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4978ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 63999ms
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "04iq fareast corp microsoft com" ;
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from ASSIGNED to RUNNING
+INFO Thread org apache hadoop hdfs DFSClient Abandoning BP blk
+java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl Calling for JobFinishedEvent
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from SUCCEEDED to SCHEDULED
+org apache hadoop hdfs protocol datatransfer PacketReceiver receiveNextPacket java
+java util zip updateBytes Native Method
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty \webapp
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 40729ms
+Caused by java io IOException Couldn' set up IO streams
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl TaskAttempt attempt using containerId container on NM MSRA SA fareast corp microsoft com
+INFO main org apache hadoop http adding path spec ws
+at org apache hadoop yarn state StateMachineFactory$MultipleInternalArc doTransition StateMachineFactory java
+Waiting on java util concurrent locks AbstractQueuedSynchronizer$ConditionObject@
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from SUCCESS CONTAINER CLEANUP to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 49702ms
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 24283ms
+at org apache hadoop fs FSOutputSummer write java
+at java io BufferedOutputStream flushBuffer
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty kb\webapp
+at org codehaus jackson impl Generator flushBuffer java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 18199ms
+INFO communication thread org apache hadoop ipc Client Retrying connect to server 04iq fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS
+at org apache hadoop mapreduce lib input LineRecordReader initialize java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 355ms
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app job TaskAttemptEventType for MRAppMaster$TaskAttemptEventDispatcher
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Moved tmp to done hdfs msra sa yarn staging
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 48957ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+at java net SocksSocketImpl connect
+INFO main org apache hadoop mapreduce jobhistory JobHistoryUtils Default file system hdfs msra sa
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty hrelxr\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 583ms
+at org apache hadoop mapreduce task TaskInputOutputContextImpl write java
+at org apache avro generic GenericDatumWriter writeRecord java
+Caused by java io IOException There is not enough space on the disk
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient DFSOutputStream exception
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 704ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8388ms
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0008Job Transitioned from RUNNING to COMMITTING
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 26178ms
+INFO RMCommunicator Allocator org apache hadoop yarn util RackResolver Resolved 04IQ fareast corp microsoft com to default rack
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 16065ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 9171ms
+org apache hadoop hdfs DFSInputStream readBuffer java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 520671ms
+at org apache hadoop hdfs DFSOutputStream$DataStreamer$ResponseProcessor run DFSOutputStream java
+INFO main org apache hadoop mapreduce jobhistory JobHistoryEventHandler Emitting job history data to the timeline server is not enabled
+WARN main org apache hadoop hdfs DFSClient Failed to connect for block deadNodes and continue java net ConnectException Connection timed out no further information
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app job JobEventType for MRAppMaster$JobEventDispatcher
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8745ms
+at org apache hadoop mapreduce task reduce EventFetcher getMapCompletionEvents java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 565ms
+at org apache hadoop yarn state StateMachineFactory$InternalStateMachine doTransition StateMachineFactory java
+INFO Thread org apache hadoop mapreduce app MRAppMaster We are finishing cleanly so this is the last retry
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 78797ms
+INFO main org apache hadoop mapred MapTask Finished spill
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator After Scheduling PendingReds ScheduledMaps ScheduledReds AssignedMaps AssignedReds CompletedMaps CompletedReds ContAlloc ContRel HostLocal RackLocal
+WARN main org apache hadoop hdfs DFSClient DFS chooseDataNode got # IOException will wait for msec
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 9032ms
+at com sun proxy $ finishApplicationMaster Unknown Source
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1227ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6591ms
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 877ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 1497ms
+INFO communication thread org apache hadoop ipc Client Retrying connect to server 04iq fareast corp microsoft com Already tried time ; maxRetries
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler notified that forceJobCompletion is false
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@
+at org apache hadoop mapreduce task reduce Fetcher connect java
+INFO main org apache hadoop mapreduce app rm RMContainerRequestor blacklistDisablePercent is
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1657ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to KILLED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 557ms
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 65036ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 692ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2374ms
+at org apache hadoop io Text write java
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Launching attempt
+org apache hadoop hdfs read java
+at com sun proxy $ updateBlockForPipeline Unknown Source
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started
+java net ConnectException Connection refused no further information
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 10851ms
+Thread Signal Dispatcher
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 54720ms
+at sun net www http HttpClient New java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 127148ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1002ms
+at org apache avro generic GenericDatumWriter write java
+org apache hadoop hdfs DFSInputStream read java
+at org apache hadoop mapreduce Mapper run java
+at org apache hadoop mapreduce lib input LineRecordReader nextKeyValue java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 608ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2628ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 29825ms
+at java lang reflect Method invoke
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8327ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2000ms
+java lang ref Finalizer$FinalizerThread run Finalizer
+at org apache hadoop ipc Server$Handler$ run Server java
+at sun nio ch IOUtil writeFromNativeBuffer java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2230ms
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging segments bytes from memory into
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8521ms
+at org apache hadoop yarn state StateMachineFactory access$ java
+Thread Timer for 'MapTask' metrics system
+at org apache hadoop mapreduce lib output FileOutputCommitter abortTask java
+ERROR fetcher# org apache hadoop mapreduce task reduce Fetcher Connection retry failed with attempts in seconds
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1344ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0006Job Transitioned from SETUP to RUNNING
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3597ms
+INFO SpillThread org apache hadoop mapred MapTask Finished spill
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1004ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1201ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1706ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9084ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1033ms
+at org apache hadoop ipc Server$Listener doRead Server java
+at java io DataOutputStream writeByte
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 10708ms
+java util concurrent ScheduledThreadPoolExecutor$DelayedWorkQueue take ScheduledThreadPoolExecutor
+at org apache hadoop mapreduce task reduce Fetcher run java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 792ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 719ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8893ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 991ms
+WARN main org apache hadoop hdfs DFSClient Failed to connect for block deadNodes and continue java net NoRouteToHostException No route host no further information
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 723ms
+at org apache hadoop util LineReader readDefaultLine java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2518ms
+INFO main org apache hadoop mapreduce app launcher ContainerLauncherImpl Upper limit on the thread pool size is
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 74782ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 246671ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 16337ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3779ms
+java util concurrent SynchronousQueue$TransferStack transfer SynchronousQueue
+INFO main org apache hadoop hdfs DFSClient Could not obtain BP blk from any node java io IOException No live nodes contain block after checking ignoredNodes null current Block locations Will get new namenode and retry
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning 04IQ fareast corp microsoft com with to
+java io IOException Failed on local exception net SocketException Permission denied no further information; Host Details host is "MININT "; destination "msra sa " ;
+at org apache hadoop util LineReader fillBuffer java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 41134ms
+java util concurrent locks LockSupport parkNanos
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 30545ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8160ms
+at org apache hadoop mapred ReduceTask run java
+at org apache hadoop ipc Server channelRead java
+INFO main org apache hadoop mapred MapTask EQUATOR kvi
+java nio channels ClosedChannelException
+INFO ContainerLauncher # org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy MSRA SA fareast corp microsoft com
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0018Job Transitioned from SETUP to RUNNING
+at org apache avro io parsing Parser advance java
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 706ms
+WARN RMCommunicator Allocator org apache hadoop ipc Client Address change detected Old msra sa New
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@
+Caused by java net SocketException Permission denied no further information
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2520ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9707ms
+at org apache hadoop mapreduce task MapContextImpl nextKeyValue java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1420ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty wazuk\webapp
+java util concurrent locks AbstractQueuedSynchronizer$ConditionObject awaitNanos AbstractQueuedSynchronizer
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Stopped super stop
+at sun nio ch IOUtil readIntoNativeBuffer java
+WARN main org apache hadoop mapred YarnChild Exception running child mapreduce task reduce Shuffle$ShuffleError error in shuffle fetcher#
+org apache hadoop mapred Task$TaskReporter run Task java
+INFO Thread org apache hadoop mapreduce app rm RMContainerAllocator RMCommunicator notified that shouldUnregistered is false
+at java lang reflect Constructor newInstance
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from NEW to SUCCEEDED
+Caused by java net UnknownHostException 04IQ fareast corp microsoft com
+at sun nio ch IOUtil write java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 279654ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4415ms
+at org apache hadoop net NetUtils wrapWithMessage java
+at org apache hadoop yarn server resourcemanager ApplicationMasterService allocate java
+at sun net www protocol http HttpURLConnection getNewHttpClient java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 22560ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl TaskAttempt killed because it ran on unusable node 04IQ fareast corp microsoft com AttemptId attempt
+at org apache hadoop hdfs BlockReaderFactory getRemoteBlockReaderFromTcp java
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Assigned container to attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1003ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 758ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 7876ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Issuing kill to other attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1924ms
+INFO org apache hadoop
+at org apache hadoop hdfs DFSInputStream openInfo java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 545ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1987ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1111ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2853ms
+at org apache hadoop hdfs DFSClient renewLease java
+at org apache hadoop yarn proto ApplicationMasterProtocol$ApplicationMasterProtocolService$ callBlockingMethod ApplicationMasterProtocol java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2367ms
+at org apache hadoop hdfs protocolPB ClientNamenodeProtocolTranslatorPB delete java
+INFO main org apache hadoop http HttpRequestLog Http request log for requests mapreduce is not defined
+at org apache hadoop hdfs protocolPB ClientNamenodeProtocolTranslatorPB renewLease java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9748ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1242ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 47002ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 742ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl MapCompletionEvents request from attempt startIndex maxEvents
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty viriwu\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2165ms
+org apache hadoop net SocketIOWithTimeout$SelectorPool select SocketIOWithTimeout java
+WARN main org apache hadoop hdfs DFSClient Failed to connect for block deadNodes and continue java net ConnectException Connection refused no further information
+at org apache hadoop io serializer WritableSerialization$WritableSerializer serialize WritableSerialization java
+at java io FileOutputStream writeBytes Native Method
+java util concurrent ThreadPoolExecutor$Worker run ThreadPoolExecutor
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2435ms
+WARN Thread org apache hadoop service CompositeService When stopping the JobHistoryEventHandler yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2193ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9279ms
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 73102ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 56602ms
+at org apache hadoop yarn api impl pb client ApplicationMasterProtocolPBClientImpl allocate java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 858ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 12937ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl TaskAttempt attempt using containerId container on NM 04IQ fareast corp microsoft com
+at org apache avro io JsonEncoder flush java
+at org apache hadoop mapreduce jobhistory EventReader init java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Size of containertokens dob is
+at org apache hadoop mapreduce app job impl JobImpl$InitTransition createSplits JobImpl java
+at org apache hadoop mapred Task taskCleanup java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2840ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6401ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6146ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 28065ms
+history done intermediate msrabi job conf xml tmp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 543ms
+at org apache hadoop hdfs DFSClient getLocatedBlocks java
+INFO main org apache hadoop mapreduce app job impl JobImpl Input size for Number of splits
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 14890ms
+at org apache hadoop ipc Client$Connection run Client java
+Thread Attach Listener
+at org apache hadoop mapred MapTask$NewOutputCollector write MapTask java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2215ms
+history done intermediate msrabi job summary
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application
+java util TimerThread run Timer
+INFO Socket Reader # for port org apache hadoop ipc Server readAndProcess from client threw exception java io IOException An existing connection was forcibly closed by the remote host
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from KILL TASK CLEANUP to KILLED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 17251ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1023ms
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length
+java util concurrent SynchronousQueue poll
+INFO Thread org apache hadoop mapreduce app rm RMContainerAllocator RMCommunicator notified that shouldUnregistered is true
+at org apache hadoop mapreduce task reduce Shuffle run java
+INFO main org apache hadoop mapred MapTask kvstart ; length
+at org apache hadoop ipc Client$Connection setupIOstreams Client java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 343ms
+at org apache hadoop fs ChecksumFileSystem$ChecksumFSOutputSummer writeChunk ChecksumFileSystem java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 572ms
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1957ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 544ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty 57yr\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 820ms
+at sun nio ch SocketChannelImpl read java
+org apache hadoop hdfs PeerCache access$ java
+at java net AbstractPlainSocketImpl connect
+at org apache hadoop mapred MapTask$NewTrackingRecordReader initialize MapTask java
+at org apache hadoop hdfs DFSInputStream fetchLocatedBlocksAndGetLastBlockLength java
+at org apache hadoop hdfs DFSInputStream blockSeekTo java
+Caused by org apache hadoop yarn exceptions ApplicationAttemptNotFoundException Application attempt appattempt doesn' exist in ApplicationMasterService cache
+org apache hadoop yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 51459ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2938ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty rgdnky\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3921ms
+INFO CommitterEvent Processor # org apache hadoop mapreduce app commit CommitterEventHandler Processing the event EventType JOB SETUP
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging
+INFO Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl KILLING attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8479ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 805ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 10717ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 42832ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty eqgtow\webapp
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from NEW to SCHEDULED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3493ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty ojf\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 5379ms
+INFO IPC Server Responder org apache hadoop ipc Stopping
+INFO main org apache hadoop mapred Merger Merging intermediate segments out of total
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started
+WARN main org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt
+at org apache hadoop mapreduce app MRAppMaster main java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2122ms
+java io DataOutputStream writeByte
+org apache hadoop yarn exceptions YarnRuntimeException Resource Manager doesn' recognize AttemptId application
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 49554ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 4264ms
+at sun nio ch SocketDispatcher read java
+WARN DataStreamer for file tmp hadoop yarn staging msrabi job jhist block BP blk org apache hdfs DFSClient Error Recovery in pipeline datanode
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0002Job Transitioned from INITED to SETUP
+INFO main org apache hadoop mapreduce app MRAppMaster OutputCommitter set in config null
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 17923ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0006Job Transitioned from INITED to SETUP
+at org apache hadoop hdfs protocolPB ClientNamenodeProtocolTranslatorPB getBlockLocations java
+at org apache hadoop mapreduce task reduce EventFetcher run java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 136300ms
+Caused by java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5430ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty yb\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 59534ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1126ms
+ERROR fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Shuffle failed local error on this node 04IQ
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9318ms
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "04IQ "; destination "minint fareast corp microsoft com" ;
+at org apache hadoop mapreduce app MRAppMaster$ run MRAppMaster java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 595ms
+INFO main org apache hadoop impl MetricsSystemImpl Stopping MapTask metrics system
+at org apache hadoop hdfs DFSInputStream readWithStrategy java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 555ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0002Job Transitioned from SETUP to RUNNING
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 15076ms
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system shutdown complete
+at org apache hadoop hdfs BlockReaderFactory nextTcpPeer java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5203ms
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system stopped
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 72679ms
+at java net AbstractPlainSocketImpl connectToAddress
+at org apache hadoop mapreduce task reduce Fetcher setupConnectionsWithRetry java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from SUCCEEDED to KILLED
+at org apache hadoop mapred MapTask$MapOutputBuffer sortAndSpill MapTask java
+Thread IPC Parameter Sending #
+at sun net www http HttpClient init java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3139ms
+INFO main org apache hadoop yarn client api impl ContainerManagementProtocolProxy max cached nodemanagers proxies
+java util concurrent ThreadPoolExecutor runWorker
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl KILLING attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1872ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt cleanup failed for container java lang IllegalArgumentException net UnknownHostException 04IQ fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 36889ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Done acknowledgement from attempt
+at PageRank$MyMapper map PageRank java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2772ms
+at org apache hadoop mapred YarnOutputFiles getOutputFileForWrite java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3816ms
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 41618ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 531ms
+INFO main org apache hadoop mapreduce app MRAppMaster Using mapred newApiCommitter
+sun nio ch SelectorImpl lockAndDoSelect java
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 666ms
+INFO main org apache hadoop http filter AM PROXY FILTER class yarn server webproxy amfilter AmIpFilter to context static
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 11577ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 857ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 13032ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 66143ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 87912ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5708ms
+at org apache hadoop examples WordCount$TokenizerMapper map WordCount java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 371ms
+Thread communication thread
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 60ms
+at java net Socket connect
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty vxgjfm\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 824ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty lfi\webapp
+at java io BufferedOutputStream flush
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt cleanup failed for container java lang IllegalArgumentException net UnknownHostException MSRA SA fareast corp microsoft com
+at java io BufferedInputStream fill
+sun management ThreadImpl Native Method
+INFO main org apache hadoop ipc CallQueueManager Using callQueue class java util concurrent LinkedBlockingQueue
+INFO main org apache hadoop mapreduce lib output FileOutputCommitter Saved of task 'attempt ' to hdfs msra sa pageout temporary
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3445ms
+at org apache hadoop mapreduce app rm RMCommunicator$ run RMCommunicator java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1974ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 10162ms
+at org apache hadoop mapred MapTask getSplitDetails java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 41830ms
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl Merging files bytes from disk
+at org apache hadoop hdfs DFSOutputStream$DataStreamer createBlockOutputStream DFSOutputStream java
+org apache hadoop hdfs PeerCache$ run PeerCache java
+at org apache hadoop io WritableUtils writeVInt java
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce Exception in getting events
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 498845ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4661ms
+INFO main org apache hadoop mapreduce app job impl JobImpl Not uberizing because not enabled; too many maps; much input;
+at java io DataOutputStream write
+INFO main org apache hadoop conf Configuration deprecation mapred skip on is deprecated Instead use mapreduce job skiprecords
+at org apache hadoop mapred YarnChild$ run YarnChild java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 14802ms
+Caused by java nio channels UnresolvedAddressException
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 747ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 7149ms
+at org apache hadoop ipc Client$Connection setupConnection Client java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 395ms
+INFO communication thread org apache hadoop mapred Task Communication exception java net NoRouteToHostException No Route to Host from MININT failed on socket timeout route host no further information; For more details see http wiki NoRouteToHost
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 619ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 10963ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1840ms
+at org apache hadoop hdfs DFSInputStream chooseDataNode java
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 7re\webapp
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty la\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 14293ms
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt failed due to FSError java io IOException There is not enough space the disk
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5951ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4444ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 65354ms
+at org apache hadoop mapreduce app MRAppMaster readJustAMInfos java
+at sun nio ch SocketChannelImpl finishConnect java
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 2494ms
+java net ConnectException Connection timed out no further information
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 39489ms
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system shutdown complete
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 50788ms
+java lang ref ReferenceQueue remove
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1080ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 844ms
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid
+at org apache hadoop mapred MapTask$NewOutputCollector close MapTask java
+at sun nio ch SocketDispatcher Native Method
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty oop\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 26105ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl The jar file on the remote FS is hdfs msra sa tmp yarn staging msrabi
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4803ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5421ms
+INFO Socket Reader # for port org apache hadoop ipc Server Starting
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs
+WARN main org apache hadoop mapred YarnChild Exception running child util DiskChecker$DiskErrorException Could not find any valid local directory for output attempt file out
+at org apache hadoop mapreduce app rm RMContainerAllocator heartbeat java
+org apache hadoop net SocketInputStream read java
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty xeyjpj\webapp
+INFO main org apache hadoop http filter AM PROXY FILTER class yarn server webproxy amfilter AmIpFilter to context mapreduce
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 20853ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5996ms
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "minint fareast corp microsoft com" ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8266ms
+INFO main org apache hadoop yarn client RMProxy Connecting to ResourceManager at MSRA SA
+at sun reflect NativeMethodAccessorImpl Native Method
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 29784ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1385ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl TaskAttempt attempt using containerId container on NM MININT fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 37927ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 647ms
+sun nio ch WindowsSelectorImpl$SubSelector poll WindowsSelectorImpl java
+at com sun proxy $ statusUpdate Unknown Source
+java io DataInputStream read
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2383ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 11722ms
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5881ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Putting shuffle token in serviceData
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1065ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 121505ms
+at org apache hadoop io WritableUtils readVLong java
+at org apache hadoop ipc Server$Responder doRespond Server java
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Stopping Size of the outstanding queue size is
+Container exited with non zero exit code
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 29789ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0001Job Transitioned from SETUP to RUNNING
+at org apache hadoop mapred Task statusUpdate java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 548ms
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Abandoning BP blk
+at sun net www http HttpClient openServer java
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty lryhnl\webapp
+at org apache hadoop ipc Server channelWrite java
+at org apache hadoop fs FSDataOutputStream close java
+at org apache hadoop mapred MapTask runNewMapper java
+at org apache hadoop hdfs DFSClient newConnectedPeer java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 637ms
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app speculate Speculator$EventType for MRAppMaster$SpeculatorEventDispatcher
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 55428ms
+at java net TwoStacksPlainSocketImpl socketConnect Native Method
+INFO IPC Server listener on org apache hadoop ipc starting
+at org apache hadoop mapreduce jobhistory JobHistoryParser parse java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 836ms
+State TIMED WAITING
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 48944ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2902ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 33594ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0007Job Transitioned from RUNNING to REBOOT
+at com sun proxy $ delete Unknown Source
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1798ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 745ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1266ms
+at org apache hadoop fs FileSystemLinkResolver resolve java
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 919ms
+INFO main org apache hadoop mapred MapTask Ignoring exception during close for MapTask$NewOutputCollector@
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1979ms
+org apache hadoop hdfs protocol datatransfer PacketReceiver doRead java
+at org apache hadoop util LineReader readLine java
+java util TimerThread mainLoop Timer
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 60331ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6685ms
+at java io DataInputStream read
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Got allocated containers
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 21918ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl JVM with ID jvm asked for task
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 14577ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 870ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Diagnostics report from attempt Error java net NoRouteToHostException No Route to Host MININT msra sa failed socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Event Writer setup for JobId job File hdfs msra sa tmp yarn staging msrabi jhist
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0007Job Transitioned from INITED to SETUP
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved 04IQ fareast corp microsoft com to default rack
+at org apache hadoop mapred MapTask run java
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 834ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty oal\webapp
+INFO main org apache hadoop mapreduce app MRAppMaster OutputCommitter is lib output FileOutputCommitter
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 23668ms
+Caused by java net NoRouteToHostException No route to host no further information
+INFO Thread org apache hadoop mapreduce app rm RMContainerAllocator reduceResourceRequest memory vCores
+at org apache hadoop mapreduce lib map WrappedMapper$Context write WrappedMapper java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 678ms
+sun nio ch WindowsSelectorImpl doSelect java
+at java io FilterOutputStream close
+INFO main org apache hadoop mapreduce app MRAppMaster Kind YARN AM RM TOKEN Service Ident appAttemptId { application id cluster timestamp } attemptId keyId
+INFO main org apache hadoop hdfs DFSClient Successfully connected to for BP blk
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 1850ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5387ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0008Job Transitioned from COMMITTING to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1529ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 827ms
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl finalMerge called with in memory map outputs and on disk
+INFO main org apache hadoop mapreduce app job impl JobImpl 0018Job Transitioned from NEW to INITED
+at sun nio ch SocketChannelImpl checkConnect Native Method
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator IN CONTACTING RM
+INFO main org apache hadoop mapreduce app client MRClientService Instantiated at MININT fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2931ms
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1358ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 563ms
+INFO main org apache hadoop http adding path spec mapreduce
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 791ms
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Processing the event EventType CONTAINER REMOTE CLEANUP for container taskAttempt attempt
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0002Job Transitioned from RUNNING to COMMITTING
+at org apache hadoop ipc Server access$ java
+INFO main org apache hadoop mapreduce app rm RMContainerAllocator queue default
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1218ms
+org apache hadoop util ReflectionUtils logThreadInfo java
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty qrms\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9783ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2863ms
+at sun nio ch SocketDispatcher write java
+INFO ContainerLauncher # org apache hadoop mapreduce app launcher ContainerLauncherImpl Processing the event EventType CONTAINER REMOTE LAUNCH for container taskAttempt attempt
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty ja\webapp
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty rmd\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 23884ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4567ms
+WARN main org apache hadoop hdfs DFSClient DFS Read
+at com sun proxy $ addBlock Unknown Source
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util
+at sun nio ch IOUtil read java
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 38545ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 10352ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 23907ms
+INFO Thread org apache hadoop mapreduce app rm RMContainerAllocator History url is http MSRA SA fareast corp microsoft com jobhistory job
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3142ms
+WARN DataStreamer for file out temporary attempt part block BP blk org apache hadoop hdfs DFSClient Error Recovery in pipeline datanode
+java io IOException Incompatible event log version null
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 3557ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 7j\webapp
+at org apache avro io JsonEncoder writeEnum java
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 68557ms
+INFO main org mortbay log jetty
+at org apache hadoop net SocketIOWithTimeout connect java
+java lang Thread sleep Native Method
+INFO main org apache hadoop mapreduce app job impl JobImpl Adding token for to jobTokenSecretManager
+at org apache hadoop fs LocalDirAllocator$AllocatorPerContext getLocalPathForWrite LocalDirAllocator java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 661ms
+at org apache hadoop net SocketInputStream read java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 126936ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to KILL CONTAINER CLEANUP
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 365338ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 786ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2289ms
+at sun nio ch SocketChannelImpl connect java
+at org apache hadoop mapreduce split SplitMetaInfoReader readSplitMetaInfo java
+WARN fetcher# org apache hadoop mapreduce task reduce Fetcher Failed to connect MININT fareast corp microsoft com with map outputs
+at org apache hadoop hdfs LeaseRenewer access$ java
+at org apache hadoop mapred MapTask$MapOutputBuffer$Buffer write MapTask java
+at java util concurrent ThreadPoolExecutor runWorker
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 15159ms
+WARN main org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 766ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Commit pending state update from attempt
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "04iq fareast corp microsoft com" ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 65056ms
+org apache hadoop yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+org apache hadoop mapred MapTask$MapOutputBuffer$SpillThread run MapTask java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 37843ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 833ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 578ms
+INFO main org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries
+java util concurrent SynchronousQueue$TransferStack awaitFulfill SynchronousQueue
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3333ms
+at sun net NetworkClient doConnect java
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from RUNNING to COMMITTING
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 1255ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from COMMITTING to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1730ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4838ms
+INFO main org apache hadoop mapred Task Runnning cleanup for the task
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1043ms
+at org apache hadoop io Text readString java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4004ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 667ms
+WARN communication thread org apache hadoop mapred Task Last retry killing attempt
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Error communicating with RM Resource Manager doesn' recognize AttemptId application
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 676ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 15708ms
+INFO Thread org apache hadoop hdfs DFSClient Excluding datanode
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 718ms
+at sun reflect NativeConstructorAccessorImpl Native Method
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt
+INFO Thread org apache hadoop service AbstractService Service mapreduce app MRAppMaster failed in state STOPPED; cause yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3079ms
+at org apache hadoop service AbstractService start java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1057ms
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Copying hdfs msra sa tmp yarn staging msrabi job conf xml to
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Excluding datanode
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2808ms
+WARN main org apache hadoop ipc Client Address change detected Old msra sa New
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2233ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 30308ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1215ms
+Thread for syncLogs
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Copied to done location hdfs msra sa tmp yarn staging
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2525ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0001Job Transitioned from INITED to SETUP
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 12092ms
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 48905ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 598ms
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved MININT fareast corp microsoft com to default rack
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2327ms
+at org apache hadoop hdfs DFSInputStream read java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 594ms
+at org apache hadoop hdfs DistributedFileSystem$ doCall DistributedFileSystem java
+at sun reflect DelegatingConstructorAccessorImpl newInstance java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl attempt given go for committing the task output
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8023ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1842ms
+INFO communication thread org apache hadoop mapred Task Process Thread Dump Communication exception
+INFO main org apache hadoop mapreduce app MRAppMaster Created for application appattempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5943ms
+org apache hadoop util ReflectionUtils printThreadInfo java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1768ms
+at java io DataInputStream readByte
+at java io BufferedOutputStream write
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5325ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1896ms
+at java io BufferedInputStream read
+INFO main org apache hadoop yarn webapp WebApps Web app mapreduce started at
+at org apache hadoop hdfs DFSInputStream readBuffer java
+INFO main org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS
+WARN main org apache hadoop hdfs BlockReaderFactory error constructing remote block reader
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4801ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1793ms
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "msra sa " ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4478ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 616ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 16313ms
+INFO Thread org apache hadoop hdfs DFSClient Exception in createBlockOutputStream
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging
+at org apache hadoop ipc Client call java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1929ms
+at org apache hadoop mapred YarnChild main java
+sun nio ch SelectorImpl select java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 684ms
+at com sun proxy $ getBlockLocations Unknown Source
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 12128ms
+java net ConnectException Connection timed out connect
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 58504ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited util DiskChecker$DiskErrorException Could not find any valid local directory for output file out
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 96601ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5486ms
+INFO main org apache hadoop mapreduce app job impl JobImpl Number of reduces for
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6214ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 17702ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app speculate DefaultSpeculator JOB CREATE job
+INFO main org apache hadoop mapred MapTask Starting flush of map output
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2970ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to 04IQ fareast corp microsoft com
+org apache hadoop hdfs PeerCache run java
+java lang Object wait
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of FAILED map 'attempt '
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 18960ms
+WARN IPC Server handler on org apache hadoop ipc call statusUpdate attempt mapred MapTaskStatus@ rpc version client methodsFingerPrint from Call# Retry# output error
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 603ms
+java lang Thread run
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from SCHEDULED to RUNNING
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 559ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 71395ms
+at org apache hadoop hdfs DFSOutputStream$DataStreamer nextBlockOutputStream DFSOutputStream java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl Num completed Tasks
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2048ms
+at sun nio ch SocketChannelImpl write java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2609ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 767ms
+Thread org apache hadoop hdfs PeerCache@
+INFO RMCommunicator Allocator org apache hadoop yarn util RackResolver Resolved MSRA SA fareast corp microsoft com to default rack
+at org apache hadoop ipc Server$Listener$Reader run Server java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 712ms
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator completedMapPercent totalResourceLimit memory vCores finalMapResourceLimit finalReduceResourceLimit netScheduledMapResource netScheduledReduceResource
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 15242ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 25305ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2353ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 27480ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from KILL CONTAINER CLEANUP to TASK
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 21130ms
+java lang ref Reference$ReferenceHandler run Reference
+Caused by java nio channels ClosedChannelException
+INFO main org apache hadoop mapreduce app rm RMContainerRequestor nodeBlacklistingEnabled true
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 54719ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+WARN LeaseRenewer sa org apache hadoop hdfs Failed to renew lease for DFSClient NONMAPREDUCE seconds Will retry shortly
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2594ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to COMMIT PENDING
+sun net dns ResolverConfigurationImpl Native Method
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 31694ms
+INFO Thread org apache hadoop service AbstractService Service mapreduce app MRAppMaster failed in state STOPPED; cause yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+at sun reflect NativeConstructorAccessorImpl newInstance java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 554ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty fq\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 69ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty iv\webapp
+INFO RMCommunicator Allocator org apache hadoop yarn util RackResolver Resolved MININT fareast corp microsoft com to default rack
+INFO main org apache hadoop ipc Client Retrying connect to server 04iq fareast corp microsoft com Already tried time ; maxRetries
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 51067ms
+org apache hadoop hdfs DFSInputStream readWithStrategy java
+org apache hadoop hdfs DFSInputStream$ByteArrayStrategy doRead DFSInputStream java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1639ms
+at org apache hadoop hdfs DFSInputStream seekToBlockSource java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 668ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MININT fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3319ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1903ms
+at org apache hadoop hdfs LeaseRenewer renew java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 31275ms
+at sun reflect invoke Unknown Source
+at org apache hadoop hdfs DFSClient callGetBlockLocations java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 627ms
+at java net PlainSocketImpl connect
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl The conf file on the remote FS is tmp yarn staging msrabi xml
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 696ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1333ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 550ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from RUNNING to SUCCESS CONTAINER CLEANUP
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app speculate DefaultSpeculator ATTEMPT START task
+WARN LeaseRenewer sa org apache hadoop ipc Client Address change detected Old msra New
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK
+at org apache hadoop mapred Task$TaskReporter run Task java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0006Job Transitioned from COMMITTING to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 8239ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2177ms
+java util concurrent ArrayBlockingQueue take
+INFO Thread org apache hadoop service AbstractService Service JobHistoryEventHandler failed in state STOPPED; cause yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 44417ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2080ms
+Waiting on java lang ref Reference$Lock@
+at sun net www protocol http HttpURLConnection plainConnect java
+at org apache hadoop mapred MapTask$MapOutputBuffer checkSpillException MapTask java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 10477ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty ixtp\webapp
+at org apache hadoop ipc Client$Connection access$ Client java
+WARN main org apache hadoop mapred YarnChild Exception running child java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+at java security AccessController doPrivileged Native Method
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 21770ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 10646ms
+INFO main org apache hadoop mapreduce app MRAppMaster Previous history file is at hdfs msra sa tmp yarn staging msrabi job jhist
+at org apache hadoop mapreduce task reduce Fetcher copyFromHost java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 50327ms
+Thread Reference Handler
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1764ms
+at java lang Thread run
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java net NoRouteToHostException No Route to Host from MININT msra sa failed socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+at sun reflect DelegatingMethodAccessorImpl invoke java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 771ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 11028ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5786ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0008Job Transitioned from INITED to SETUP
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 402ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 604ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty kg\webapp
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 720ms
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system stopped
+at java io DataInputStream readInt
+INFO main org apache hadoop mapred Merger Merging sorted segments
+at org apache avro specific SpecificDatumWriter writeEnum java
+at org apache hadoop mapred MapTask$NewTrackingRecordReader nextKeyValue MapTask java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 823ms
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3738ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 14806ms
+org apache hadoop hdfs readNextPacket java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2356ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 18657ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4184ms
+at org apache hadoop ipc Server$Connection readAndProcess Server java
+INFO main org apache hadoop yarn webapp WebApps Registered guice modules
+INFO communication thread org apache hadoop ipc Client Retrying connect to server Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 493ms
+java io IOException connect ack with firstBadLink as
+sun management ThreadImpl getThreadInfo java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 5760ms
+java util concurrent locks LockSupport park
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2034ms
+at org apache hadoop mapreduce lib map WrappedMapper$Context nextKeyValue WrappedMapper java
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 3lms\webapp
+WARN Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl cleanup failed for container java lang IllegalArgumentException net UnknownHostException MSRA SA fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1474ms
+INFO ContainerLauncher # org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy MININT fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1224ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1188ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 725ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 20147ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty bdalqx\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 643623ms
+at org apache hadoop ipc ProtobufRpcEngine$Invoker invoke ProtobufRpcEngine java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2390ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 31086ms
+at org apache hadoop security UserGroupInformation doAs java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4506ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Adding # tokens and secret keys for NM use launching container
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty pj\webapp
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0018Job Transitioned from INITED to SETUP
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerRequestor getResources for application ask release newContainers finishedContainers resourcelimit memory vCores knownNMs
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of OBSOLETE map 'attempt '
+java util concurrent locks AbstractQueuedSynchronizer$ConditionObject await AbstractQueuedSynchronizer
+at org apache hadoop mapreduce app MRAppMaster parsePreviousJobHistory java
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+at org apache hadoop yarn state StateMachineFactory doTransition java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 39595ms
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java io IOException There is not enough space the disk
+INFO main org apache hadoop mapreduce app MRAppMaster Executing with tokens
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 12227ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 12355ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 62601ms
+INFO AsyncDispatcher event handler org apache hadoop yarn util RackResolver Resolved MSRA SA fareast corp microsoft com to default rack
+INFO Thread org apache hadoop service AbstractService Service JobHistoryEventHandler failed in state STOPPED; cause yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+at org apache hadoop mapreduce app MRAppMaster processRecovery java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 855ms
+INFO Thread org apache hadoop ipc Server Stopping server on
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty 4srg\webapp
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app job TaskEventType for MRAppMaster$TaskEventDispatcher
+INFO main org apache hadoop http Jetty bound to port
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1588ms
+at org apache hadoop java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 8340ms
+org apache hadoop hdfs protocol datatransfer PacketReceiver readChannelFully java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 963ms
+INFO main org apache hadoop mapred YarnChild Exception cleaning up java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 81154ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 6ucjbs\webapp
+INFO main org apache hadoop impl MetricsConfig loaded properties from
+Waiting on java lang ref ReferenceQueue$Lock@
+at org apache hadoop io WritableUtils readVIntInRange java
+at org apache hadoop hdfs BlockReaderFactory build java
+java io IOException response ERROR for block BP blk from datanode
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Reporting fetch failure for attempt to jobtracker
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5814ms
+at sun reflect newInstance Unknown Source
+at org apache hadoop fs FSDataOutputStream$PositionCache close FSDataOutputStream java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 683ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1265ms
+sun nio ch WindowsSelectorImpl$SubSelector access$ WindowsSelectorImpl java
+org apache avro AvroTypeException Attempt to process enum when union was expected
+at org apache hadoop fs FSOutputSummer java
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce jobhistory EventType for JobHistoryEventHandler
+at org apache hadoop net NetUtils connect java
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 25aoqz\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 23360ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2760ms
+at org apache hadoop mapreduce app MRAppMaster initAndStartAppMaster java
+Caused by org apache hadoop ipc RemoteException yarn exceptions ApplicationAttemptNotFoundException Application attempt appattempt doesn' exist in ApplicationMasterService cache
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 635ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1942ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2020ms
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java
+at org apache hadoop mapred MapTask$MapOutputBuffer mergeParts MapTask java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1851ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty 2uugte\webapp
+WARN main org apache hadoop mapreduce app MRAppMaster Could not parse the old history file Will have AMinfos
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty gzasjk\webapp
+org apache hadoop java
+java lang NullPointerException
+java io IOException An existing connection was forcibly closed by the remote host
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt Error java net NoRouteToHostException No Route to Host MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+Caused by java net UnknownHostException MSRA SA fareast corp microsoft com
+at org apache hadoop mapreduce app rm RMContainerRequestor makeRemoteRequest java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2951ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1895ms
+at com sun proxy $ allocate Unknown Source
+java lang Object wait Native Method
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce is interrupted Returning
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty iclo\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4575ms
+at javax security auth Subject doAs java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 662ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2470ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty dhf\webapp
+INFO IPC Server listener on org apache hadoop ipc Stopping
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 16299ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty \webapp
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Before Scheduling PendingReds ScheduledMaps ScheduledReds AssignedMaps AssignedReds CompletedMaps CompletedReds ContAlloc ContRel HostLocal RackLocal
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty wrtujf\webapp
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 359ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from SETUP to RUNNING
+INFO ContainerLauncher # org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy 04IQ fareast corp microsoft com
+at org apache hadoop mapreduce app MRAppMaster$JobEventDispatcher handle MRAppMaster java
+at org apache hadoop yarn ipc RPCUtil instantiateException java
+INFO IPC Server Responder org apache hadoop ipc starting
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 742ms
+at org apache hadoop hdfs LeaseRenewer$ run LeaseRenewer java
+org apache hadoop hdfs protocol datatransfer PacketReceiver doReadFully java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0003Job Transitioned from INITED to SETUP
+INFO main org apache hadoop mapred MapTask Spilling map output
+at com sun proxy $ renewLease Unknown Source
+at java util concurrent ThreadPoolExecutor$Worker run ThreadPoolExecutor
+at org apache hadoop io retry RetryInvocationHandler invokeMethod java
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries
+at org apache hadoop fs FSOutputSummer writeChecksumChunks java
+INFO org apache hadoop mapreduce app
+at org apache hadoop mapreduce app job impl JobImpl$InitTransition transition JobImpl java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1912ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty 8xum\webapp
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0002Job Transitioned from COMMITTING to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1735ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Progress of TaskAttempt attempt is
+INFO IPC Server handler on org apache hadoop mapreduce app job impl TaskImpl Result of canCommit for attempt true
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1324ms
+at java io DataInputStream readFully
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Task succeeded with attempt
+INFO main org apache hadoop mapred YarnChild Executing with tokens
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 34427ms
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app commit CommitterEventType for CommitterEventHandler
+WARN main org apache hadoop mapred Task Failure sending status update java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "04iq fareast corp microsoft com" ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 180042ms
+at org apache hadoop net NetUtils wrapException java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 73576ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3361ms
+at org apache hadoop ipc Server$Handler run Server java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1786ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 732ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1322ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 601ms
+at org apache hadoop mapred MapTask closeQuietly java
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 148132ms
+INFO main org apache hadoop mapred Task attempt is allowed to commit now
+at sun net www protocol http HttpURLConnection connect java
+INFO main org apache hadoop mapred MapTask soft limit at
+at org apache hadoop net SocketIOWithTimeout doIO java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MININT fareast corp microsoft com with to
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 10482ms
+at org apache hadoop io WritableUtils writeVLong java
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app job JobFinishEvent$Type for MRAppMaster$JobFinishEventHandler
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 39042ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3748ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 19842ms
+WARN main org apache hadoop mapred Task Failure sending status update java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app rm ContainerAllocator$EventType for MRAppMaster$ContainerAllocatorRouter
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to UNASSIGNED
+at org apache hadoop mapred MapTask$MapOutputBuffer$SpillThread run MapTask java
+FATAL main org apache hadoop mapred Task attempt failed fs FSError java io IOException There is not enough space on the disk
+INFO Thread org apache hadoop yarn client api impl ContainerManagementProtocolProxy Opening proxy MSRA SA fareast corp microsoft com
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 25522ms
+at org apache hadoop io retry RetryInvocationHandler invoke java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 16391ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 1315ms
+Container killed on request Exit code is
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 372ms
+at org apache hadoop mapred MapTask$MapOutputBuffer flush MapTask java
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Reduce slow start threshold not met completedMapsForReduceSlowstart
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0019Job Transitioned from SETUP to RUNNING
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Commit go no request from attempt
+at org apache hadoop ipc Client getConnection java
+INFO Thread org apache hadoop mapreduce jobhistory JobHistoryEventHandler notified that forceJobCompletion is true
+at org apache hadoop fs FSDataOutputStream$PositionCache write FSDataOutputStream java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2773ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1183ms
+INFO IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl JVM with ID jvm given task attempt
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 803ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 29601ms
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited java io IOException Spill failed
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 8434ms
+INFO main org apache hadoop impl MetricsSystemImpl MRAppMaster metrics system started
+sun nio ch WindowsSelectorImpl$SubSelector Native Method
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 34931ms
+FATAL IPC Server handler on org apache hadoop mapred TaskAttemptListenerImpl Task attempt exited mapreduce task reduce Shuffle$ShuffleError error in shuffle fetcher#
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6810ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 1188ms
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0008Job Transitioned from SETUP to RUNNING
+at org apache hadoop ipc Server$Responder processResponse Server java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 729ms
+at org apache hadoop fs LocalDirAllocator getLocalPathForWrite java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0019Job Transitioned from INITED to SETUP
+WARN main org apache hadoop mapreduce app MRAppMaster Unable to parse prior job history aborting recovery
+INFO communication thread org apache hadoop mapred Task Communication exception java net ConnectException Call From MSRA SA to minint fareast corp microsoft com failed on connection Connection timed out no further information; For more details see http wiki ConnectionRefused
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 878ms
+org apache hadoop
+sun net dns ResolverConfigurationImpl$AddressChangeListener run ResolverConfigurationImpl java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 209231ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl task Task Transitioned from RUNNING to SUCCEEDED
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2033ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 7273ms
+INFO main org apache hadoop impl MetricsSystemImpl Stopping ReduceTask metrics system
+INFO main org apache hadoop yarn client RMProxy Connecting to ResourceManager at msra sa
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 108850ms
+at org apache hadoop mapreduce task reduce Fetcher copyMapOutput java
+at sun nio ch Net checkAddress java
+at org apache hadoop yarn api impl pb service ApplicationMasterProtocolPBServiceImpl allocate java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 616622ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 3876ms
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of KILLED map 'attempt '
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 689ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 958ms
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl JobImpl 0006Job Transitioned from RUNNING to COMMITTING
+INFO main org apache hadoop yarn factories impl pb RpcServerFactoryPBImpl Adding protocol mapreduce api MRClientProtocolPB to the server
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 333ms
+at org apache hadoop hdfs DFSOutputStream$DataStreamer run DFSOutputStream java
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from COMMIT PENDING to SUCCESS CONTAINER CLEANUP
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2965ms
+java util zip update
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2147ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 17048ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 14173ms
+INFO main org apache hadoop yarn event AsyncDispatcher Registering class mapreduce app launcher ContainerLauncher$EventType for MRAppMaster$ContainerLauncherRouter
+INFO DataStreamer for file out temporary attempt part org apache hadoop hdfs DFSClient Exception in createBlockOutputStream
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 213954ms
+INFO main org apache hadoop mapred Task 'attempt ' done
+at java io FileOutputStream write
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 13721ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 33221ms
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 48906ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+history done intermediate msrabi job conf xml
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 9199ms
+org apache hadoop net SocketIOWithTimeout doIO java
+INFO Thread org apache hadoop mapreduce app rm RMContainerAllocator mapResourceRequest memory vCores
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl attempt TaskAttempt Transitioned from NEW to FAILED
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt Container killed by the ApplicationMaster
+at com sun proxy $ getMapCompletionEvents Unknown Source
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "04iq fareast corp microsoft com" ;
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1318ms
+java net NoRouteToHostException No route to host no further information
+at org apache hadoop mapreduce app job impl JobImpl handle java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 710ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 37289ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 32639ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 144586ms
+INFO main org apache hadoop mapreduce app MRAppMaster Recovery is enabled Will try to recover from previous life on best effort basis
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second
+at org apache hadoop hdfs DistributedFileSystem delete java
+INFO main org apache hadoop mapreduce app MRAppMaster launching normal non uberized multi container job
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4207ms
+INFO main org apache hadoop mapreduce app rm RMContainerRequestor maxTaskFailuresPerNode is
+at java net AbstractPlainSocketImpl doConnect
+sun misc Unsafe park Native Method
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2895ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 49273ms
+INFO RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Recalculating schedule headroom memory vCores
+INFO Socket Reader # for port SecurityLogger org apache hadoop ipc Server Auth successful job auth SIMPLE
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1364ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 69703ms
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 539ms
+at org apache hadoop mapred MapTask$MapOutputBuffer collect MapTask java
+at org apache hadoop hdfs DFSClient delete java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 534ms
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\ \Jetty ut\webapp
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskImpl Recovering task from prior attempt status was SUCCEEDED
+at sun reflect NativeMethodAccessorImpl invoke java
+INFO main org apache hadoop http global filter 'safety' class $QuotingInputFilter
+at org apache hadoop ipc ProtobufRpcEngine$Server$ProtoBufRpcInvoker call ProtobufRpcEngine java
+at org apache hadoop hdfs LeaseRenewer run java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2012ms
+at org apache hadoop yarn ipc RPCUtil unwrapAndThrowException java
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 81348ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 68950ms
+java util concurrent ThreadPoolExecutor getTask
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 24240ms
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging
+INFO eventHandlingThread org apache hadoop mapreduce jobhistory JobHistoryEventHandler Copying hdfs msra sa tmp yarn staging msrabi job jhist to
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3077ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1291ms
+Thread Readahead #
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6859ms
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 502237ms

@@ -1,0 +1,33 @@
+2015-10-17 23:10:28,312 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-17 23:10:28,468 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-17 23:10:28,468 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-10-17 23:10:28,546 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 23:10:28,546 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445094324383_0004, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@4be90ea7)
+2015-10-17 23:10:28,921 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 23:10:31,171 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445094324383_0004
+2015-10-17 23:10:35,031 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-17 23:10:39,140 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 23:10:39,343 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@3531c012
+2015-10-17 23:10:42,281 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://msra-sa-41:9000/wordcount2.txt:402653184+134217728
+2015-10-17 23:10:42,562 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-17 23:10:42,562 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-10-17 23:10:42,562 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-10-17 23:10:42,562 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-10-17 23:10:42,562 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-10-17 23:10:42,718 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-17 23:10:48,797 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-17 23:10:48,797 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 34176504; bufvoid = 104857600
+2015-10-17 23:10:48,797 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 13787004(55148016); length = 12427393/6553600
+2015-10-17 23:10:48,797 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 44662252 kvi 11165556(44662224)
+2015-10-17 23:11:15,047 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-10-17 23:11:15,188 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 44662252 kv 11165556(44662224) kvi 8544132(34176528)
+2015-10-17 23:11:19,782 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-17 23:11:19,782 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 44662252; bufend = 78836758; bufvoid = 104857600
+2015-10-17 23:11:19,782 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 11165556(44662224); kvend = 24952068(99808272); length = 12427889/6553600
+2015-10-17 23:11:19,782 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 89322507 kvi 22330620(89322480)
+2015-10-17 23:11:49,736 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 1
+2015-10-17 23:11:49,736 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 89322507 kv 22330620(89322480) kvi 19709196(78836784)
+2015-10-17 23:11:56,127 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-17 23:11:56,127 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 89322507; bufend = 18637105; bufvoid = 104857600
+2015-10-17 23:11:56,127 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 22330620(89322480); kvend = 9902156(39608624); length = 12428465/6553600
+2015-10-17 23:11:56,127 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 29122856 kvi 7280708(29122832)

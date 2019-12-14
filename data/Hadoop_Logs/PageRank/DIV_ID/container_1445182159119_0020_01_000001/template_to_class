@@ -1,0 +1,32 @@
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//1//89
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty ixtp\webapp//2//5
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging//3//34
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging//4//34
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging//5//34
+java io IOException An existing connection was forcibly closed by the remote host//6//36
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog//7//8
+history done intermediate msrabi job pagerank SUCCEEDED default jhist tmp//8//17
+at org apache hadoop hdfs DFSOutputStream$DataStreamer createBlockOutputStream DFSOutputStream java//9//117
+at org apache hadoop ipc Server$Listener doRead Server java//10//61
+at org apache hadoop hdfs DFSOutputStream$DataStreamer nextBlockOutputStream DFSOutputStream java//11//117
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java//12//61
+at org apache hadoop ipc Server$Connection readAndProcess Server java//13//61
+history done intermediate msrabi job pagerank SUCCEEDED default jhist//14//17
+at org apache hadoop hdfs DFSOutputStream$DataStreamer run DFSOutputStream java//15//149
+at org apache hadoop ipc Server$Listener$Reader run Server java//16//61
+at org apache hadoop ipc Server channelRead java//17//61
+java io IOException connect ack with firstBadLink as//18//158
+history done intermediate msrabi job conf xml tmp//19//130
+at org apache hadoop ipc Server access$ java//20//15
+Container killed on request Exit code is//21//113
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@//22//64
+at sun nio ch SocketDispatcher read java//23//106
+at sun nio ch SocketChannelImpl read java//24//106
+Container exited with non zero exit code//25//119
+at sun nio ch IOUtil readIntoNativeBuffer java//26//4
+history done intermediate msrabi job conf xml//27//130
+at sun nio ch SocketDispatcher Native Method//28//164
+at sun nio ch IOUtil read java//29//106
+history done intermediate msrabi job summary//30//70
+INFO main org mortbay log jetty//31//64
+INFO org apache hadoop//32//35

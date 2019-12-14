@@ -1,0 +1,17 @@
+ hadoop org apache main INFO mapred mapreduce YarnChild msrabi local for dir usercache tmp nm cluster child application appcache 
+ hadoop org apache main INFO session metrics is id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache main INFO mapred YarnChild for retrying null now before again Sleeping Got 0ms 
+ hadoop org apache main INFO mapred mapreduce YarnChild job token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache main INFO mapred MapTask txt split sa msra hdfs Processing + 
+ hadoop org apache main INFO yarn util is ProcfsBasedProcessTree supported only on currently Linux 
+ hadoop org apache main INFO mapred MapTask mapreduce task sort mb io 
+ hadoop org apache main INFO mapred yarn util WindowsBasedProcessTree@ Using Task ResourceCalculatorProcessTree 
+ hadoop org apache main INFO impl at MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache main INFO mapred MapTask output collector class MapTask$MapOutputBuffer Map 
+ hadoop org apache main INFO MapTask impl metrics MetricsSystemImpl system started 
+ hadoop org apache main INFO impl properties loaded from MetricsConfig 
+ hadoop org apache main INFO mapred MapTask at soft limit 
+ hadoop org apache main INFO mapred YarnChild with tokens Executing 
+ hadoop org apache main INFO mapred MapTask ; length kvstart 
+ hadoop org apache main INFO mapred MapTask ; bufvoid bufstart 
+ hadoop org apache main INFO mapred MapTask kvi EQUATOR 

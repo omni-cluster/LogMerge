@@ -1,0 +1,22 @@
+ hadoop org apache fetcher# INFO mapreduce task reduce attempt for Fetcher job url sent reply received mapOutput?job hash and &reduce &map 
+ hadoop org apache fetcher# INFO mapreduce task reduce to attempt map output of Fetcher shuffle len decomp about DISK 
+ hadoop org apache INFO mapreduce for main mapred YarnChild msrabi local dir usercache tmp nm cluster child application appcache 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 2353ms 
+ hadoop org apache fetcher# INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 5486ms 
+ hadoop org apache fetcher# INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl SA MSRA with Assigning 
+ hadoop org apache fetcher# INFO mapreduce task reduce to attempt is maxSingleShuffleLimit MergeManagerImpl than since greater disk Shuffling 
+ hadoop org apache fetcher# INFO mapreduce task reduce to of microsoft fareast corp com ShuffleSchedulerImpl SA MSRA assigned 
+ hadoop org apache INFO mapreduce task reduce attempt for map EventFetcher fetching Map Events Completion Got outputs new 
+ hadoop org apache INFO mapreduce task reduce attempt for EventFetcher fetching Map Events Completion started Thread 
+ hadoop org apache fetcher# INFO mapreduce task reduce attempt for map output from bytes Read OnDiskMapOutput 
+ hadoop org apache INFO for main mapred YarnChild Got retrying null now before again Sleeping 0ms 
+ hadoop org apache INFO main is session metrics id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache INFO mapreduce main mapred job YarnChild token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO mapreduce task reduce main maxSingleShuffleLimit MergeManagerImpl mergeThreshold memoryLimit memToMemMergeOutputsThreshold ioSortFactor MergerManager 
+ hadoop org apache INFO main is yarn util ProcfsBasedProcessTree supported only on currently Linux 
+ hadoop org apache INFO mapreduce task reduce main mapred Using ReduceTask ShuffleConsumerPlugin Shuffle@ 
+ hadoop org apache INFO main mapred yarn util Using WindowsBasedProcessTree@ Task ResourceCalculatorProcessTree 
+ hadoop org apache INFO main impl MetricsSystemImpl snapshot second period at Scheduled 
+ hadoop org apache INFO main impl started metrics ReduceTask MetricsSystemImpl system 
+ hadoop org apache INFO main mapred with YarnChild tokens Executing 
+ hadoop org apache INFO main from impl properties loaded MetricsConfig 

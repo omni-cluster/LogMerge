@@ -1,0 +1,54 @@
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of KILLED map 'attempt '//1//76
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Ignoring obsolete output of OBSOLETE map 'attempt '//2//76
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//3//60
+WARN fetcher# org apache hadoop mapreduce task reduce Fetcher Failed to connect MININT fareast corp microsoft com with map outputs//4//151
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 18068ms//5//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 4478ms//6//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5387ms//7//1
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//8//167
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 2863ms//9//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 3921ms//10//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 6859ms//11//1
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//12//147
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 5951ms//13//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MININT fareast corp microsoft com freed by in 180042ms//14//66
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//15//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//16//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//17//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//18//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MININT fareast corp microsoft com with to//19//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MININT fareast corp microsoft com//20//78
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//21//167
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//22//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Reporting fetch failure for attempt to jobtracker//23//167
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//24//160
+ERROR fetcher# org apache hadoop mapreduce task reduce Fetcher Connection retry failed with attempts in seconds//25//169
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//26//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//27//83
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//28//0
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//29//82
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//30//154
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//31//147
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//32//67
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//33//16
+INFO main org apache hadoop impl MetricsConfig loaded properties from//34//8
+INFO main org apache hadoop mapred YarnChild Executing with tokens//35//102
+at org apache hadoop mapreduce task reduce Fetcher connect java//36//122
+at org apache hadoop mapreduce task reduce Fetcher run java//37//122
+at org apache hadoop mapreduce task reduce Fetcher setupConnectionsWithRetry java//38//122
+at org apache hadoop mapreduce task reduce Fetcher copyFromHost java//39//122
+at sun net www protocol http HttpURLConnection connect java//40//65
+at sun net www protocol http HttpURLConnection plainConnect java//41//65
+at sun net www protocol http HttpURLConnection getNewHttpClient java//42//65
+at sun net www http HttpClient openServer java//43//65
+at sun net www http HttpClient init java//44//65
+at sun net www http HttpClient New java//45//65
+at java net TwoStacksPlainSocketImpl socketConnect Native Method//46//9
+java net ConnectException Connection timed out connect//47//121
+at sun net NetworkClient doConnect java//48//104
+at java net AbstractPlainSocketImpl doConnect//49//104
+at java net AbstractPlainSocketImpl connectToAddress//50//104
+at java net Socket connect//51//59
+at java net SocksSocketImpl connect//52//59
+at java net PlainSocketImpl connect//53//59
+at java net AbstractPlainSocketImpl connect//54//59

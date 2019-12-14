@@ -1,0 +1,55 @@
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//1//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 12937ms//2//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 25522ms//3//1
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//4//147
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//5//167
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 69ms//6//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 23360ms//7//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 20147ms//8//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 39595ms//9//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 60ms//10//1
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//11//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//12//78
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//13//78
+WARN main org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa pageout temporary attempt//14//89
+WARN main org apache hadoop mapred YarnChild Exception running child mapreduce task reduce Shuffle$ShuffleError error in shuffle fetcher#//15//154
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//16//60
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk//17//115
+ERROR fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Shuffle failed local error on this node 04IQ//18//167
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//19//8
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//20//160
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//21//167
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//22//58
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//23//0
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//24//83
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//25//82
+Caused by java io IOException There is not enough space on the disk//26//103
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//27//154
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//28//147
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//29//67
+INFO main org apache hadoop mapred Task Runnning cleanup for the task//30//154
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//31//16
+at org apache hadoop mapreduce task reduce Fetcher run java//32//122
+at org apache hadoop mapreduce task reduce Shuffle run java//33//77
+at org apache hadoop mapreduce task reduce OnDiskMapOutput shuffle java//34//77
+INFO main org apache hadoop mapred YarnChild Executing with tokens//35//102
+at org apache hadoop mapreduce task reduce Fetcher copyMapOutput java//36//122
+INFO main org apache hadoop impl MetricsConfig loaded properties from//37//8
+at org apache hadoop mapreduce task reduce Fetcher copyFromHost java//38//122
+at org apache hadoop mapred YarnChild$ run YarnChild java//39//41
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java//40//114
+at org apache hadoop fs FSDataOutputStream$PositionCache write FSDataOutputStream java//41//43
+at org apache hadoop fs ChecksumFileSystem$ChecksumFSOutputSummer writeChunk ChecksumFileSystem java//42//26
+at org apache hadoop fs FSOutputSummer writeChecksumChunks java//43//128
+at org apache hadoop mapred YarnChild main java//44//141
+at org apache hadoop security UserGroupInformation doAs java//45//128
+at org apache hadoop fs FSOutputSummer write java//46//43
+at org apache hadoop mapred ReduceTask run java//47//141
+at javax security auth Subject doAs java//48//137
+at java io FileOutputStream writeBytes Native Method//49//9
+at org apache hadoop fs FSOutputSummer java//50//43
+at java security AccessController doPrivileged Native Method//51//9
+at java io FileOutputStream write//52//136
+at java io BufferedOutputStream flushBuffer//53//13
+at java io BufferedOutputStream write//54//136
+at java io DataOutputStream write//55//136

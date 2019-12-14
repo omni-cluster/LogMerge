@@ -1,0 +1,46 @@
+ hadoop org apache mapred main output YarnChild for util local out not child attempt WARN Could valid running find file directory any Exception DiskChecker$DiskErrorException 
+ hadoop org apache mapred INFO main YarnChild mapreduce for local msrabi dir child usercache tmp nm cluster application appcache 
+ hadoop org apache main output mapreduce temporary sa out not msra hdfs attempt WARN Could lib delete FileOutputCommitter 
+ hadoop org apache INFO main metrics session is id use dfs deprecation deprecated conf Instead Configuration 
+ hadoop org apache mapred INFO main YarnChild for retrying null now before again Sleeping Got 0ms 
+ hadoop org apache mapred INFO main YarnChild security mapreduce job token Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO main util yarn is ProcfsBasedProcessTree supported only on currently Linux 
+ hadoop org apache mapred MapTask INFO main sa msra hdfs txt split Processing + 
+ hadoop org apache mapred MapTask INFO main for close exception during MapTask$NewOutputCollector@ Ignoring 
+ hadoop org apache mapred INFO main for task Task the cleanup Runnning 
+ hadoop org apache mapred MapTask INFO main output map flush of Starting 
+ hadoop org apache mapred INFO main util yarn Task WindowsBasedProcessTree@ Using ResourceCalculatorProcessTree 
+ hadoop org apache INFO main at impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache mapred MapTask INFO main output MapTask$MapOutputBuffer collector class Map 
+ hadoop org apache MapTask INFO main impl metrics MetricsSystemImpl system shutdown complete 
+ hadoop org apache mapred MapTask INFO main mapreduce task sort mb io 
+ hadoop org apache mapred MapTask INFO main ; bufvoid bufstart bufend 
+ hadoop org apache mapred MapTask INFO main kvi kv equator RESET 
+ hadoop org apache mapred MapTask INFO main ; length kvstart kvend 
+ hadoop org apache MapTask INFO main impl metrics MetricsSystemImpl system stopped 
+ hadoop org apache MapTask INFO main impl metrics MetricsSystemImpl system started 
+ hadoop org apache MapTask INFO main impl metrics MetricsSystemImpl system Stopping 
+ hadoop org apache mapred INFO main YarnChild with tokens Executing 
+ hadoop org apache mapred MapTask INFO main output map Spilling 
+ hadoop org apache INFO main impl properties loaded from MetricsConfig 
+ hadoop org apache mapred MapTask INFO main ; bufvoid bufstart 
+ hadoop org apache mapred MapTask INFO main ; length kvstart 
+ hadoop org apache mapred MapTask INFO main at soft limit 
+ hadoop org apache mapred at java YarnChild run YarnChild$ 
+ hadoop org apache mapred MapTask INFO main kvi EQUATOR 
+ hadoop org apache mapred MapTask at java flush MapTask$MapOutputBuffer 
+ hadoop org apache mapred MapTask INFO spill Finished SpillThread 
+ hadoop org apache at java LocalDirAllocator getLocalPathForWrite fs LocalDirAllocator$AllocatorPerContext 
+ hadoop org apache mapred MapTask at java MapTask$MapOutputBuffer mergeParts 
+ hadoop org apache mapred MapTask at java close MapTask$NewOutputCollector 
+ hadoop org apache mapred MapTask INFO main spill Finished 
+ hadoop org apache mapred MapTask at java run 
+ hadoop org apache at java security doAs UserGroupInformation 
+ hadoop org apache mapred MapTask at java closeQuietly 
+ hadoop org apache mapred at java YarnOutputFiles getOutputFileForWrite 
+ hadoop org apache at java LocalDirAllocator getLocalPathForWrite fs 
+ hadoop org apache mapred MapTask at java runNewMapper 
+ hadoop org apache mapred main at java YarnChild 
+ at java security doPrivileged Native Method AccessController 
+ at java security doAs Subject javax auth 
+ java lang NullPointerException 

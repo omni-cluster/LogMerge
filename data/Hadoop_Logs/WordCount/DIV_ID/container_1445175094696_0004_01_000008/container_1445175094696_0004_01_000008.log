@@ -1,0 +1,261 @@
+2015-10-18 21:37:45,755 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-18 21:37:45,990 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-18 21:37:45,990 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-10-18 21:37:46,115 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-18 21:37:46,115 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445175094696_0004, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@67b65d47)
+2015-10-18 21:37:46,630 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-18 21:37:47,880 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445175094696_0004
+2015-10-18 21:37:49,333 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-18 21:37:50,443 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-18 21:37:50,599 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4d220536
+2015-10-18 21:37:52,037 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://msra-sa-41:9000/wordcount2.txt:805306368+134217728
+2015-10-18 21:37:52,224 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-18 21:37:52,224 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-10-18 21:37:52,224 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-10-18 21:37:52,224 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-10-18 21:37:52,224 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-10-18 21:37:52,271 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-18 21:38:13,210 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 21:38:13,210 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 34172179; bufvoid = 104857600
+2015-10-18 21:38:13,210 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 13785924(55143696); length = 12428473/6553600
+2015-10-18 21:38:13,210 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 44657929 kvi 11164476(44657904)
+2015-10-18 21:38:40,164 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-10-18 21:38:40,180 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 44657929 kv 11164476(44657904) kvi 8543052(34172208)
+2015-10-18 21:39:05,321 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 21:39:05,321 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 44657929; bufend = 78836928; bufvoid = 104857600
+2015-10-18 21:39:05,321 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 11164476(44657904); kvend = 24952116(99808464); length = 12426761/6553600
+2015-10-18 21:39:05,321 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 89322688 kvi 22330668(89322672)
+2015-10-18 21:39:25,963 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 1
+2015-10-18 21:39:25,963 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 89322688 kv 22330668(89322672) kvi 19709236(78836944)
+2015-10-18 21:39:41,905 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: "MININT-FNANLI5/127.0.0.1"; destination host is: "10.190.173.170":25859; 
+2015-10-18 21:39:41,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:772)
+2015-10-18 21:39:41,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-18 21:39:41,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-18 21:39:41,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-18 21:39:41,	at com.sun.proxy.$Proxy9.statusUpdate(Unknown Source)
+2015-10-18 21:39:41,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-18 21:39:41,	at java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:39:41,Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+2015-10-18 21:39:41,	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+2015-10-18 21:39:41,	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+2015-10-18 21:39:41,	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+2015-10-18 21:39:41,	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+2015-10-18 21:39:41,	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+2015-10-18 21:39:41,	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:57)
+2015-10-18 21:39:41,	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+2015-10-18 21:39:41,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:161)
+2015-10-18 21:39:41,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:131)
+2015-10-18 21:39:41,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-18 21:39:41,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-18 21:39:41,	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:513)
+2015-10-18 21:39:41,	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+2015-10-18 21:39:41,	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+2015-10-18 21:39:41,	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+2015-10-18 21:39:41,	at org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1071)
+2015-10-18 21:39:41,	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:966)
+2015-10-18 21:39:41,
+2015-10-18 21:39:45,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:46,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:47,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:48,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:49,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:50,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:51,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:52,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:53,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:54,968 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:39:54,968 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to 10.190.173.170:25859 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+2015-10-18 21:39:54,	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2015-10-18 21:39:54,	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+2015-10-18 21:39:54,	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2015-10-18 21:39:54,	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+2015-10-18 21:39:54,	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+2015-10-18 21:39:54,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:757)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-18 21:39:54,	at com.sun.proxy.$Proxy9.statusUpdate(Unknown Source)
+2015-10-18 21:39:54,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-18 21:39:54,	at java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:39:54,Caused by: java.net.NoRouteToHostException: No route to host: no further information
+2015-10-18 21:39:54,	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+2015-10-18 21:39:54,	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+2015-10-18 21:39:54,	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+2015-10-18 21:39:54,	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+2015-10-18 21:39:54,	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+2015-10-18 21:39:54,	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+2015-10-18 21:39:54,	... 5 more
+2015-10-18 21:39:54,
+2015-10-18 21:39:59,015 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:00,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:01,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:02,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:03,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:04,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:05,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:06,031 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:07,047 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:08,047 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: 10.190.173.170/10.190.173.170:25859. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 21:40:08,047 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to 10.190.173.170:25859 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+2015-10-18 21:40:08,	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2015-10-18 21:40:08,	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+2015-10-18 21:40:08,	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2015-10-18 21:40:08,	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+2015-10-18 21:40:08,	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+2015-10-18 21:40:08,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:757)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-18 21:40:08,	at com.sun.proxy.$Proxy9.statusUpdate(Unknown Source)
+2015-10-18 21:40:08,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-18 21:40:08,	at java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:40:08,Caused by: java.net.NoRouteToHostException: No route to host: no further information
+2015-10-18 21:40:08,	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+2015-10-18 21:40:08,	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+2015-10-18 21:40:08,	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+2015-10-18 21:40:08,	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+2015-10-18 21:40:08,	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+2015-10-18 21:40:08,	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+2015-10-18 21:40:08,	... 5 more
+2015-10-18 21:40:08,
+2015-10-18 21:40:08,047 INFO [communication thread] org.apache.hadoop.mapred.Task: Process Thread Dump: Communication exception
+2015-10-18 21:40:08,12 active threads
+2015-10-18 21:40:08,Thread 21 (SpillThread):
+2015-10-18 21:40:08,  State: WAITING
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 3
+2015-10-18 21:40:08,  Waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4166d6d3
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    sun.misc.Unsafe.park(Native Method)
+2015-10-18 21:40:08,    java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+2015-10-18 21:40:08,    java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+2015-10-18 21:40:08,    org.apache.hadoop.mapred.MapTask$MapOutputBuffer$SpillThread.run(MapTask.java:1521)
+2015-10-18 21:40:08,Thread 20 (org.apache.hadoop.hdfs.PeerCache@7316a5eb):
+2015-10-18 21:40:08,  State: TIMED_WAITING
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 46
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    java.lang.Thread.sleep(Native Method)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.PeerCache.run(PeerCache.java:244)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.PeerCache.access$000(PeerCache.java:41)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.PeerCache$1.run(PeerCache.java:119)
+2015-10-18 21:40:08,    java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:40:08,Thread 16 (communication thread):
+2015-10-18 21:40:08,  State: RUNNABLE
+2015-10-18 21:40:08,  Blocked count: 29
+2015-10-18 21:40:08,  Waited count: 102
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    sun.management.ThreadImpl.getThreadInfo1(Native Method)
+2015-10-18 21:40:08,    sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:174)
+2015-10-18 21:40:08,    sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:139)
+2015-10-18 21:40:08,    org.apache.hadoop.util.ReflectionUtils.printThreadInfo(ReflectionUtils.java:165)
+2015-10-18 21:40:08,    org.apache.hadoop.util.ReflectionUtils.logThreadInfo(ReflectionUtils.java:219)
+2015-10-18 21:40:08,    org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:760)
+2015-10-18 21:40:08,    java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:40:08,Thread 15 (Thread for syncLogs):
+2015-10-18 21:40:08,  State: TIMED_WAITING
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 33
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    sun.misc.Unsafe.park(Native Method)
+2015-10-18 21:40:08,    java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+2015-10-18 21:40:08,    java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+2015-10-18 21:40:08,    java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+2015-10-18 21:40:08,    java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+2015-10-18 21:40:08,    java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+2015-10-18 21:40:08,    java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+2015-10-18 21:40:08,    java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2015-10-18 21:40:08,    java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:40:08,Thread 13 (IPC Parameter Sending Thread #0):
+2015-10-18 21:40:08,  State: TIMED_WAITING
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 30
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    sun.misc.Unsafe.park(Native Method)
+2015-10-18 21:40:08,    java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+2015-10-18 21:40:08,    java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+2015-10-18 21:40:08,    java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:359)
+2015-10-18 21:40:08,    java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:942)
+2015-10-18 21:40:08,    java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
+2015-10-18 21:40:08,    java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+2015-10-18 21:40:08,    java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2015-10-18 21:40:08,    java.lang.Thread.run(Thread.java:724)
+2015-10-18 21:40:08,Thread 11 (Timer for 'MapTask' metrics system):
+2015-10-18 21:40:08,  State: TIMED_WAITING
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 15
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    java.lang.Object.wait(Native Method)
+2015-10-18 21:40:08,    java.util.TimerThread.mainLoop(Timer.java:552)
+2015-10-18 21:40:08,    java.util.TimerThread.run(Timer.java:505)
+2015-10-18 21:40:08,Thread 10 (Thread-1):
+2015-10-18 21:40:08,  State: RUNNABLE
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 0
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+2015-10-18 21:40:08,    sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:142)
+2015-10-18 21:40:08,Thread 5 (Attach Listener):
+2015-10-18 21:40:08,  State: RUNNABLE
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 0
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,Thread 4 (Signal Dispatcher):
+2015-10-18 21:40:08,  State: RUNNABLE
+2015-10-18 21:40:08,  Blocked count: 0
+2015-10-18 21:40:08,  Waited count: 0
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,Thread 3 (Finalizer):
+2015-10-18 21:40:08,  State: WAITING
+2015-10-18 21:40:08,  Blocked count: 51
+2015-10-18 21:40:08,  Waited count: 18
+2015-10-18 21:40:08,  Waiting on java.lang.ref.ReferenceQueue$Lock@7a766ca0
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    java.lang.Object.wait(Native Method)
+2015-10-18 21:40:08,    java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+2015-10-18 21:40:08,    java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+2015-10-18 21:40:08,    java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:189)
+2015-10-18 21:40:08,Thread 2 (Reference Handler):
+2015-10-18 21:40:08,  State: WAITING
+2015-10-18 21:40:08,  Blocked count: 18
+2015-10-18 21:40:08,  Waited count: 19
+2015-10-18 21:40:08,  Waiting on java.lang.ref.Reference$Lock@74d5bb2f
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    java.lang.Object.wait(Native Method)
+2015-10-18 21:40:08,    java.lang.Object.wait(Object.java:503)
+2015-10-18 21:40:08,    java.lang.ref.Reference$ReferenceHandler.run(Reference.java:133)
+2015-10-18 21:40:08,Thread 1 (main):
+2015-10-18 21:40:08,  State: RUNNABLE
+2015-10-18 21:40:08,  Blocked count: 4
+2015-10-18 21:40:08,  Waited count: 11
+2015-10-18 21:40:08,  Stack:
+2015-10-18 21:40:08,    sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+2015-10-18 21:40:08,    sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+2015-10-18 21:40:08,    sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+2015-10-18 21:40:08,    sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+2015-10-18 21:40:08,    sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:87)
+2015-10-18 21:40:08,    sun.nio.ch.SelectorImpl.select(SelectorImpl.java:98)
+2015-10-18 21:40:08,    org.apache.hadoop.net.SocketIOWithTimeout$SelectorPool.select(SocketIOWithTimeout.java:335)
+2015-10-18 21:40:08,    org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:157)
+2015-10-18 21:40:08,    org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:161)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.protocol.datatransfer.PacketReceiver.readChannelFully(PacketReceiver.java:258)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.protocol.datatransfer.PacketReceiver.doReadFully(PacketReceiver.java:209)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.protocol.datatransfer.PacketReceiver.doRead(PacketReceiver.java:171)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.protocol.datatransfer.PacketReceiver.receiveNextPacket(PacketReceiver.java:102)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.RemoteBlockReader2.readNextPacket(RemoteBlockReader2.java:186)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.RemoteBlockReader2.read(RemoteBlockReader2.java:146)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.DFSInputStream$ByteArrayStrategy.doRead(DFSInputStream.java:693)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.DFSInputStream.readBuffer(DFSInputStream.java:749)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.DFSInputStream.readWithStrategy(DFSInputStream.java:806)
+2015-10-18 21:40:08,    org.apache.hadoop.hdfs.DFSInputStream.read(DFSInputStream.java:847)
+2015-10-18 21:40:08,    java.io.DataInputStream.read(DataInputStream.java:100)
+2015-10-18 21:40:08,
+2015-10-18 21:40:08,063 WARN [communication thread] org.apache.hadoop.mapred.Task: Last retry, killing attempt_1445175094696_0004_m_000006_0

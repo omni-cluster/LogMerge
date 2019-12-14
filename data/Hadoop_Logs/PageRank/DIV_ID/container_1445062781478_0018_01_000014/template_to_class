@@ -1,0 +1,61 @@
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//1//20
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//2//145
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; retry policy is RetryUpToMaximumCountWithFixedSleep maxRetries sleepTime MILLISECONDS//3//169
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries//4//33
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply//5//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 1004ms//6//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 550ms//7//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 834ms//8//1
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK//9//167
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//10//147
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 666ms//11//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 635ms//12//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 402ms//13//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 844ms//14//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 542ms//15//1
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com//16//78
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit//17//60
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to//18//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs//19//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl 04IQ fareast corp microsoft com freed by in 9171ms//20//66
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to 04IQ fareast corp microsoft com//21//78
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce Exception in getting events//22//58
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning 04IQ fareast corp microsoft com with to//23//78
+INFO fetcher# org apache hadoop mapreduce task reduce OnDiskMapOutput Read bytes from map output for attempt//24//167
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//25//8
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//26//160
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started//27//58
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold//28//0
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//29//83
+Caused by java io IOException An existing connection was forcibly closed the remote host//30//36
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//31//82
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@//32//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//33//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//34//147
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started//35//16
+INFO main org apache hadoop mapred YarnChild Executing with tokens//36//102
+at org apache hadoop mapreduce task reduce EventFetcher run java//37//122
+INFO main org apache hadoop impl MetricsConfig loaded properties from//38//8
+at org apache hadoop mapreduce task reduce EventFetcher getMapCompletionEvents java//39//122
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//40//144
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//41//152
+at org apache hadoop ipc Client$Connection run Client java//42//15
+at org apache hadoop mapred Task$TaskReporter run Task java//43//91
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//44//152
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//45//44
+at org apache hadoop net NetUtils wrapException java//46//53
+at org apache hadoop net SocketInputStream read java//47//53
+at org apache hadoop ipc Client call java//48//15
+at org apache hadoop net SocketIOWithTimeout doIO java//49//53
+at com sun proxy $ statusUpdate Unknown Source//50//12
+at com sun proxy $ getMapCompletionEvents Unknown Source//51//12
+at sun nio ch SocketDispatcher Native Method//52//164
+at sun nio ch IOUtil readIntoNativeBuffer java//53//4
+at sun nio ch IOUtil read java//54//106
+at sun nio ch SocketChannelImpl read java//55//106
+at sun nio ch SocketDispatcher read java//56//106
+at java io DataInputStream readInt//57//51
+at java io BufferedInputStream fill//58//51
+at java lang Thread run//59//31
+at java io BufferedInputStream read//60//136
+at java io FilterInputStream read//61//51

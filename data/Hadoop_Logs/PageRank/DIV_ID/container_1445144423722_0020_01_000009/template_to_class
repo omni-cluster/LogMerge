@@ -1,0 +1,46 @@
+INFO communication thread org apache hadoop mapred Task Communication exception java io IOException Failed on local An existing connection was forcibly closed by the remote host; Host Details host is "MSRA SA "; destination "minint fareast corp microsoft com" ;//1//20
+INFO communication thread org apache hadoop ipc Client Retrying connect to server minint fareast corp microsoft com Already tried time ; maxRetries//2//33
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//3//147
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//4//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//5//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//6//83
+Caused by java io IOException An existing connection was forcibly closed the remote host//7//36
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//8//82
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//9//22
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//10//154
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//11//3
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//12//67
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//13//147
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//14//16
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//15//25
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//16//25
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//17//25
+INFO main org apache hadoop mapred MapTask Spilling map output//18//102
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//19//25
+INFO main org apache hadoop mapred MapTask soft limit at//20//75
+INFO main org apache hadoop mapred MapTask kvstart ; length//21//25
+INFO main org apache hadoop impl MetricsConfig loaded properties from//22//8
+INFO main org apache hadoop mapred YarnChild Executing with tokens//23//102
+at org apache hadoop net SocketInputStream$Reader performIO SocketInputStream java//24//144
+at org apache hadoop ipc Client$Connection$PingInputStream read Client java//25//152
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//26//102
+at org apache hadoop ipc Client$Connection run Client java//27//15
+at org apache hadoop mapred Task$TaskReporter run Task java//28//91
+at org apache hadoop ipc WritableRpcEngine$Invoker invoke WritableRpcEngine java//29//44
+at org apache hadoop ipc Client$Connection receiveRpcResponse Client java//30//152
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//31//75
+at org apache hadoop ipc Client call java//32//15
+at org apache hadoop net SocketIOWithTimeout doIO java//33//53
+at org apache hadoop net NetUtils wrapException java//34//53
+at org apache hadoop net SocketInputStream read java//35//53
+at com sun proxy $ statusUpdate Unknown Source//36//12
+at sun nio ch IOUtil read java//37//106
+at sun nio ch SocketDispatcher read java//38//106
+at sun nio ch SocketDispatcher Native Method//39//164
+at sun nio ch SocketChannelImpl read java//40//106
+at sun nio ch IOUtil readIntoNativeBuffer java//41//4
+at java io FilterInputStream read//42//51
+at java io BufferedInputStream read//43//136
+at java io BufferedInputStream fill//44//51
+at java lang Thread run//45//31
+at java io DataInputStream readInt//46//51

@@ -1,0 +1,45 @@
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher for url mapOutput?job job &reduce &map attempt sent hash and received reply
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl MSRA SA fareast corp microsoft com freed by in 72679ms
+INFO fetcher# org apache hadoop mapreduce task reduce Fetcher about to shuffle output of map attempt decomp len DISK
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application
+Caused by org apache hadoop fs FSError java io IOException There is not enough space on the disk
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl Assigning MSRA SA fareast corp microsoft com with to
+INFO fetcher# org apache hadoop mapreduce task reduce ShuffleSchedulerImpl assigned of to MSRA SA fareast corp microsoft com
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Got new map outputs
+WARN main org apache hadoop mapred YarnChild Exception running child mapreduce task reduce Shuffle$ShuffleError error in shuffle fetcher#
+INFO fetcher# org apache hadoop mapreduce task reduce MergeManagerImpl attempt Shuffling to disk since is greater than maxSingleShuffleLimit
+INFO EventFetcher for fetching Map Completion Events org apache hadoop mapreduce task reduce attempt Thread started
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now
+INFO main org apache hadoop mapreduce task reduce MergeManagerImpl MergerManager memoryLimit maxSingleShuffleLimit mergeThreshold ioSortFactor memToMemMergeOutputsThreshold
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux
+INFO main org apache hadoop mapred ReduceTask Using ShuffleConsumerPlugin mapreduce task reduce Shuffle@
+Caused by java io IOException There is not enough space on the disk
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second
+INFO main org apache hadoop impl MetricsSystemImpl ReduceTask metrics system started
+at org apache hadoop mapreduce task reduce OnDiskMapOutput shuffle java
+INFO main org apache hadoop mapred YarnChild Executing with tokens
+at org apache hadoop mapreduce task reduce Shuffle run java
+at org apache hadoop mapreduce task reduce Fetcher run java
+at org apache hadoop mapreduce task reduce Fetcher copyMapOutput java
+INFO main org apache hadoop impl MetricsConfig loaded properties from
+at org apache hadoop mapreduce task reduce Fetcher copyFromHost java
+at org apache hadoop fs ChecksumFileSystem$ChecksumFSOutputSummer writeChunk ChecksumFileSystem java
+at org apache hadoop fs RawLocalFileSystem$LocalFSFileOutputStream write RawLocalFileSystem java
+at org apache hadoop fs FSDataOutputStream$PositionCache write FSDataOutputStream java
+at org apache hadoop mapred YarnChild$ run YarnChild java
+at org apache hadoop mapred ReduceTask run java
+at org apache hadoop security UserGroupInformation doAs java
+at org apache hadoop fs FSOutputSummer write java
+at org apache hadoop mapred YarnChild main java
+at org apache hadoop fs FSOutputSummer writeChecksumChunks java
+at java io FileOutputStream writeBytes Native Method
+at org apache hadoop fs FSOutputSummer java
+at javax security auth Subject doAs java
+at java security AccessController doPrivileged Native Method
+at java io BufferedOutputStream flushBuffer
+at java io BufferedOutputStream write
+at java io FileOutputStream write
+at java io DataOutputStream write

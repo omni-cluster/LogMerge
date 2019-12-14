@@ -1,0 +1,80 @@
+ hadoop org apache INFO Server from for # the port client ipc by Socket Reader java remote was readAndProcess io host forcibly existing connection closed IOException An threw exception 
+ hadoop org apache INFO mapreduce job for yarn tmp staging sa msra msrabi hdfs jobhistory JobHistoryEventHandler eventHandlingThread jhist setup Writer JobId File Event 
+ hadoop org apache INFO vCores memory mapreduce app rm RMCommunicator Allocator for application RMContainerRequestor resourcelimit release newContainers knownNMs getResources finishedContainers ask 
+ hadoop org INFO mapreduce to yarn main log mortbay file jar webapps share localbox jar! common \webapp \Users\msrabi\AppData\Local\Temp\Jetty SNAPSHOT Extract 
+ hadoop org apache mapreduce attempt not # sa msra hdfs Processor CommitterEvent temporary output lib FileOutputCommitter pageout delete WARN Could 
+ hadoop org apache INFO handler to event AsyncDispatcher yarn microsoft fareast corp com SA MSRA default util rack Resolved RackResolver 
+ hadoop org apache INFO mapreduce to job yarn tmp staging sa msra msrabi hdfs jobhistory JobHistoryEventHandler eventHandlingThread xml conf Copying 
+ hadoop org apache INFO impl # yarn ContainerLauncher microsoft fareast corp com SA MSRA client api ContainerManagementProtocolProxy proxy Opening 
+ hadoop org apache INFO to yarn main class http server filter AM webproxy context amfilter PROXY FILTER AmIpFilter static 
+ hadoop org apache INFO mapreduce to yarn main class http server filter AM webproxy context amfilter PROXY FILTER AmIpFilter 
+ hadoop org apache INFO handler to event AsyncDispatcher yarn microsoft fareast corp com default util rack Resolved RackResolver 04IQ 
+ hadoop org apache INFO mapreduce to job yarn tmp staging sa msra msrabi hdfs jobhistory JobHistoryEventHandler eventHandlingThread jhist Copying 
+ hadoop org apache INFO mapreduce is to job not the main jobhistory JobHistoryEventHandler history server timeline enabled data Emitting 
+ hadoop org apache INFO RMCommunicator Allocator to yarn microsoft fareast corp com default util rack Resolved RackResolver 04IQ 
+ hadoop org apache INFO vCores memory mapreduce app rm RMCommunicator Allocator RMContainerAllocator totalResourceLimit netScheduledReduceResource netScheduledMapResource finalReduceResourceLimit finalMapResourceLimit completedMapPercent 
+ hadoop org apache INFO impl # yarn ContainerLauncher microsoft fareast corp com client api ContainerManagementProtocolProxy proxy Opening 04IQ 
+ hadoop org apache INFO mapreduce to impl yarn the main api server Adding protocol pb factories RpcServerFactoryPBImpl MRClientProtocolPB 
+ hadoop org apache INFO mapreduce to yarn tmp staging sa msra hdfs jobhistory JobHistoryEventHandler done eventHandlingThread location Copied 
+ hadoop org apache INFO mapreduce to yarn tmp staging sa msra hdfs jobhistory JobHistoryEventHandler done eventHandlingThread Moved 
+ hadoop org apache INFO handler Server on IPC mapred TaskAttemptListenerImpl for task with jvm JVM ID asked 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl task with jvm JVM ID given 
+ hadoop org apache INFO Server job for # port ipc Socket Reader successful auth SecurityLogger SIMPLE Auth 
+ hadoop to job yarn default SUCCEEDED tmp staging sa msra msrabi hdfs done history intermediate jhist pagerank 
+ hadoop org apache INFO mapreduce is not for request main http log requests defined HttpRequestLog Http 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from Commit update state pending 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from request go Commit no 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from request startIndex maxEvents MapCompletionEvents 
+ hadoop org apache INFO mapreduce of is the jobhistory Thread JobHistoryEventHandler Stopping size queue Size outstanding 
+ hadoop org apache INFO mapreduce event AsyncDispatcher for yarn main EventType class jobhistory JobHistoryEventHandler Registering 
+ hadoop org apache INFO vCores memory mapreduce app rm RMCommunicator Allocator RMContainerAllocator schedule headroom Recalculating 
+ hadoop to job yarn tmp staging sa msra msrabi hdfs done history intermediate xml conf 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl TaskAttempt of is Progress 
+ hadoop to job yarn tmp staging sa msra msrabi hdfs done history intermediate summary 
+ hadoop org apache INFO handler attempt Server on IPC mapred TaskAttemptListenerImpl from acknowledgement Done 
+ hadoop org apache INFO main util ipc class java Using concurrent callQueue LinkedBlockingQueue CallQueueManager 
+ hadoop org apache INFO to yarn main client sa msra at ResourceManager RMProxy Connecting 
+ hadoop org apache INFO impl yarn main client api ContainerManagementProtocolProxy proxies nodemanagers max cached 
+ hadoop org apache INFO mapreduce main sa msra hdfs jobhistory file system JobHistoryUtils Default 
+ the by java remote was io host forcibly existing connection closed IOException An 
+ hadoop org apache INFO mapreduce is jobhistory Thread JobHistoryEventHandler true that notified forceJobCompletion 
+ hadoop org apache INFO vCores memory mapreduce app rm RMContainerAllocator Thread mapResourceRequest 
+ hadoop org apache INFO Server for # port ipc Socket Reader Starting 
+ hadoop org apache INFO vCores memory mapreduce app rm RMContainerAllocator main maxContainerCapability 
+ hadoop org apache INFO vCores memory mapreduce app rm RMContainerAllocator Thread reduceResourceRequest 
+ hadoop org apache INFO impl main at MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO impl main MRAppMaster system started MetricsSystemImpl metrics 
+ hadoop org apache INFO mapreduce jobhistory Thread JobHistoryEventHandler stop super Stopped 
+ hadoop org apache INFO main class http filter global 'safety' $QuotingInputFilter 
+ hadoop org apache INFO yarn main webapp WebApps modules guice Registered 
+ org INFO to impl main log mortbay via jLoggerAdapter jLog Logging 
+ hadoop org apache INFO Server on IPC ipc listener Stopping 
+ hadoop org apache INFO Server on ipc Thread server Stopping 
+ hadoop org apache INFO Server on IPC ipc listener starting 
+ hadoop org apache INFO from impl main properties loaded MetricsConfig 
+ hadoop org apache INFO to main port http bound Jetty 
+ hadoop org apache INFO mapreduce main http spec path adding 
+ hadoop org apache INFO main http spec path adding ws 
+ job default SUCCEEDED tmp msrabi done history intermediate jhist pagerank 
+ job default SUCCEEDED msrabi done history intermediate jhist pagerank 
+ hadoop org apache Server ipc at java readAndProcess Server$Connection 
+ hadoop org apache Server ipc at java Server$Listener$Reader doRunLoop 
+ hadoop org apache Server ipc at java doRead Server$Listener 
+ hadoop org apache INFO Server IPC ipc Responder Stopping 
+ hadoop org apache Server ipc at java Server$Listener$Reader run 
+ hadoop org apache INFO Server IPC ipc Responder starting 
+ job tmp msrabi done history intermediate xml conf 
+ hadoop org apache Server ipc at java channelRead 
+ hadoop org apache Server ipc at java access$ 
+ at java sun nio ch IOUtil read 
+ on is request Container killed code Exit 
+ at sun nio ch SocketDispatcher Native Method 
+ at java sun nio ch read SocketChannelImpl 
+ job msrabi done history intermediate xml conf 
+ at java sun nio ch read SocketDispatcher 
+ at java sun nio ch IOUtil readIntoNativeBuffer 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ with Container code non zero exited exit 
+ hadoop org apache INFO mapreduce app 
+ org INFO main log mortbay jetty 
+ job msrabi done history intermediate summary 

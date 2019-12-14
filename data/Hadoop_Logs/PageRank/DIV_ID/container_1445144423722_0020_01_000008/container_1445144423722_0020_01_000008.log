@@ -1,0 +1,121 @@
+2015-10-18 18:03:58,067 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-18 18:03:58,138 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-18 18:03:58,138 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-10-18 18:03:58,156 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-18 18:03:58,156 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445144423722_0020, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@6b7a5e49)
+2015-10-18 18:03:58,277 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-18 18:03:58,604 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445144423722_0020
+2015-10-18 18:03:59,191 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-18 18:03:59,646 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-18 18:03:59,673 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7cedd9bc
+2015-10-18 18:03:59,879 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://msra-sa-41:9000/pageinput2.txt:805306368+134217728
+2015-10-18 18:04:00,007 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-18 18:04:00,007 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-10-18 18:04:00,008 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-10-18 18:04:00,008 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-10-18 18:04:00,008 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-10-18 18:04:00,022 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-18 18:04:02,849 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:04:02,849 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 48215795; bufvoid = 104857600
+2015-10-18 18:04:02,849 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 17296824(69187296); length = 8917573/6553600
+2015-10-18 18:04:02,849 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 57284531 kvi 14321128(57284512)
+2015-10-18 18:04:12,438 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-10-18 18:04:12,460 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 57284531 kv 14321128(57284512) kvi 12112692(48450768)
+2015-10-18 18:04:14,029 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:04:14,030 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 57284531; bufend = 630553; bufvoid = 104857600
+2015-10-18 18:04:14,030 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 14321128(57284512); kvend = 5400516(21602064); length = 8920613/6553600
+2015-10-18 18:04:14,030 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 9699305 kvi 2424820(9699280)
+2015-10-18 18:04:24,323 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 1
+2015-10-18 18:04:24,327 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 9699305 kv 2424820(9699280) kvi 222764(891056)
+2015-10-18 18:04:25,913 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:04:25,913 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 9699305; bufend = 57911793; bufvoid = 104857600
+2015-10-18 18:04:25,913 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 2424820(9699280); kvend = 19720828(78883312); length = 8918393/6553600
+2015-10-18 18:04:25,913 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 66980545 kvi 16745132(66980528)
+2015-10-18 18:04:35,919 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 2
+2015-10-18 18:04:35,924 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 66980545 kv 16745132(66980528) kvi 14546624(58186496)
+2015-10-18 18:04:37,294 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:04:37,294 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 66980545; bufend = 10374147; bufvoid = 104857600
+2015-10-18 18:04:37,294 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 16745132(66980528); kvend = 7836420(31345680); length = 8908713/6553600
+2015-10-18 18:04:37,294 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 19442899 kvi 4860720(19442880)
+2015-10-18 18:04:46,503 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 3
+2015-10-18 18:04:46,508 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 19442899 kv 4860720(19442880) kvi 2660780(10643120)
+2015-10-18 18:04:48,908 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:04:48,908 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 19442899; bufend = 67657921; bufvoid = 104857600
+2015-10-18 18:04:48,908 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 4860720(19442880); kvend = 22157356(88629424); length = 8917765/6553600
+2015-10-18 18:04:48,908 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 76726657 kvi 19181660(76726640)
+2015-10-18 18:04:58,754 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 4
+2015-10-18 18:04:58,757 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 76726657 kv 19181660(76726640) kvi 16980352(67921408)
+2015-10-18 18:05:00,144 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:05:00,144 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 76726657; bufend = 20115617; bufvoid = 104857600
+2015-10-18 18:05:00,144 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 19181660(76726640); kvend = 10271780(41087120); length = 8909881/6553600
+2015-10-18 18:05:00,144 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 29184353 kvi 7296084(29184336)
+2015-10-18 18:05:08,890 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 5
+2015-10-18 18:05:08,893 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 29184353 kv 7296084(29184336) kvi 5097788(20391152)
+2015-10-18 18:05:10,249 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-18 18:05:10,250 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 29184353; bufend = 77442473; bufvoid = 104857600
+2015-10-18 18:05:10,250 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 7296084(29184336); kvend = 24603496(98413984); length = 8906989/6553600
+2015-10-18 18:05:10,250 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 86511225 kvi 21627800(86511200)
+2015-10-18 18:05:17,509 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: "MSRA-SA-41/10.190.173.170"; destination host is: "minint-fnanli5.fareast.corp.microsoft.com":62270; 
+2015-10-18 18:05:17,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:772)
+2015-10-18 18:05:17,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-18 18:05:17,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-18 18:05:17,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-18 18:05:17,	at com.sun.proxy.$Proxy9.statusUpdate(Unknown Source)
+2015-10-18 18:05:17,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-18 18:05:17,	at java.lang.Thread.run(Thread.java:724)
+2015-10-18 18:05:17,Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+2015-10-18 18:05:17,	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+2015-10-18 18:05:17,	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+2015-10-18 18:05:17,	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+2015-10-18 18:05:17,	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+2015-10-18 18:05:17,	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+2015-10-18 18:05:17,	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:57)
+2015-10-18 18:05:17,	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+2015-10-18 18:05:17,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:161)
+2015-10-18 18:05:17,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:131)
+2015-10-18 18:05:17,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-18 18:05:17,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-18 18:05:17,	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:513)
+2015-10-18 18:05:17,	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+2015-10-18 18:05:17,	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+2015-10-18 18:05:17,	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+2015-10-18 18:05:17,	at org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1071)
+2015-10-18 18:05:17,	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:966)
+2015-10-18 18:05:17,
+2015-10-18 18:05:19,720 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 6
+2015-10-18 18:05:19,725 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 86511225 kv 21627800(86511200) kvi 19431636(77726544)
+2015-10-18 18:05:40,536 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 0 time(s); maxRetries=45
+2015-10-18 18:06:00,539 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 1 time(s); maxRetries=45
+2015-10-18 18:06:20,540 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 2 time(s); maxRetries=45
+2015-10-18 18:06:40,543 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 3 time(s); maxRetries=45
+2015-10-18 18:07:00,545 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 4 time(s); maxRetries=45
+2015-10-18 18:07:20,549 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 5 time(s); maxRetries=45
+2015-10-18 18:07:40,550 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 6 time(s); maxRetries=45
+2015-10-18 18:08:00,553 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 7 time(s); maxRetries=45
+2015-10-18 18:08:20,555 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 8 time(s); maxRetries=45
+2015-10-18 18:08:40,557 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 9 time(s); maxRetries=45
+2015-10-18 18:09:00,558 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 10 time(s); maxRetries=45
+2015-10-18 18:09:20,562 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 11 time(s); maxRetries=45
+2015-10-18 18:09:40,563 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 12 time(s); maxRetries=45
+2015-10-18 18:10:00,565 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 13 time(s); maxRetries=45
+2015-10-18 18:10:20,568 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 14 time(s); maxRetries=45
+2015-10-18 18:10:40,571 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 15 time(s); maxRetries=45
+2015-10-18 18:11:00,572 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 16 time(s); maxRetries=45
+2015-10-18 18:11:20,575 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 17 time(s); maxRetries=45
+2015-10-18 18:11:40,577 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 18 time(s); maxRetries=45
+2015-10-18 18:12:00,579 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 19 time(s); maxRetries=45
+2015-10-18 18:12:20,580 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 20 time(s); maxRetries=45
+2015-10-18 18:12:40,584 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 21 time(s); maxRetries=45
+2015-10-18 18:13:00,585 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 22 time(s); maxRetries=45
+2015-10-18 18:13:20,588 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 23 time(s); maxRetries=45
+2015-10-18 18:13:40,590 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 24 time(s); maxRetries=45
+2015-10-18 18:14:00,593 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 25 time(s); maxRetries=45
+2015-10-18 18:14:20,594 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 26 time(s); maxRetries=45
+2015-10-18 18:14:40,597 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 27 time(s); maxRetries=45
+2015-10-18 18:15:00,599 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 28 time(s); maxRetries=45
+2015-10-18 18:15:20,602 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 29 time(s); maxRetries=45
+2015-10-18 18:15:40,603 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 30 time(s); maxRetries=45
+2015-10-18 18:16:00,606 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 31 time(s); maxRetries=45
+2015-10-18 18:16:20,607 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 32 time(s); maxRetries=45
+2015-10-18 18:16:40,610 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 33 time(s); maxRetries=45
+2015-10-18 18:17:00,612 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/10.86.169.121:62270. Already tried 34 time(s); maxRetries=45

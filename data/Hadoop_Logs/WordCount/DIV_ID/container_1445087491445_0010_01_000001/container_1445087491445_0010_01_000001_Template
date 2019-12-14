@@ -1,0 +1,24 @@
+ hadoop org apache job for yarn hdfs staging file WARN block blk BP tmp msrabi in jhist datanode DFSClient pipeline Recovery Error DataStreamer 
+ hadoop org INFO mapreduce to yarn main log file mortbay jar webapps share localbox jar! common \webapp \Users\msrabi\AppData\Local\Temp\Jetty SNAPSHOT Extract 
+ hadoop org apache attempt mapreduce # not hdfs sa msra Processor CommitterEvent temporary WARN output out lib FileOutputCommitter delete Could 
+ hadoop org apache for hdfs exception WARN block blk BP ResponseProcessor DFSOutputStream DFSClient 
+ java the by remote io IOException was host forcibly existing connection closed An 
+ org INFO to impl main log mortbay via jLoggerAdapter jLog Logging 
+ from for java io IOException block blk BP datanode response ERROR 
+ hadoop org apache Server ipc java at doRead Server$Listener 
+ hadoop org apache Server ipc java at readAndProcess Server$Connection 
+ hadoop org apache Server ipc java at Server$Listener$Reader doRunLoop 
+ hadoop org apache Server ipc java at Server$Listener$Reader run 
+ hadoop org apache java at hdfs run DFSOutputStream DFSOutputStream$DataStreamer$ResponseProcessor 
+ hadoop org apache Server ipc java at channelRead 
+ hadoop org apache Server ipc java at access$ 
+ java at sun nio ch IOUtil read 
+ java at sun nio ch read SocketDispatcher 
+ on is request Container killed code Exit 
+ with Container code non zero exited exit 
+ at sun nio ch SocketDispatcher Native Method 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ java at sun nio ch read SocketChannelImpl 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ org INFO main log mortbay jetty 
+ hadoop org apache INFO 

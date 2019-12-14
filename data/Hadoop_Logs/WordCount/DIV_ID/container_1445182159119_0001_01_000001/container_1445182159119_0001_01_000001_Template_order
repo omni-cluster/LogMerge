@@ -1,0 +1,15 @@
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty \webapp
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp to hdfs msra sa hadoop yarn staging
+history done intermediate msrabi job conf xml tmp to hdfs msra sa hadoop yarn staging
+history done intermediate msrabi job summary tmp to hdfs msra sa hadoop yarn staging
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+history done intermediate msrabi job word+count SUCCEEDED default jhist tmp
+history done intermediate msrabi job word+count SUCCEEDED default jhist
+history done intermediate msrabi job conf xml tmp
+Container killed on request Exit code is
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+Container exited with non zero exit code
+history done intermediate msrabi job conf xml
+INFO main org mortbay log jetty
+history done intermediate msrabi job summary
+INFO org apache hadoop

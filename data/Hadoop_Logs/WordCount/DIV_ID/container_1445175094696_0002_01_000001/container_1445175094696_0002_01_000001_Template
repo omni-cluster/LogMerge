@@ -1,0 +1,37 @@
+ hadoop org apache for threshold hdfs SUCCESS read WARN blk BP block DFSClient ResponseProcessor status ack ERROR took targets seqno fields downstreamAckTimeNanos Slow ReadProcessor ; 48957ms 30000ms 
+ hadoop org apache job for yarn hdfs tmp staging msrabi WARN jhist file blk BP block DFSClient in datanode pipeline Recovery Error DataStreamer 
+ hadoop org INFO mapreduce to yarn main log file mortbay jar webapps ut\webapp share localbox jar! common \Users\msrabi\AppData\Local\Temp\ \Jetty SNAPSHOT Extract 
+ hadoop org apache attempt mapreduce # not hdfs sa msra Processor CommitterEvent temporary WARN output lib FileOutputCommitter out delete Could 
+ hadoop job to yarn default hdfs tmp SUCCEEDED staging sa msra msrabi done history intermediate jhist word+count 
+ hadoop job to yarn hdfs tmp staging sa msra msrabi done history intermediate xml conf 
+ hadoop job to yarn hdfs tmp staging sa msra msrabi done history intermediate summary 
+ the java by remote io IOException was host forcibly existing connection closed An 
+ hadoop org apache for hdfs WARN blk BP exception block DFSClient DFSOutputStream ResponseProcessor 
+ from for java io IOException blk BP block datanode ERROR response 
+ org INFO impl to main log mortbay via jLoggerAdapter jLog Logging 
+ job default tmp SUCCEEDED msrabi done history intermediate jhist word+count 
+ hadoop org apache Server java ipc at Server$Listener$Reader doRunLoop 
+ hadoop org apache Server java ipc at doRead Server$Listener 
+ hadoop org apache java at hdfs DFSOutputStream DFSOutputStream$DataStreamer nextBlockOutputStream 
+ job default SUCCEEDED msrabi done history intermediate jhist word+count 
+ hadoop org apache java at hdfs DFSOutputStream DFSOutputStream$DataStreamer createBlockOutputStream 
+ hadoop org apache java at hdfs run DFSOutputStream DFSOutputStream$DataStreamer$ResponseProcessor 
+ hadoop org apache Server java ipc at Server$Listener$Reader run 
+ hadoop org apache java at hdfs run DFSOutputStream DFSOutputStream$DataStreamer 
+ hadoop org apache Server java ipc at readAndProcess Server$Connection 
+ hadoop org apache Server java ipc at channelRead 
+ job tmp msrabi done history intermediate xml conf 
+ hadoop org apache Server java ipc at access$ 
+ java with io IOException ack firstBadLink connect as 
+ job msrabi done history intermediate xml conf 
+ java at sun nio ch read SocketChannelImpl 
+ on is request Container killed code Exit 
+ with Container code non zero exited exit 
+ java at sun nio ch IOUtil readIntoNativeBuffer 
+ java at sun nio ch read SocketDispatcher 
+ org INFO main log mortbay Started $SelectChannelConnectorWithSafeStartup@ 
+ at sun nio ch SocketDispatcher Native Method 
+ java at sun nio ch IOUtil read 
+ job msrabi done history intermediate summary 
+ org INFO main log mortbay jetty 
+ hadoop org apache INFO 

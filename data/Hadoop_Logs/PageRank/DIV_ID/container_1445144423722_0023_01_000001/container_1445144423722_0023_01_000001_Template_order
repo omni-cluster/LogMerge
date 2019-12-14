@@ -1,0 +1,66 @@
+org apache hadoop yarn exceptions YarnRuntimeException java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki NoRouteToHost
+Caused by java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost
+java net NoRouteToHostException No Route to Host from MININT msra sa failed on socket timeout exception route host no further information; For more details see http wiki apache org hadoop NoRouteToHost
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt cleanup failed for container java lang IllegalArgumentException net UnknownHostException MSRA SA fareast corp microsoft com
+INFO AsyncDispatcher event handler org apache hadoop mapreduce app job impl TaskAttemptImpl Diagnostics report from attempt cleanup failed for container java lang IllegalArgumentException net UnknownHostException 04IQ fareast corp microsoft com
+java io IOException Failed on local exception An existing connection was forcibly closed by the remote host; Host Details host is "MININT "; destination "msra sa " ;
+java io IOException Failed on local exception net SocketException Permission denied no further information; Host Details host is "MININT "; destination "msra sa " ;
+WARN Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl cleanup failed for container java lang IllegalArgumentException net UnknownHostException MSRA SA fareast corp microsoft com
+INFO Thread org apache hadoop service AbstractService Service mapreduce app MRAppMaster failed in state STOPPED; cause yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+WARN Thread org apache hadoop mapreduce app launcher ContainerLauncherImpl cleanup failed for container java lang IllegalArgumentException net UnknownHostException 04IQ fareast corp microsoft com
+java io IOException Failed on local exception Couldn' set up IO streams; Host Details host is "MININT "; destination "msra sa " ;
+INFO Thread org apache hadoop service AbstractService Service JobHistoryEventHandler failed in state STOPPED; cause yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty \webapp
+WARN Thread org apache hadoop service CompositeService When stopping the JobHistoryEventHandler yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+INFO main org apache hadoop mapreduce app client MRClientService Instantiated at MININT fareast corp microsoft com
+INFO main org apache hadoop yarn client RMProxy Connecting to ResourceManager at msra sa
+Caused by java io IOException An existing connection was forcibly closed the remote host
+INFO main org apache hadoop ipc CallQueueManager Using callQueue class java util concurrent LinkedBlockingQueue
+INFO main org apache hadoop yarn webapp WebApps Web app mapreduce started at
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second
+Caused by java net NoRouteToHostException No route to host no further information
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+Caused by java net UnknownHostException MSRA SA fareast corp microsoft com
+Caused by java net SocketException Permission denied no further information
+org apache hadoop yarn exceptions YarnRuntimeException java nio channels ClosedChannelException
+Caused by java io IOException Couldn' set up IO streams
+Caused by java net UnknownHostException 04IQ fareast corp microsoft com
+at com sun proxy $ allocate Unknown Source
+at com sun proxy $ renewLease Unknown Source
+at com sun proxy $ finishApplicationMaster Unknown Source
+at com sun proxy $ addBlock Unknown Source
+at org codehaus jackson impl Generator flush java
+at org apache avro io JsonEncoder flush java
+at org codehaus jackson impl Generator flushBuffer java
+at sun nio ch SocketChannelImpl checkConnect Native Method
+at sun nio ch SocketDispatcher Native Method
+at sun nio ch IOUtil readIntoNativeBuffer java
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+at sun nio ch SocketDispatcher read java
+at sun nio ch SocketChannelImpl finishConnect java
+at sun nio ch Net checkAddress java
+at sun nio ch SocketChannelImpl read java
+at sun nio ch IOUtil read java
+at sun nio ch SocketChannelImpl connect java
+at sun reflect invoke Unknown Source
+Caused by java nio channels UnresolvedAddressException
+at sun reflect NativeMethodAccessorImpl Native Method
+at java lang reflect Constructor newInstance
+at sun reflect DelegatingMethodAccessorImpl invoke java
+at sun reflect newInstance Unknown Source
+at sun reflect NativeMethodAccessorImpl invoke java
+at sun reflect NativeConstructorAccessorImpl Native Method
+INFO main org mortbay log jetty
+Caused by java nio channels ClosedChannelException
+at java lang reflect Method invoke
+at sun reflect DelegatingConstructorAccessorImpl newInstance java
+at sun reflect NativeConstructorAccessorImpl newInstance java
+at java lang Thread run
+at java io BufferedInputStream fill
+at java io FilterInputStream read
+at java io BufferedInputStream read
+at java io DataInputStream readInt
+at java io DataOutputStream write
+at org apache hadoop java
+java nio channels ClosedChannelException
+org apache hadoop

@@ -1,0 +1,55 @@
+ fetcher# hadoop org apache INFO mapreduce task reduce attempt for Fetcher job and url sent reply received mapOutput?job hash &reduce &map 
+ hadoop org apache INFO mapreduce task to of output main temporary hdfs out 'attempt ' sa msra lib Saved FileOutputCommitter 
+ hadoop org apache INFO to of main with bytes mapred segments Merger total the size pass merge left last Down 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 5996ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 11577ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 4184ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce to attempt map of output Fetcher shuffle len decomp about DISK 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 9783ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 4575ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 5708ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 4803ms 
+ hadoop org apache INFO mapreduce for main mapred YarnChild msrabi local dir usercache tmp nm cluster child application appcache 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 8521ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 5430ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl SA MSRA in freed by 8023ms 
+ hadoop org apache INFO mapreduce task reduce map main MergeManagerImpl with in disk outputs and on memory finalMerge called 
+ fetcher# hadoop org apache INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl SA MSRA with Assigning 
+ hadoop org apache INFO mapreduce task reduce attempt for map EventFetcher fetching Map Events Completion outputs Got new 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl in freed by 04IQ 37843ms 
+ fetcher# hadoop org apache INFO mapreduce task reduce microsoft fareast corp com ShuffleSchedulerImpl in freed by MININT 42832ms 
+ hadoop org apache INFO mapreduce main is job mapred on use deprecation deprecated conf Instead Configuration skiprecords skip 
+ fetcher# hadoop org apache INFO mapreduce task reduce to attempt is MergeManagerImpl disk maxSingleShuffleLimit than since greater Shuffling 
+ fetcher# hadoop org apache INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl of SA MSRA assigned 
+ fetcher# hadoop org apache INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl of assigned MININT 
+ fetcher# hadoop org apache INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl with Assigning MININT 
+ fetcher# hadoop org apache INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl with Assigning 04IQ 
+ fetcher# hadoop org apache INFO mapreduce task reduce to microsoft fareast corp com ShuffleSchedulerImpl of assigned 04IQ 
+ fetcher# hadoop org apache INFO mapreduce task reduce attempt for map output from bytes Read OnDiskMapOutput 
+ hadoop org apache INFO attempt for temporary hdfs out part file DataStreamer DFSClient blk BP Abandoning 
+ hadoop org apache INFO attempt for in temporary hdfs out part file DataStreamer DFSClient createBlockOutputStream Exception 
+ hadoop org apache INFO mapreduce task reduce for EventFetcher is fetching Map Events Completion interrupted Returning 
+ hadoop org apache INFO attempt of main is in mapred Task the done process committing And 
+ hadoop org apache INFO main is use session metrics id deprecation deprecated conf Instead Configuration dfs 
+ hadoop org apache INFO mapreduce task reduce attempt for EventFetcher fetching Map Events Completion started Thread 
+ hadoop org apache INFO for main mapred Got YarnChild now retrying null before again Sleeping 0ms 
+ hadoop org apache INFO mapreduce task reduce main MergeManagerImpl maxSingleShuffleLimit mergeThreshold memoryLimit memToMemMergeOutputsThreshold ioSortFactor MergerManager 
+ hadoop org apache INFO attempt for temporary hdfs out part file DataStreamer DFSClient datanode Excluding 
+ hadoop org apache INFO mapreduce task reduce main MergeManagerImpl from bytes segments Merging memory into 
+ hadoop org apache INFO mapreduce main job mapred YarnChild token security Service Kind JobTokenIdentifier@ Ident 
+ hadoop org apache INFO mapreduce task reduce main MergeManagerImpl from bytes disk Merging files 
+ hadoop org apache INFO main is on yarn util ProcfsBasedProcessTree supported only currently Linux 
+ hadoop org apache INFO to attempt main is mapred Task now commit allowed 
+ hadoop org apache INFO mapreduce task reduce main mapred Using ReduceTask ShuffleConsumerPlugin Shuffle@ 
+ hadoop org apache INFO of main mapred out segments Merging Merger total intermediate 
+ hadoop org apache INFO main at impl MetricsSystemImpl snapshot second period Scheduled 
+ hadoop org apache INFO main mapred Task yarn util Using WindowsBasedProcessTree@ ResourceCalculatorProcessTree 
+ hadoop org apache INFO main impl started metrics ReduceTask MetricsSystemImpl system 
+ hadoop org apache INFO main mapred segments Merging Merger sorted 
+ hadoop org apache INFO main with mapred YarnChild tokens Executing 
+ hadoop org apache INFO main mapred Task done 'attempt ' 
+ hadoop org apache INFO main from impl properties loaded MetricsConfig 
+ hadoop org apache hdfs java at DFSOutputStream$DataStreamer DFSOutputStream nextBlockOutputStream 
+ hadoop org apache hdfs java at DFSOutputStream$DataStreamer DFSOutputStream run 
+ hadoop org apache hdfs java at DFSOutputStream$DataStreamer DFSOutputStream createBlockOutputStream 
+ with java io firstBadLink connect as ack IOException 

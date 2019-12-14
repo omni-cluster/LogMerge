@@ -1,0 +1,31 @@
+INFO main org apache hadoop mapred Merger Down to the last merge pass with segments left of total size bytes//1//160
+INFO main org apache hadoop mapred YarnChild mapreduce cluster local dir for child tmp msrabi nm usercache appcache application//2//147
+INFO main org apache hadoop mapred Task attempt is done And in the process of committing//3//129
+INFO main org apache hadoop conf Configuration deprecation session id is deprecated Instead use dfs metrics//4//160
+INFO main org apache hadoop mapred YarnChild Sleeping for 0ms before retrying again Got null now//5//8
+INFO main org apache hadoop mapred YarnChild Kind mapreduce job Service Ident security token JobTokenIdentifier@//6//83
+INFO main org apache hadoop mapred MapTask Processing split hdfs msra sa txt +//7//22
+INFO main org apache hadoop yarn util ProcfsBasedProcessTree currently is supported only on Linux//8//82
+INFO main org apache hadoop mapred MapTask Map output collector class MapTask$MapOutputBuffer//9//154
+INFO main org apache hadoop mapred Task Using ResourceCalculatorProcessTree yarn util WindowsBasedProcessTree@//10//67
+INFO main org apache hadoop mapred MapTask Starting flush of map output//11//67
+INFO main org apache hadoop mapred MapTask mapreduce task io sort mb//12//3
+INFO main org apache hadoop impl MetricsSystemImpl Scheduled snapshot period at second//13//147
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system shutdown complete//14//111
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system started//15//16
+INFO main org apache hadoop mapred MapTask bufstart ; bufend bufvoid//16//25
+INFO main org apache hadoop mapred MapTask RESET equator kv kvi//17//25
+INFO main org apache hadoop mapred MapTask kvstart ; kvend length//18//25
+INFO main org apache hadoop impl MetricsSystemImpl Stopping MapTask metrics system//19//16
+INFO main org apache hadoop impl MetricsSystemImpl MapTask metrics system stopped//20//16
+INFO main org apache hadoop mapred MapTask bufstart ; bufvoid//21//25
+INFO main org apache hadoop mapred Merger Merging sorted segments//22//102
+INFO main org apache hadoop impl MetricsConfig loaded properties from//23//8
+INFO main org apache hadoop mapred MapTask soft limit at//24//75
+INFO main org apache hadoop mapred Task 'attempt ' done//25//3
+INFO main org apache hadoop mapred YarnChild Executing with tokens//26//102
+INFO main org apache hadoop mapred MapTask Spilling map output//27//102
+INFO main org apache hadoop mapred MapTask kvstart ; length//28//25
+INFO main org apache hadoop mapred MapTask Finished spill//29//75
+INFO SpillThread org apache hadoop mapred MapTask Finished spill//30//75
+INFO main org apache hadoop mapred MapTask EQUATOR kvi//31//102

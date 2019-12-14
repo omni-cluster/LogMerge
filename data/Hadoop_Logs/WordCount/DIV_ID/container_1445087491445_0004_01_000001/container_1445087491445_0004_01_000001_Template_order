@@ -1,0 +1,60 @@
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient Slow ReadProcessor read fields took 65036ms threshold 30000ms ; ack seqno status SUCCESS ERROR downstreamAckTimeNanos targets
+WARN DataStreamer for file tmp hadoop yarn staging msrabi job jhist block BP blk org apache hdfs DFSClient Error Recovery in pipeline datanode
+INFO main org mortbay log Extract jar file hadoop localbox share yarn common SNAPSHOT jar! webapps mapreduce to \Users\msrabi\AppData\Local\Temp\Jetty \webapp
+WARN CommitterEvent Processor # org apache hadoop mapreduce lib output FileOutputCommitter Could not delete hdfs msra sa out temporary attempt
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Error communicating with RM Resource Manager doesn' recognize AttemptId application
+Caused by org apache hadoop ipc RemoteException yarn exceptions ApplicationAttemptNotFoundException Application attempt appattempt doesn' exist in ApplicationMasterService cache
+ERROR RMCommunicator Allocator org apache hadoop mapreduce app rm RMContainerAllocator Container complete event for unknown container id
+Caused by org apache hadoop yarn exceptions ApplicationAttemptNotFoundException Application attempt appattempt doesn' exist in ApplicationMasterService cache
+java io IOException An existing connection was forcibly closed by the remote host
+WARN ResponseProcessor for block BP blk org apache hadoop hdfs DFSClient DFSOutputStream exception
+at org apache hadoop yarn api impl pb service ApplicationMasterProtocolPBServiceImpl allocate java
+org apache hadoop yarn exceptions YarnRuntimeException Resource Manager doesn' recognize AttemptId application
+at org apache hadoop yarn api impl pb client ApplicationMasterProtocolPBClientImpl allocate java
+java io IOException response ERROR for block BP blk from datanode
+at org apache hadoop mapreduce app rm RMCommunicator$ run RMCommunicator java
+INFO main org mortbay log Logging to impl jLoggerAdapter via jLog
+at org apache hadoop yarn server resourcemanager ApplicationMasterService allocate java
+at org apache hadoop mapreduce app rm RMContainerAllocator getResources java
+at org apache hadoop mapreduce app rm RMContainerAllocator heartbeat java
+at org apache hadoop mapreduce app rm RMContainerRequestor makeRemoteRequest java
+at org apache hadoop yarn proto ApplicationMasterProtocol$ApplicationMasterProtocolService$ callBlockingMethod ApplicationMasterProtocol java
+at org apache hadoop ipc Server$Listener$Reader run Server java
+at org apache hadoop io retry RetryInvocationHandler invoke java
+at org apache hadoop ipc Server$Listener$Reader doRunLoop Server java
+at org apache hadoop hdfs DFSOutputStream$DataStreamer$ResponseProcessor run DFSOutputStream java
+at org apache hadoop ipc Server$Handler run Server java
+at org apache hadoop io retry RetryInvocationHandler invokeMethod java
+at org apache hadoop ipc Server$Connection readAndProcess Server java
+at org apache hadoop ipc ProtobufRpcEngine$Invoker invoke ProtobufRpcEngine java
+at org apache hadoop ipc Server$Handler$ run Server java
+at org apache hadoop yarn ipc RPCUtil instantiateException java
+at org apache hadoop ipc ProtobufRpcEngine$Server$ProtoBufRpcInvoker call ProtobufRpcEngine java
+at org apache hadoop ipc Server$Listener doRead Server java
+at org apache hadoop yarn ipc RPCUtil unwrapAndThrowException java
+at org apache hadoop ipc RPC$Server call RPC java
+at org apache hadoop security UserGroupInformation doAs java
+at org apache hadoop ipc Server access$ java
+at org apache hadoop ipc Client call java
+at com sun proxy $ allocate Unknown Source
+at org apache hadoop ipc Server channelRead java
+INFO main org mortbay log Started $SelectChannelConnectorWithSafeStartup@
+at java security AccessController doPrivileged Native Method
+at sun nio ch SocketChannelImpl read java
+at sun nio ch IOUtil read java
+at javax security auth Subject doAs java
+at sun nio ch SocketDispatcher read java
+Container killed on request Exit code is
+at sun nio ch IOUtil readIntoNativeBuffer java
+at sun nio ch SocketDispatcher Native Method
+Container exited with non zero exit code
+at sun reflect NativeConstructorAccessorImpl newInstance java
+at sun reflect NativeConstructorAccessorImpl Native Method
+at java lang reflect Constructor newInstance
+at sun reflect invoke Unknown Source
+at sun reflect DelegatingConstructorAccessorImpl newInstance java
+INFO main org mortbay log jetty
+at java lang reflect Method invoke
+at sun reflect DelegatingMethodAccessorImpl invoke java
+at java lang Thread run
+INFO org apache hadoop

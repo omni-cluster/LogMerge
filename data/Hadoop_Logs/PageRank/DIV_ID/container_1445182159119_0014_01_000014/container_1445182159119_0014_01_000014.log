@@ -1,0 +1,62 @@
+2015-10-19 15:55:58,297 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-10-19 15:55:58,469 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-19 15:55:58,469 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-10-19 15:55:58,609 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-19 15:55:58,609 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445182159119_0014, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@3d05ffdb)
+2015-10-19 15:55:59,094 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-19 15:56:00,859 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445182159119_0014
+2015-10-19 15:56:03,234 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-19 15:56:05,406 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-19 15:56:06,063 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@84a2364
+2015-10-19 15:56:11,329 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://msra-sa-41:9000/pageinput2.txt:0+134217728
+2015-10-19 15:56:11,672 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-19 15:56:11,672 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-10-19 15:56:11,672 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-10-19 15:56:11,672 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-10-19 15:56:11,672 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-10-19 15:56:11,829 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-19 15:56:39,002 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-19 15:56:39,002 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 48233939; bufvoid = 104857600
+2015-10-19 15:56:39,002 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 17301360(69205440); length = 8913037/6553600
+2015-10-19 15:56:39,002 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 57302675 kvi 14325664(57302656)
+2015-10-19 15:57:10,113 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-10-19 15:57:10,113 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 57302675 kv 14325664(57302656) kvi 12126896(48507584)
+2015-10-19 15:57:29,520 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-19 15:57:29,520 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 57302675; bufend = 709216; bufvoid = 104857600
+2015-10-19 15:57:29,520 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 14325664(57302656); kvend = 5420188(21680752); length = 8905477/6553600
+2015-10-19 15:57:29,520 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 9777968 kvi 2444488(9777952)
+2015-10-19 15:58:10,538 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 1
+2015-10-19 15:58:10,616 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 9777968 kv 2444488(9777952) kvi 250856(1003424)
+2015-10-19 15:58:20,929 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-10-19 15:58:20,929 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 9777968; bufend = 58030301; bufvoid = 104857600
+2015-10-19 15:58:20,929 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 2444488(9777952); kvend = 19750456(79001824); length = 8908433/6553600
+2015-10-19 15:58:20,929 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 67099053 kvi 16774756(67099024)
+2015-10-19 15:58:55,447 INFO [SpillThread] org.apache.hadoop.mapred.MapTask: Finished spill 2
+2015-10-19 15:58:55,447 INFO [main] org.apache.hadoop.mapred.MapTask: (RESET) equator 67099053 kv 16774756(67099024) kvi 14578988(58315952)
+2015-10-19 15:58:58,775 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: "MININT-FNANLI5/10.86.169.121"; destination host is: "04dn8iq.fareast.corp.microsoft.com":51086; 
+2015-10-19 15:58:58,	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:772)
+2015-10-19 15:58:58,	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+2015-10-19 15:58:58,	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+2015-10-19 15:58:58,	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+2015-10-19 15:58:58,	at com.sun.proxy.$Proxy9.statusUpdate(Unknown Source)
+2015-10-19 15:58:58,	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+2015-10-19 15:58:58,	at java.lang.Thread.run(Thread.java:724)
+2015-10-19 15:58:58,Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+2015-10-19 15:58:58,	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+2015-10-19 15:58:58,	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+2015-10-19 15:58:58,	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+2015-10-19 15:58:58,	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+2015-10-19 15:58:58,	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+2015-10-19 15:58:58,	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:57)
+2015-10-19 15:58:58,	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+2015-10-19 15:58:58,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:161)
+2015-10-19 15:58:58,	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:131)
+2015-10-19 15:58:58,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-19 15:58:58,	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+2015-10-19 15:58:58,	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:513)
+2015-10-19 15:58:58,	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+2015-10-19 15:58:58,	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+2015-10-19 15:58:58,	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+2015-10-19 15:58:58,	at org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1071)
+2015-10-19 15:58:58,	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:966)
+2015-10-19 15:58:58,
